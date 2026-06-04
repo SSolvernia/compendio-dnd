@@ -33,7 +33,7 @@ export default function ClassGuide({ data }) {
       </Link>
 
       {/* Hero */}
-      <header className="relative mt-4 overflow-hidden rounded-2xl border border-line bg-panel/50 p-7 sm:p-9">
+      <header className="relative mt-4 overflow-hidden rounded-2xl border border-line bg-panel/50 p-5 sm:p-9">
         <div className="absolute inset-x-0 top-0 h-1" style={{ background: color }} />
         {!data.imagen ? (
           <span
@@ -46,11 +46,11 @@ export default function ClassGuide({ data }) {
         ) : null}
         <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
           <div className="min-w-0 flex-1">
-            <p className="font-display text-[0.7rem] uppercase tracking-[0.3em] text-parch-dim">
+            <p className="font-display text-[0.7rem] uppercase tracking-[0.25em] text-parch-dim sm:tracking-[0.3em]">
               Clase · D&amp;D 2024
             </p>
             <h1
-              className="mt-2 font-display text-5xl font-bold tracking-wide sm:text-6xl"
+              className="mt-2 break-words font-display text-4xl font-bold tracking-wide sm:text-6xl"
               style={{ color }}
             >
               {data.nombre}
@@ -69,7 +69,7 @@ export default function ClassGuide({ data }) {
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
                 }}
-                className="h-48 w-40 rounded-xl border object-cover object-top shadow-lg sm:h-56 sm:w-44"
+                className="h-72 w-56 rounded-xl border object-cover object-top shadow-lg sm:h-56 sm:w-44"
                 style={{ borderColor: `${color}66` }}
               />
               {data.imagen.credito ? (
