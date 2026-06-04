@@ -1,0 +1,112 @@
+{
+  "slug": "hechicero",
+  "nombre": "Hechicero",
+  "color": "#df5b9b",
+  "lema": "La magia corre por tus venas.",
+  "imagen": {
+    "url": "https://www.dndbeyond.com/avatars/thumbnails/43940/869/420/618/638607459717652437.png",
+    "alt": "Ilustración de un Hechicero",
+    "credito": "Arte: D&D Beyond · Wizards of the Coast"
+  },
+  "descripcion": "La magia forma parte de ti de manera innata, lo que te confiere una forma especial de sentir y moldear la magia que nadie más conoce. Si eres hechicero, las fuerzas cósmicas que rigen las reglas mágicas se doblegan ante ti.",
+  "ficha": {
+    "dadoGolpe": "d6",
+    "caracteristicas": "Carisma",
+    "origen": "Reglas básicas",
+    "multiclase": "Carisma 13"
+  },
+  "magia": {
+    "resumen": [
+      { "label": "Tipo de lanzador", "valor": "Lanzador puro" },
+      { "label": "Preparación", "valor": "Conjuros preparados" },
+      { "label": "Aptitud mágica", "valor": "Carisma" },
+      { "label": "Lanza trucos", "valor": "Sí" },
+      { "label": "Nivel máx. de conjuro", "valor": "9" },
+      { "label": "Lista", "valor": "Conjuros de hechicero" }
+    ],
+    "puntosNota": "Desde el nivel 2 tienes Puntos de Hechicería iguales a tu nivel de hechicero. Son el combustible de la metamagia y se recuperan al terminar un descanso largo.",
+    "tabla": [
+      { "nivel": 1, "trucos": 4, "preparados": 2, "espacios": [2, 0, 0, 0, 0, 0, 0, 0, 0] },
+      { "nivel": 2, "trucos": 4, "preparados": 4, "espacios": [3, 0, 0, 0, 0, 0, 0, 0, 0] },
+      { "nivel": 3, "trucos": 4, "preparados": 6, "espacios": [4, 2, 0, 0, 0, 0, 0, 0, 0] },
+      { "nivel": 4, "trucos": 5, "preparados": 7, "espacios": [4, 3, 0, 0, 0, 0, 0, 0, 0] },
+      { "nivel": 5, "trucos": 5, "preparados": 9, "espacios": [4, 3, 2, 0, 0, 0, 0, 0, 0] },
+      { "nivel": 6, "trucos": 5, "preparados": 10, "espacios": [4, 3, 3, 0, 0, 0, 0, 0, 0] },
+      { "nivel": 7, "trucos": 5, "preparados": 11, "espacios": [4, 3, 3, 1, 0, 0, 0, 0, 0] },
+      { "nivel": 8, "trucos": 5, "preparados": 12, "espacios": [4, 3, 3, 2, 0, 0, 0, 0, 0] },
+      { "nivel": 9, "trucos": 5, "preparados": 14, "espacios": [4, 3, 3, 3, 1, 0, 0, 0, 0] },
+      { "nivel": 10, "trucos": 6, "preparados": 15, "espacios": [4, 3, 3, 3, 2, 0, 0, 0, 0] },
+      { "nivel": 11, "trucos": 6, "preparados": 16, "espacios": [4, 3, 3, 3, 2, 1, 0, 0, 0] },
+      { "nivel": 12, "trucos": 6, "preparados": 16, "espacios": [4, 3, 3, 3, 2, 1, 0, 0, 0] },
+      { "nivel": 13, "trucos": 6, "preparados": 17, "espacios": [4, 3, 3, 3, 2, 1, 1, 0, 0] },
+      { "nivel": 14, "trucos": 6, "preparados": 17, "espacios": [4, 3, 3, 3, 2, 1, 1, 0, 0] },
+      { "nivel": 15, "trucos": 6, "preparados": 18, "espacios": [4, 3, 3, 3, 2, 1, 1, 1, 0] },
+      { "nivel": 16, "trucos": 6, "preparados": 18, "espacios": [4, 3, 3, 3, 2, 1, 1, 1, 0] },
+      { "nivel": 17, "trucos": 6, "preparados": 19, "espacios": [4, 3, 3, 3, 2, 1, 1, 1, 1] },
+      { "nivel": 18, "trucos": 6, "preparados": 20, "espacios": [4, 3, 3, 3, 3, 1, 1, 1, 1] },
+      { "nivel": 19, "trucos": 6, "preparados": 21, "espacios": [4, 3, 3, 3, 3, 2, 1, 1, 1] },
+      { "nivel": 20, "trucos": 6, "preparados": 22, "espacios": [4, 3, 3, 3, 3, 2, 2, 1, 1] }
+    ]
+  },
+  "equipo": {
+    "intro": "Además del equipo que obtengas por tu trasfondo, empiezas con una de estas opciones:",
+    "opciones": [
+      "(A) Lanza, 2 dagas, un canalizador arcano (cristal), un paquete de explorador de mazmorras y 28 po.",
+      "(B) 50 po."
+    ]
+  },
+  "tabla": [
+    { "nivel": 1, "rasgos": [{ "slug": "competencias" }, { "slug": "lanzamiento-de-conjuros" }, { "slug": "hechiceria-innata" }] },
+    { "nivel": 2, "rasgos": [{ "slug": "fuente-de-magia" }, { "slug": "metamagia" }] },
+    { "nivel": 4, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 5, "rasgos": [{ "slug": "recuperacion-magica" }] },
+    { "nivel": 7, "rasgos": [{ "slug": "encarnacion-magica" }] },
+    { "nivel": 8, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 12, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 16, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 19, "rasgos": [{ "slug": "mejora-de-caracteristica" }, { "slug": "don-epico" }] },
+    { "nivel": 20, "rasgos": [{ "slug": "restablecimiento-sortilego" }] }
+  ],
+  "tablaNota": "Cada nivel también aumenta tus espacios de conjuro y conjuros preparados (consulta la tabla de Magia). Tu subclase añade rasgos en los niveles 3, 6, 14 y 18.",
+  "rasgos": [
+    { "slug": "competencias", "nombre": "Competencias", "nivel": 1, "descripcion": "Como hechicero, obtienes las competencias propias de la clase (armas, salvaciones de Constitución y Carisma, y dos habilidades)." },
+    { "slug": "lanzamiento-de-conjuros", "nombre": "Lanzamiento de conjuros", "nivel": 1, "descripcion": "Estás imbuido de magia arcana. Lanzas conjuros de hechicero usando Carisma (y puedes usar un foco arcano). Preparas conjuros de tu lista y los lanzas gastando espacios de conjuro de nivel igual o superior; los trucos no consumen espacios." },
+    { "slug": "hechiceria-innata", "nombre": "Hechicería innata", "nivel": 1, "descripcion": "Como acción adicional, durante 1 minuto: la CD de tus conjuros de hechicero aumenta en 1 y tienes ventaja en tus tiradas de ataque de conjuro de hechicero. Puedes usarla dos veces por descanso largo." },
+    { "slug": "fuente-de-magia", "nombre": "Fuente de magia", "nivel": 2, "descripcion": "Obtienes Puntos de Hechicería iguales a tu nivel de hechicero, que alimentan la metamagia. Se recuperan al terminar un descanso largo y nunca superan el máximo de tu nivel." },
+    { "slug": "metamagia", "nombre": "Metamagia", "nivel": 2, "descripcion": "Puedes alterar tus conjuros gastando puntos de hechicería. Eliges 2 opciones al principio y puedes cambiarlas al subir de nivel.", "escalado": { "etiqueta": "Opciones conocidas", "valores": [{ "nivel": 2, "valor": "2" }, { "nivel": 10, "valor": "4" }, { "nivel": 17, "valor": "6" }] } },
+    { "slug": "mejora-de-caracteristica", "nombre": "Mejora de característica", "nivel": 4, "descripcion": "En los niveles 4, 8, 12, 16 y 19 puedes aumentar una puntuación de característica en 2, o dos puntuaciones en 1. No puedes superar 20 con este rasgo." },
+    { "slug": "recuperacion-magica", "nombre": "Recuperación mágica", "nivel": 5, "descripcion": "Tras un descanso corto recuperas puntos de hechicería hasta la mitad de tu nivel de hechicero (redondeando hacia abajo). Solo una vez entre descansos largos." },
+    { "slug": "encarnacion-magica", "nombre": "Encarnación mágica", "nivel": 7, "descripcion": "Si te quedas sin usos de Hechicería innata, puedes activarla gastando 2 puntos de hechicería. Además, mientras esté activa, puedes aplicar hasta dos opciones de metamagia en cada conjuro." },
+    { "slug": "don-epico", "nombre": "Don épico", "nivel": 19, "descripcion": "Obtienes una dote de Don épico (u otra dote para la que cumplas los requisitos). Se recomienda «Don del viaje dimensional»." },
+    { "slug": "restablecimiento-sortilego", "nombre": "Restablecimiento sortílego", "nivel": 20, "descripcion": "Mientras Hechicería innata esté activa, puedes usar una opción de metamagia en cada uno de tus turnos sin gastar puntos de hechicería." }
+  ],
+  "metamagia": {
+    "intro": "Opciones para modificar tus conjuros gastando puntos de hechicería. Todas se desbloquean desde el nivel 2 según las vayas eligiendo.",
+    "opciones": [
+      { "nombre": "Conjuro acelerado", "coste": "2 puntos", "descripcion": "Conviertes un conjuro con tiempo de lanzamiento de Acción en una acción adicional (con restricciones sobre lanzar otros conjuros de nivel 1+ ese turno)." },
+      { "nombre": "Conjuro buscador", "coste": "1 punto", "descripcion": "Repites una tirada de ataque de conjuro fallida y usas el nuevo resultado. Puede combinarse con otra metamagia." },
+      { "nombre": "Conjuro cuidadoso", "coste": "1 punto", "descripcion": "Proteges a varias criaturas (tu mod. de Carisma, mín. 1) de un conjuro con salvación: la superan automáticamente y no sufren daño." },
+      { "nombre": "Conjuro distante", "coste": "1 punto", "descripcion": "Duplicas el alcance de un conjuro, o conviertes uno de toque en uno con alcance de 9 m." },
+      { "nombre": "Conjuro extendido", "coste": "1 punto", "descripcion": "Duplicas la duración de un conjuro de al menos 1 minuto (máx. 24 h); si requiere concentración, tienes ventaja para mantenerla." },
+      { "nombre": "Conjuro gemelo", "coste": "1 punto", "descripcion": "Aumentas en 1 el nivel efectivo de un conjuro que añade objetivos al lanzarse con espacios superiores." },
+      { "nombre": "Conjuro intensificado", "coste": "2 puntos", "descripcion": "Un objetivo hace su tirada de salvación contra tu conjuro con desventaja." },
+      { "nombre": "Conjuro potenciado", "coste": "1 punto", "descripcion": "Repites hasta tu mod. de Carisma (mín. 1) dados de daño del conjuro y te quedas con los nuevos resultados." },
+      { "nombre": "Conjuro sutil", "coste": "1 punto", "descripcion": "Lanzas un conjuro sin componentes verbales, somáticos ni materiales (salvo los de coste)." },
+      { "nombre": "Conjuro transmutado", "coste": "1 punto", "descripcion": "Cambias el tipo de daño del conjuro a ácido, frío, fuego, relámpago, trueno o veneno." }
+    ]
+  },
+  "subclase": {
+    "intro": "En el nivel 3 eliges el origen de tu poder mágico innato. Te otorga rasgos en los niveles 3, 6, 14 y 18.",
+    "opciones": [
+      {
+        "nombre": "Hechicería dracónica",
+        "origen": "Reglas básicas",
+        "descripcion": "Tu magia innata proviene de un don dracónico: quizá un dragón te transfirió parte de su poder, o lo heredaste de un antepasado, o lo absorbiste de un lugar impregnado de magia dracónica."
+      }
+    ]
+  },
+  "fuente": {
+    "texto": "Contenido adaptado de nivel20.com · D&D 2024",
+    "url": "https://nivel20.com/games/dnd-2024/professions/13918-hechicero"
+  }
+}

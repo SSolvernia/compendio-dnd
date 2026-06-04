@@ -1,0 +1,100 @@
+{
+  "slug": "picaro",
+  "nombre": "Pícaro",
+  "color": "#9d7fce",
+  "lema": "La sombra que acecha en la oscuridad.",
+  "imagen": {
+    "url": "https://www.dndbeyond.com/avatars/thumbnails/43940/852/420/618/638607459371603812.png",
+    "alt": "Ilustración de un Pícaro",
+    "credito": "Arte: D&D Beyond · Wizards of the Coast"
+  },
+  "descripcion": "El sigilo y el subterfugio son tus mejores armas, aunque sabes sacar ventaja de cualquier situación. Como pícaro resuelves problemas, eres versátil y te conviertes en la sombra que acecha en la oscuridad.",
+  "ficha": {
+    "dadoGolpe": "d8",
+    "caracteristicas": "Destreza",
+    "origen": "Reglas básicas",
+    "multiclase": "Destreza 13"
+  },
+  "equipo": {
+    "intro": "Además del equipo que obtengas por tu trasfondo, empiezas con una de estas opciones:",
+    "opciones": [
+      "(A) Armadura de cuero, 2 dagas, espada corta, arco corto con 20 flechas y aljaba, herramientas de ladrón, un paquete de ladrón y 8 po.",
+      "(B) 100 po."
+    ]
+  },
+  "progresiones": [
+    {
+      "nombre": "Ataque furtivo",
+      "nota": "Daño adicional una vez por turno (en d6).",
+      "valores": [
+        { "nivel": 1, "valor": "1d6" },
+        { "nivel": 3, "valor": "2d6" },
+        { "nivel": 5, "valor": "3d6" },
+        { "nivel": 7, "valor": "4d6" },
+        { "nivel": 9, "valor": "5d6" },
+        { "nivel": 11, "valor": "6d6" },
+        { "nivel": 13, "valor": "7d6" },
+        { "nivel": 15, "valor": "8d6" },
+        { "nivel": 17, "valor": "9d6" },
+        { "nivel": 19, "valor": "10d6" }
+      ]
+    }
+  ],
+  "tabla": [
+    { "nivel": 1, "rasgos": [{ "slug": "competencias" }, { "slug": "pericia" }, { "slug": "ataque-furtivo" }, { "slug": "jerga-de-ladrones" }, { "slug": "competencias-multiclase" }, { "slug": "maestria-con-armas" }] },
+    { "nivel": 2, "rasgos": [{ "slug": "accion-astuta" }] },
+    { "nivel": 3, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }, { "slug": "punteria-certera" }] },
+    { "nivel": 4, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 5, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }, { "slug": "esquiva-asombrosa" }, { "slug": "golpe-astuto" }] },
+    { "nivel": 6, "rasgos": [{ "slug": "pericia", "mejora": true }] },
+    { "nivel": 7, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }, { "slug": "evasion" }, { "slug": "talentos-fiables" }] },
+    { "nivel": 8, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 9, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }] },
+    { "nivel": 10, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 11, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }, { "slug": "golpe-astuto-mejorado" }] },
+    { "nivel": 12, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 13, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }] },
+    { "nivel": 14, "rasgos": [{ "slug": "golpes-taimados" }] },
+    { "nivel": 15, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }, { "slug": "mente-resbaladiza" }] },
+    { "nivel": 16, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 17, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }] },
+    { "nivel": 18, "rasgos": [{ "slug": "elusivo" }] },
+    { "nivel": 19, "rasgos": [{ "slug": "ataque-furtivo", "mejora": true }, { "slug": "mejora-de-caracteristica" }, { "slug": "don-epico" }] },
+    { "nivel": 20, "rasgos": [{ "slug": "golpe-de-suerte" }] }
+  ],
+  "rasgos": [
+    { "slug": "competencias", "nombre": "Competencias", "nivel": 1, "descripcion": "Como pícaro, obtienes las competencias propias de la clase (armas, herramientas de ladrón, salvaciones y habilidades)." },
+    { "slug": "pericia", "nombre": "Pericia", "nivel": 1, "descripcion": "Eliges dos competencias (dos habilidades, o una habilidad y tus herramientas de ladrón): tu bonificador por competencia se duplica en las pruebas que las usen. Obtienes más pericias al subir de nivel.", "escalado": { "etiqueta": "Pericias en total", "valores": [{ "nivel": 1, "valor": "2" }, { "nivel": 6, "valor": "4" }] } },
+    { "slug": "ataque-furtivo", "nombre": "Ataque furtivo", "nivel": 1, "descripcion": "Una vez por turno infliges daño adicional a una criatura a la que impactes con un arma sutil o a distancia, si tienes ventaja en la tirada (o si un aliado tuyo está a 1,5 m del objetivo y tú no tienes desventaja).", "escalado": { "etiqueta": "Daño adicional", "valores": [{ "nivel": 1, "valor": "1d6" }, { "nivel": 3, "valor": "2d6" }, { "nivel": 5, "valor": "3d6" }, { "nivel": 7, "valor": "4d6" }, { "nivel": 9, "valor": "5d6" }, { "nivel": 11, "valor": "6d6" }, { "nivel": 13, "valor": "7d6" }, { "nivel": 15, "valor": "8d6" }, { "nivel": 17, "valor": "9d6" }, { "nivel": 19, "valor": "10d6" }] } },
+    { "slug": "jerga-de-ladrones", "nombre": "Jerga de ladrones", "nivel": 1, "descripcion": "Conoces la jerga de ladrones (un código secreto) y un idioma adicional de tu elección." },
+    { "slug": "competencias-multiclase", "nombre": "Competencias multiclase", "nivel": 1, "descripcion": "Cuando subes tu primer nivel en esta clase y no es tu clase inicial, solo obtienes algunas de las competencias iniciales." },
+    { "slug": "maestria-con-armas", "nombre": "Maestría con armas", "nivel": 1, "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas con las que tengas competencia (por ejemplo, dagas y arcos cortos). Tras un descanso largo puedes cambiar tu elección." },
+    { "slug": "accion-astuta", "nombre": "Acción astuta", "nivel": 2, "descripcion": "Tu agilidad te permite, en cada turno, llevar a cabo una de estas acciones como acción adicional: Correr, Destrabarse o Esconderse." },
+    { "slug": "punteria-certera", "nombre": "Puntería certera", "nivel": 3, "descripcion": "Como acción adicional te concedes ventaja en tu siguiente tirada de ataque del turno, pero solo si no te has movido; al usarla, tu velocidad queda a 0 hasta el final del turno." },
+    { "slug": "mejora-de-caracteristica", "nombre": "Mejora de característica", "nivel": 4, "descripcion": "En los niveles 4, 8, 10, 12, 16 y 19 puedes aumentar una puntuación de característica en 2, o dos puntuaciones en 1. No puedes superar 20 con este rasgo." },
+    { "slug": "esquiva-asombrosa", "nombre": "Esquiva asombrosa", "nivel": 5, "descripcion": "Cuando un atacante que puedas ver te impacte, puedes usar tu reacción para reducir a la mitad el daño de ese ataque (redondeando hacia abajo)." },
+    { "slug": "golpe-astuto", "nombre": "Golpe astuto", "nivel": 5, "descripcion": "Al infligir daño de Ataque furtivo puedes renunciar a parte de sus dados para añadir un efecto. La CD es 8 + mod. Destreza + bonif. por competencia. Opciones iniciales: Retirada (1d6) — te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad; Tropiezo (1d6) — el objetivo (Grande o menor) salva Destreza o queda derribado; Veneno (1d6) — salva Constitución o queda envenenado 1 minuto (requiere útiles de envenenador)." },
+    { "slug": "evasion", "nombre": "Evasión", "nivel": 7, "descripcion": "Cuando un efecto te permita una salvación de Destreza para sufrir la mitad del daño, no sufres daño si la superas y solo la mitad si fallas. No funciona si estás incapacitado." },
+    { "slug": "talentos-fiables", "nombre": "Talentos fiables", "nivel": 7, "descripcion": "En cualquier prueba que use tus competencias en habilidades o herramientas, tratas como 10 cualquier resultado de 9 o menos en el d20." },
+    { "slug": "golpe-astuto-mejorado", "nombre": "Golpe astuto mejorado", "nivel": 11, "descripcion": "Puedes aplicar hasta dos efectos de Golpe astuto a la vez, pagando el coste en dados de cada uno." },
+    { "slug": "golpes-taimados", "nombre": "Golpes taimados", "nivel": 14, "descripcion": "Tu Ataque furtivo gana nuevas opciones de Golpe astuto: Confundir (2d6) — el objetivo salva Constitución o en su próximo turno solo puede moverse, o usar una acción, o una acción adicional; Noquear (6d6) — salva Constitución o queda inconsciente 1 minuto (o hasta recibir daño); Ofuscar (3d6) — salva Destreza o queda cegado hasta el final de su siguiente turno." },
+    { "slug": "mente-resbaladiza", "nombre": "Mente resbaladiza", "nivel": 15, "descripcion": "Tu mente es difícil de controlar: ganas competencia en las tiradas de salvación de Sabiduría y Carisma." },
+    { "slug": "elusivo", "nombre": "Elusivo", "nivel": 18, "descripcion": "Eres tan escurridizo que ninguna tirada de ataque contra ti tiene ventaja, salvo que estés incapacitado." },
+    { "slug": "don-epico", "nombre": "Don épico", "nivel": 19, "descripcion": "Obtienes una dote de Don épico (u otra dote para la que cumplas los requisitos). Se recomienda «Don del espíritu de la noche»." },
+    { "slug": "golpe-de-suerte", "nombre": "Golpe de suerte", "nivel": 20, "descripcion": "Si fallas una prueba con d20, puedes convertir el resultado en un 20. Tras usarlo, no vuelves a hacerlo hasta terminar un descanso corto o largo." }
+  ],
+  "subclase": {
+    "intro": "En el nivel 3 eliges un arquetipo acorde a cómo usas tus habilidades. Te otorga rasgos en los niveles 3, 9, 13 y 17.",
+    "opciones": [
+      {
+        "nombre": "Ladrón",
+        "origen": "Reglas básicas",
+        "descripcion": "Mezcla de ladrón, cazatesoros y explorador: el paradigma del aventurero. Mejoras tu agilidad y sigilo, y aprendes a explorar ruinas y a sacar el máximo provecho de los objetos mágicos que encuentras."
+      }
+    ]
+  },
+  "fuente": {
+    "texto": "Contenido adaptado de nivel20.com · D&D 2024",
+    "url": "https://nivel20.com/games/dnd-2024/professions/13922-picaro"
+  }
+}

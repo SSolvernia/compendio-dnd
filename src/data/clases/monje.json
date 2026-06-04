@@ -1,0 +1,113 @@
+{
+  "slug": "monje",
+  "nombre": "Monje",
+  "color": "#3fb89a",
+  "lema": "Un arma viviente forjada por la disciplina.",
+  "imagen": {
+    "url": "https://www.dndbeyond.com/avatars/thumbnails/43940/743/420/618/638607456914661514.png",
+    "alt": "Ilustración de un Monje",
+    "credito": "Arte: D&D Beyond · Wizards of the Coast"
+  },
+  "descripcion": "La disciplina es lo único que necesitas para usar las habilidades del cuerpo y canalizar mágicamente la energía que te recorre, lo que te convierte en un arma viviente. Si eres monje, los golpes certeros y la velocidad son tan parte de ti como respirar.",
+  "ficha": {
+    "dadoGolpe": "d8",
+    "caracteristicas": "Destreza y Sabiduría",
+    "origen": "Reglas básicas",
+    "multiclase": "Destreza 13 y Sabiduría 13"
+  },
+  "equipo": {
+    "intro": "Además del equipo que obtengas por tu trasfondo, empiezas con una de estas opciones:",
+    "opciones": [
+      "(A) Una lanza, 5 dagas, las herramientas de artesano o el instrumento musical que elegiste para tu competencia, un paquete de explorador y 11 po.",
+      "(B) 50 po."
+    ]
+  },
+  "progresiones": [
+    {
+      "nombre": "Daño de Artes marciales",
+      "nota": "El dado de tu ataque sin armas crece con tu nivel de monje.",
+      "valores": [
+        { "nivel": 1, "valor": "1d6" },
+        { "nivel": 5, "valor": "1d8" },
+        { "nivel": 11, "valor": "1d10" },
+        { "nivel": 17, "valor": "1d12" }
+      ]
+    },
+    {
+      "nombre": "Movimiento sin armadura",
+      "nota": "Bonificación a tu velocidad sin armadura ni escudo.",
+      "valores": [
+        { "nivel": 2, "valor": "+3 m" },
+        { "nivel": 6, "valor": "+4,5 m" },
+        { "nivel": 10, "valor": "+6 m" },
+        { "nivel": 14, "valor": "+7,5 m" },
+        { "nivel": 18, "valor": "+9 m" }
+      ]
+    }
+  ],
+  "concentracionNota": "A partir del nivel 2 tienes Puntos de Concentración iguales a tu nivel de monje. Son el combustible de tus técnicas (Ráfaga de golpes, Defensa paciente, Paso del viento, Golpe aturdidor…) y los recuperas al descansar.",
+  "tabla": [
+    { "nivel": 1, "rasgos": [{ "slug": "competencias" }, { "slug": "defensa-sin-armadura" }, { "slug": "artes-marciales" }, { "slug": "competencias-multiclase" }] },
+    { "nivel": 2, "rasgos": [{ "slug": "concentracion-de-monje" }, { "slug": "rafaga-de-golpes" }, { "slug": "defensa-paciente" }, { "slug": "paso-del-viento" }, { "slug": "movimiento-sin-armadura" }, { "slug": "metabolismo-asombroso" }] },
+    { "nivel": 3, "rasgos": [{ "slug": "desviar-ataques" }] },
+    { "nivel": 4, "rasgos": [{ "slug": "mejora-de-caracteristica" }, { "slug": "caida-lenta" }] },
+    { "nivel": 5, "rasgos": [{ "slug": "artes-marciales", "mejora": true }, { "slug": "ataque-adicional" }, { "slug": "golpe-aturdidor" }] },
+    { "nivel": 6, "rasgos": [{ "slug": "movimiento-sin-armadura", "mejora": true }, { "slug": "golpes-potenciados" }] },
+    { "nivel": 7, "rasgos": [{ "slug": "evasion" }] },
+    { "nivel": 8, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 9, "rasgos": [{ "slug": "movimiento-acrobatico" }] },
+    { "nivel": 10, "rasgos": [{ "slug": "movimiento-sin-armadura", "mejora": true }, { "slug": "autorrestablecimiento" }, { "slug": "concentracion-agudizada" }] },
+    { "nivel": 11, "rasgos": [{ "slug": "artes-marciales", "mejora": true }] },
+    { "nivel": 12, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 13, "rasgos": [{ "slug": "desviar-energia" }] },
+    { "nivel": 14, "rasgos": [{ "slug": "movimiento-sin-armadura", "mejora": true }, { "slug": "superviviente-disciplinado" }] },
+    { "nivel": 15, "rasgos": [{ "slug": "cuerpo-eterno" }] },
+    { "nivel": 16, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 17, "rasgos": [{ "slug": "artes-marciales", "mejora": true }] },
+    { "nivel": 18, "rasgos": [{ "slug": "movimiento-sin-armadura", "mejora": true }, { "slug": "defensa-superior" }] },
+    { "nivel": 19, "rasgos": [{ "slug": "mejora-de-caracteristica" }, { "slug": "don-epico" }] },
+    { "nivel": 20, "rasgos": [{ "slug": "cuerpo-y-mente" }] }
+  ],
+  "rasgos": [
+    { "slug": "competencias", "nombre": "Competencias", "nivel": 1, "descripcion": "Como monje, obtienes una serie de competencias propias de la clase (armas, herramientas, tiradas de salvación y habilidades)." },
+    { "slug": "defensa-sin-armadura", "nombre": "Defensa sin armadura", "nivel": 1, "descripcion": "Mientras no lleves armadura ni portes un escudo, tu Clase de Armadura base es igual a 10 + tu modificador por Destreza + tu modificador por Sabiduría." },
+    { "slug": "artes-marciales", "nombre": "Artes marciales", "nivel": 1, "descripcion": "Cuando usas un arma de monje y no llevas armadura ni escudo: puedes usar Destreza en lugar de Fuerza en las tiradas de ataque y daño; puedes usar tu dado de daño desarmado en lugar del daño del arma; y, tras atacar desarmado o con un arma de monje, puedes usar una acción adicional para realizar un ataque desarmado.", "escalado": { "etiqueta": "Daño desarmado", "valores": [{ "nivel": 1, "valor": "1d6" }, { "nivel": 5, "valor": "1d8" }, { "nivel": 11, "valor": "1d10" }, { "nivel": 17, "valor": "1d12" }] } },
+    { "slug": "competencias-multiclase", "nombre": "Competencias multiclase", "nivel": 1, "descripcion": "Cuando subes tu primer nivel en esta clase y no es tu clase inicial, solo obtienes algunas de las competencias iniciales." },
+    { "slug": "concentracion-de-monje", "nombre": "Concentración de monje", "nivel": 2, "descripcion": "Tienes Puntos de Concentración iguales a tu nivel de monje, que alimentan tus técnicas. Empiezas con Defensa paciente, Paso del viento y Ráfaga de golpes, y recuperas todos los puntos al terminar un descanso." },
+    { "slug": "rafaga-de-golpes", "nombre": "Ráfaga de golpes", "nivel": 2, "descripcion": "Puedes gastar 1 punto de concentración para realizar dos ataques sin armas como acción adicional. (A partir del nivel 10, con Concentración agudizada, pueden ser tres.)" },
+    { "slug": "defensa-paciente", "nombre": "Defensa paciente", "nivel": 2, "descripcion": "Puedes llevar a cabo la acción de Destrabarse como acción adicional. De forma alternativa, puedes gastar 1 punto de concentración para hacer Destrabarse y Esquivar, ambas como acción adicional." },
+    { "slug": "paso-del-viento", "nombre": "Paso del viento", "nivel": 2, "descripcion": "Puedes llevar a cabo la acción de Correr como acción adicional. De forma alternativa, puedes gastar 1 punto de concentración para hacer Destrabarse y Correr como acción adicional, y tu distancia de salto se duplica durante ese turno." },
+    { "slug": "movimiento-sin-armadura", "nombre": "Movimiento sin armadura", "nivel": 2, "descripcion": "Mientras no lleves armadura ni portes un escudo, tu velocidad aumenta. La bonificación crece al alcanzar ciertos niveles de monje.", "escalado": { "etiqueta": "Bonificación", "valores": [{ "nivel": 2, "valor": "+3 m" }, { "nivel": 6, "valor": "+4,5 m" }, { "nivel": 10, "valor": "+6 m" }, { "nivel": 14, "valor": "+7,5 m" }, { "nivel": 18, "valor": "+9 m" }] } },
+    { "slug": "metabolismo-asombroso", "nombre": "Metabolismo asombroso", "nivel": 2, "descripcion": "Una vez por descanso largo, al tirar iniciativa recuperas todos tus puntos de concentración gastados y tiras tu dado de Artes marciales: recuperas Puntos de Golpe iguales al resultado más tu nivel de monje." },
+    { "slug": "desviar-ataques", "nombre": "Desviar ataques", "nivel": 3, "descripcion": "Usa tu reacción para desviar o atrapar un proyectil cuando te impacte un ataque a distancia. Reduces el daño en 1d10 + tu modificador por Destreza + tu nivel de monje. Si lo reduces a 0, puedes atrapar el proyectil y gastar 1 punto de concentración para arrojarlo, atacando a distancia." },
+    { "slug": "caida-lenta", "nombre": "Caída lenta", "nivel": 4, "descripcion": "Puedes usar una reacción al caer para reducir el daño por caída en una cantidad igual a cinco veces tu nivel de monje." },
+    { "slug": "mejora-de-caracteristica", "nombre": "Mejora de característica", "nivel": 4, "descripcion": "En los niveles 4, 8, 12, 16 y 19 puedes aumentar una puntuación de característica en 2, o dos puntuaciones en 1. No puedes superar 20 con este rasgo." },
+    { "slug": "ataque-adicional", "nombre": "Ataque adicional", "nivel": 5, "descripcion": "Cuando lleves a cabo la acción de Atacar en tu turno, puedes hacer dos ataques en lugar de uno." },
+    { "slug": "golpe-aturdidor", "nombre": "Golpe aturdidor", "nivel": 5, "descripcion": "Una vez por turno, al golpear con un arma de monje o un ataque sin armas, puedes gastar 1 punto de concentración para intentar aturdir. El objetivo hace una salvación de Constitución: si falla, queda aturdido hasta el inicio de tu próximo turno; si la supera, ve reducida su velocidad y sufre el siguiente ataque con ventaja." },
+    { "slug": "golpes-potenciados", "nombre": "Golpes potenciados", "nivel": 6, "descripcion": "Siempre que inflijas daño con un ataque sin armas, puedes elegir entre causar daño de fuerza o su tipo de daño normal." },
+    { "slug": "evasion", "nombre": "Evasión", "nivel": 7, "descripcion": "Cuando un efecto te permita hacer una salvación de Destreza para sufrir solo la mitad del daño, no sufres daño si la superas y solo la mitad si la fallas." },
+    { "slug": "movimiento-acrobatico", "nombre": "Movimiento acrobático", "nivel": 9, "descripcion": "Mientras no lleves armadura ni portes un escudo, puedes moverte por superficies verticales y sobre líquidos sin caerte." },
+    { "slug": "autorrestablecimiento", "nombre": "Autorrestablecimiento", "nivel": 10, "descripcion": "Al final de cada uno de tus turnos puedes eliminar uno de estos estados que te afecten: asustado, envenenado o hechizado. Además, la falta de comida o bebida no te genera niveles de cansancio." },
+    { "slug": "concentracion-agudizada", "nombre": "Concentración agudizada", "nivel": 10, "descripcion": "Tus técnicas mejoran al gastar concentración. Defensa paciente: ganas PG temporales iguales a la tirada de tu dado de Artes marciales. Paso del viento: puedes mover contigo a una criatura Grande o menor. Ráfaga de golpes: por 1 punto puedes hacer tres ataques en vez de dos." },
+    { "slug": "desviar-energia", "nombre": "Desviar energía", "nivel": 13, "descripcion": "Ahora puedes usar tu rasgo Desviar ataques contra ataques de cualquier tipo de daño, no solo contundente, cortante o perforante." },
+    { "slug": "superviviente-disciplinado", "nombre": "Superviviente disciplinado", "nivel": 14, "descripcion": "Ganas competencia en todas las tiradas de salvación. Además, si fallas una salvación, puedes gastar 1 punto de concentración para repetirla, usando el nuevo resultado." },
+    { "slug": "cuerpo-eterno", "nombre": "Cuerpo eterno", "nivel": 15, "descripcion": "Concentración perfecta: tu dominio del cuerpo y la mente alcanza su cúspide." },
+    { "slug": "defensa-superior", "nombre": "Defensa superior", "nivel": 18, "descripcion": "Al principio de tu turno puedes gastar 3 puntos de concentración para protegerte durante 1 minuto (o hasta quedar incapacitado): ganas resistencia a todo el daño excepto el de fuerza." },
+    { "slug": "don-epico", "nombre": "Don épico", "nivel": 19, "descripcion": "Obtienes una dote de Don épico (u otra dote para la que cumplas los requisitos). Se recomienda «Don del ataque imparable»." },
+    { "slug": "cuerpo-y-mente", "nombre": "Cuerpo y mente", "nivel": 20, "descripcion": "Has llevado tu cuerpo y tu mente a otro nivel: tus puntuaciones de Destreza y Sabiduría aumentan en 4, hasta un máximo de 25." }
+  ],
+  "subclase": {
+    "intro": "Al llegar al nivel 3 eliges una subclase de monje, que te otorga rasgos en los niveles 3, 6, 11 y 17.",
+    "opciones": [
+      {
+        "nombre": "Guerrero de la mano abierta",
+        "origen": "Reglas básicas",
+        "descripcion": "Maestros del combate sin armas. Aprenden técnicas para empujar y derribar a sus adversarios, y manipulan su propia energía para protegerse del peligro."
+      }
+    ]
+  },
+  "fuente": {
+    "texto": "Contenido adaptado de nivel20.com · D&D 2024",
+    "url": "https://nivel20.com/games/dnd-2024/professions/13920-monje"
+  }
+}
