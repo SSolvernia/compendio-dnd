@@ -1,0 +1,167 @@
+{
+  "slug": "guerrero",
+  "nombre": "Guerrero",
+  "dadoGolpe": "d10",
+  "caracteristicaPrincipal": "FUE",
+  "salvaciones": ["FUE", "CON"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": [
+      "Acrobacias",
+      "Atletismo",
+      "Historia",
+      "Intimidación",
+      "Percepción",
+      "Perspicacia",
+      "Persuasión",
+      "Supervivencia",
+      "Trato con animales"
+    ]
+  },
+  "armaduras": ["Ligeras", "Medias", "Pesadas", "Escudos"],
+  "armas": ["Sencillas", "Marciales"],
+  "lanzador": "ninguno",
+  "caracteristicaLanzamiento": null,
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "estilo-de-combate",
+      "nombre": "Estilo de combate",
+      "nivel": 1,
+      "descripcion": "Obtienes una dote de estilo de combate de tu elección (se recomienda Defensa). Cada vez que subas un nivel de guerrero, puedes sustituir la dote elegida por otra dote de estilo de combate."
+    },
+    {
+      "slug": "maestria-con-armas",
+      "nombre": "Maestría con armas",
+      "nivel": 1,
+      "descripcion": "Puedes usar las propiedades de maestría con tres tipos de armas sencillas o marciales de tu elección. Tras un descanso largo puedes cambiar una elección. El número de armas aumenta con el nivel según la columna \"Maestría con armas\"."
+    },
+    {
+      "slug": "tomar-aliento",
+      "nombre": "Tomar aliento",
+      "nivel": 1,
+      "descripcion": "Como acción adicional, recuperas puntos de golpe iguales a 1d10 más tu nivel de guerrero. Tiene dos usos: recuperas uno tras un descanso corto y todos tras un descanso largo. Obtienes usos adicionales al subir de nivel."
+    },
+    {
+      "slug": "accion-subita",
+      "nombre": "Acción súbita",
+      "nivel": 2,
+      "descripcion": "En tu turno puedes llevar a cabo una acción más, salvo la acción de magia. Solo puedes usarlo de nuevo tras un descanso corto o largo. Desde el nivel 17 puedes usarlo dos veces antes de descansar, pero solo una por turno."
+    },
+    {
+      "slug": "mente-tactica",
+      "nombre": "Mente táctica",
+      "nivel": 2,
+      "descripcion": "Cuando falles una prueba de característica, puedes gastar un uso de Tomar aliento para tirar 1d10 y sumarlo a la prueba, pudiendo convertir el fallo en éxito. Si aun así fallas, no se gasta el uso."
+    },
+    {
+      "slug": "subclase-de-guerrero",
+      "nombre": "Subclase de guerrero",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de guerrero que te proporciona rasgos al alcanzar ciertos niveles. A partir de aquí obtienes todos los rasgos de tu subclase de tu nivel de guerrero e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 6, 8, 12, 14 y 16."
+    },
+    {
+      "slug": "ataque-adicional",
+      "nombre": "Ataque adicional",
+      "nivel": 5,
+      "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+    },
+    {
+      "slug": "desplazamiento-tactico",
+      "nombre": "Desplazamiento táctico",
+      "nivel": 5,
+      "descripcion": "Cuando uses Tomar aliento con una acción adicional, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+    },
+    {
+      "slug": "indomito",
+      "nombre": "Indómito",
+      "nivel": 9,
+      "descripcion": "Si fallas una tirada de salvación, puedes repetirla con un bonificador igual a tu nivel de guerrero, quedándote con el nuevo resultado. Solo una vez por descanso largo; dos veces desde el nivel 13 y tres desde el nivel 17."
+    },
+    {
+      "slug": "maestro-tactico",
+      "nombre": "Maestro táctico",
+      "nivel": 9,
+      "descripcion": "Cuando ataques con un arma cuya propiedad de maestría puedas usar, puedes sustituir esa propiedad para el ataque por debilitar, empujar o ralentizar."
+    },
+    {
+      "slug": "dos-ataques-adicionales",
+      "nombre": "Dos ataques adicionales",
+      "nivel": 11,
+      "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer tres ataques en lugar de uno."
+    },
+    {
+      "slug": "ataques-estudiados",
+      "nombre": "Ataques estudiados",
+      "nivel": 13,
+      "descripcion": "Si haces una tirada de ataque contra una criatura y fallas, tendrás ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas las condiciones. Se recomienda Don de la pericia en combate."
+    },
+    {
+      "slug": "tres-ataques-adicionales",
+      "nombre": "Tres ataques adicionales",
+      "nivel": 20,
+      "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer cuatro ataques en lugar de uno."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "campeon",
+      "nombre": "Campeón",
+      "descripcion": "Subclase de ejemplo del SRD para el guerrero, mencionada como la subclase detallada tras la descripción de la clase. Se centra en la maestría física y la pericia marcial.",
+      "rasgos": [
+        {
+          "slug": "atleta-sobresaliente",
+          "nombre": "Atleta sobresaliente",
+          "nivel": 3,
+          "descripcion": "Tienes ventaja en las tiradas de iniciativa y en las pruebas de Fuerza (Atletismo). Además, justo después de causar un crítico, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+        },
+        {
+          "slug": "critico-mejorado",
+          "nombre": "Crítico mejorado",
+          "nivel": 3,
+          "descripcion": "Tus tiradas de ataque con armas y tus ataques sin armas pueden causar críticos con un resultado de 19 o 20 en el d20."
+        },
+        {
+          "slug": "estilo-de-combate-adicional",
+          "nombre": "Estilo de combate adicional",
+          "nivel": 7,
+          "descripcion": "Obtienes otra dote de estilo de combate de tu elección."
+        },
+        {
+          "slug": "guerrero-heroico",
+          "nombre": "Guerrero heroico",
+          "nivel": 10,
+          "descripcion": "La emoción de la batalla te empuja hacia la victoria: durante un combate, puedes otorgarte inspiración heroica siempre que empieces tu turno sin ella."
+        },
+        {
+          "slug": "critico-superior",
+          "nombre": "Crítico superior",
+          "nivel": 15,
+          "descripcion": "Tus tiradas de ataque con armas y tus ataques sin armas ahora pueden causar críticos con un resultado de 18 a 20 en el d20."
+        },
+        {
+          "slug": "superviviente",
+          "nombre": "Superviviente",
+          "nivel": 18,
+          "descripcion": "Desafiar a la muerte: tienes ventaja en las tiradas de salvación contra muerte y un resultado de 18 a 20 cuenta como sacar un 20. Mejoría heroica: al principio de cada uno de tus turnos, recuperas 5 + tu modificador por Constitución puntos de golpe si estás maltrecho y tienes al menos 1 punto de golpe."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [62, 63]
+  }
+}

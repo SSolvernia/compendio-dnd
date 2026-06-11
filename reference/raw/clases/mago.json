@@ -1,0 +1,159 @@
+{
+  "slug": "mago",
+  "nombre": "Mago",
+  "dadoGolpe": "d6",
+  "caracteristicaPrincipal": "INT",
+  "salvaciones": ["INT", "SAB"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": [
+      "Conocimiento arcano",
+      "Historia",
+      "Investigación",
+      "Medicina",
+      "Naturaleza",
+      "Perspicacia",
+      "Religión"
+    ]
+  },
+  "armaduras": [],
+  "armas": ["Sencillas"],
+  "lanzador": "completo",
+  "caracteristicaLanzamiento": "INT",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Lanzas conjuros de mago usando INT como aptitud mágica. Conoces tres trucos (recomendados: luz, mano de mago y rayo de escarcha) y aprendes más en los niveles 4 y 10. Mantienes un libro de conjuros (objeto Diminuto de 1,5 kg y 100 páginas) que empieza con seis conjuros de nivel 1; cada vez que subes de nivel añades dos conjuros a tu elección. Preparas conjuros de tu libro según la columna \"Conjuros preparados\" de la tabla y recuperas todos los espacios tras un descanso largo. Puedes usar un canalizador arcano o tu libro de conjuros como canalizador mágico. Tras un descanso largo puedes cambiar trucos y conjuros preparados."
+    },
+    {
+      "slug": "adepto-en-rituales",
+      "nombre": "Adepto en rituales",
+      "nivel": 1,
+      "descripcion": "Puedes lanzar de forma ritual cualquier conjuro de mago marcado como \"ritual\" que figure en tu libro de conjuros, sin necesidad de tenerlo preparado, pero debes leerlo del libro para lanzarlo así."
+    },
+    {
+      "slug": "recuperacion-arcana",
+      "nombre": "Recuperación arcana",
+      "nivel": 1,
+      "descripcion": "Tras un descanso corto puedes recuperar espacios de conjuro gastados estudiando tu libro. La suma de sus niveles debe ser igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba) y ninguno puede ser de nivel 6 o superior. Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "academico",
+      "nombre": "Académico",
+      "nivel": 2,
+      "descripcion": "Elige una habilidad en la que tengas competencia entre Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza o Religión. Ganas pericia en la habilidad elegida."
+    },
+    {
+      "slug": "subclase-de-mago",
+      "nombre": "Subclase de mago",
+      "nivel": 3,
+      "descripcion": "Consigues una subclase de mago de tu elección (el SRD detalla la subclase de Evocador). De aquí en adelante obtienes todos los rasgos de tu subclase de tu nivel de mago e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "memorizar-conjuro",
+      "nombre": "Memorizar conjuro",
+      "nivel": 5,
+      "descripcion": "Tras un descanso corto, puedes estudiar tu libro de conjuros y sustituir un conjuro de nivel 1 o superior que tengas preparado con tu rasgo Lanzamiento de conjuros por otro de nivel 1 o superior del libro."
+    },
+    {
+      "slug": "mejora-de-caracteristica-8",
+      "nombre": "Mejora de característica",
+      "nivel": 8,
+      "descripcion": "Obtienes de nuevo el rasgo Mejora de característica: una dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones."
+    },
+    {
+      "slug": "rasgo-de-subclase-10",
+      "nombre": "Rasgo de subclase",
+      "nivel": 10,
+      "descripcion": "Obtienes un rasgo de tu subclase de mago correspondiente al nivel 10."
+    },
+    {
+      "slug": "mejora-de-caracteristica-12",
+      "nombre": "Mejora de característica",
+      "nivel": 12,
+      "descripcion": "Obtienes de nuevo el rasgo Mejora de característica: una dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones."
+    },
+    {
+      "slug": "rasgo-de-subclase-14",
+      "nombre": "Rasgo de subclase",
+      "nivel": 14,
+      "descripcion": "Obtienes un rasgo de tu subclase de mago correspondiente al nivel 14."
+    },
+    {
+      "slug": "mejora-de-caracteristica-16",
+      "nombre": "Mejora de característica",
+      "nivel": 16,
+      "descripcion": "Obtienes de nuevo el rasgo Mejora de característica: una dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones."
+    },
+    {
+      "slug": "maestria-sobre-conjuros",
+      "nombre": "Maestría sobre conjuros",
+      "nivel": 18,
+      "descripcion": "Elige un conjuro de nivel 1 y otro de nivel 2 de tu libro con tiempo de lanzamiento de una acción. Siempre los tienes preparados y puedes lanzarlos a su nivel más bajo sin gastar un espacio de conjuro; para lanzarlos a nivel superior debes gastar uno. Tras un descanso largo puedes sustituir uno de ellos por otro del mismo nivel que cumpla los requisitos."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones (se recomienda Don del recuerdo de conjuros)."
+    },
+    {
+      "slug": "conjuros-caracteristicos",
+      "nombre": "Conjuros característicos",
+      "nivel": 20,
+      "descripcion": "Escoge dos conjuros de nivel 3 de tu libro como conjuros característicos. Siempre los tienes preparados y puedes lanzar cada uno una vez a nivel 3 sin gastar un espacio de conjuro; tras lanzarlo no puedes volver a hacerlo así hasta finalizar un descanso corto o largo. Para lanzarlos a nivel superior debes gastar un espacio de conjuro."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "evocador",
+      "nombre": "Evocador",
+      "descripcion": "Mago especializado en magia de evocación para crear potentes efectos elementales (frío, llamas, ácidos, truenos y relámpagos). Rasgos: Experto en evocación (nivel 3), que añade conjuros de evocación a tu libro sin coste; Truco potente (nivel 3), por el que tus trucos de daño causan la mitad del daño al fallar el ataque o cuando el objetivo supera la salvación; Esculpir conjuros (nivel 6), que permite proteger a 1 más el nivel del conjuro criaturas de tus evocaciones; y Evocación potenciada (nivel 10), que suma tu modificador por INT a una tirada de daño de tus conjuros de evocación.",
+      "rasgos": [
+        {
+          "slug": "experto-en-evocacion",
+          "nombre": "Experto en evocación",
+          "nivel": 3,
+          "descripcion": "Eliges dos conjuros de mago de la escuela de evocación de nivel 2 o inferior y los añades a tu libro de conjuros sin coste. Además, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de evocación de mago a tu libro sin coste, de un nivel para el que tengas espacios."
+        },
+        {
+          "slug": "truco-potente",
+          "nombre": "Truco potente",
+          "nivel": 3,
+          "descripcion": "Cuando lances un truco a una criatura y falles la tirada de ataque o el objetivo supere la tirada de salvación, el objetivo recibe la mitad del daño del truco (si causa alguno), pero no sufre ningún otro de sus efectos adicionales."
+        },
+        {
+          "slug": "esculpir-conjuros",
+          "nombre": "Esculpir conjuros",
+          "nivel": 6,
+          "descripcion": "Cuando lances un conjuro de evocación que afecte a otras criaturas que puedas ver, puedes elegir una cantidad de ellas igual a 1 más el nivel del conjuro: tienen éxito automáticamente en sus tiradas de salvación contra el conjuro y no reciben daño si normalmente recibirían la mitad al superar la salvación."
+        },
+        {
+          "slug": "evocacion-potenciada",
+          "nombre": "Evocación potenciada",
+          "nivel": 10,
+          "descripcion": "Siempre que lances un conjuro de mago de la escuela de evocación, puedes sumar tu modificador por Inteligencia a una tirada de daño del conjuro."
+        },
+        {
+          "slug": "sobrecanalizar",
+          "nombre": "Sobrecanalizar",
+          "nivel": 14,
+          "descripcion": "Cuando lances un conjuro de mago que cause daño usando un espacio de conjuro de niveles 1 a 5, puedes infligir el máximo daño posible el turno en que lo lanzas. La primera vez por descanso largo no hay efecto negativo; cada uso posterior sin descanso largo te inflige 2d12 de daño necrótico por nivel del espacio (que ignora resistencias e inmunidades), aumentando en 1d12 con cada uso adicional."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [71, 76]
+  }
+}

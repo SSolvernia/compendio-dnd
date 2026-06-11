@@ -7,7 +7,9 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "srd:extract": "node scripts/extract-srd.mjs && node scripts/slice-srd.mjs",
+    "srd:build": "node scripts/assemble-classes.mjs && node scripts/validate-srd.mjs"
   },
   "dependencies": {
     "next": "^16.0.10",

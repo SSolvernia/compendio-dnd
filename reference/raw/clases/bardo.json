@@ -1,0 +1,127 @@
+{
+  "slug": "bardo",
+  "nombre": "Bardo",
+  "dadoGolpe": "d8",
+  "caracteristicaPrincipal": "CAR",
+  "salvaciones": ["DES", "CAR"],
+  "competenciasHabilidades": {
+    "elige": 3,
+    "opciones": ["Cualquiera"]
+  },
+  "armaduras": ["Ligeras"],
+  "armas": ["Sencillas"],
+  "lanzador": "completo",
+  "caracteristicaLanzamiento": "CAR",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "inspiracion-bardica",
+      "nombre": "Inspiración bárdica",
+      "nivel": 1,
+      "descripcion": "Como acción adicional inspiras a una criatura a 18 m o menos que pueda verte u oírte, otorgándole un dado de Inspiración bárdica (d6). Una vez en la siguiente hora, cuando falle una prueba con d20, puede tirar el dado y sumarlo. Lo concedes un número de veces igual a tu modificador por CAR (mínimo 1) y recuperas los usos tras un descanso largo. El dado sube a d8 en nivel 5, d10 en nivel 10 y d12 en nivel 15."
+    },
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Lanzas conjuros de la lista de bardo usando CAR como aptitud mágica. Conoces 2 trucos (más en niveles 4 y 10) y preparas conjuros de nivel 1+ (empezando con 4) según la tabla. Recuperas espacios tras un descanso largo y puedes usar un instrumento musical como canalizador mágico. Puedes sustituir un truco y un conjuro preparado al subir de nivel."
+    },
+    {
+      "slug": "aprendiz-de-mucho",
+      "nombre": "Aprendiz de mucho",
+      "nivel": 2,
+      "descripcion": "Sumas la mitad de tu bonificador por competencia (redondeando hacia abajo) a cualquier prueba de característica que use una habilidad en la que no seas competente y que no use de otro modo tu bonificador por competencia."
+    },
+    {
+      "slug": "pericia",
+      "nombre": "Pericia",
+      "nivel": 2,
+      "descripcion": "Ganas pericia en dos de tus competencias en habilidades de tu elección (se recomiendan Interpretación y Persuasión). En el nivel 9 ganas pericia en otras dos competencias."
+    },
+    {
+      "slug": "subclase-de-bardo",
+      "nombre": "Subclase de bardo",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de bardo (el SRD detalla el Colegio del conocimiento) que te otorga rasgos en ciertos niveles de bardo. De aquí en adelante obtienes todos los rasgos de tu subclase de tu nivel e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "fuente-de-inspiracion",
+      "nombre": "Fuente de inspiración",
+      "nivel": 5,
+      "descripcion": "Recuperas todos los usos de Inspiración bárdica tras un descanso corto o largo. Además, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración bárdica."
+    },
+    {
+      "slug": "contraencantamiento",
+      "nombre": "Contraencantamiento",
+      "nivel": 7,
+      "descripcion": "Si tú o una criatura a 9 m o menos falláis una tirada de salvación contra un efecto que aplique el estado de asustado o hechizado, puedes usar una reacción para repetir la tirada con ventaja."
+    },
+    {
+      "slug": "secretos-magicos",
+      "nombre": "Secretos mágicos",
+      "nivel": 10,
+      "descripcion": "Cada vez que alcances un nivel de bardo y aumente tu número de conjuros preparados, puedes elegir los nuevos conjuros de las listas de bardo, clérigo, druida y mago. Cuentan como conjuros de bardo. Además, al sustituir un conjuro preparado puedes hacerlo con uno de esas listas."
+    },
+    {
+      "slug": "inspiracion-superior",
+      "nombre": "Inspiración superior",
+      "nivel": 18,
+      "descripcion": "Cuando tires iniciativa, recuperas usos gastados de Inspiración bárdica hasta tener dos, si tuvieras menos de esa cifra."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones (se recomienda Don del recuerdo de conjuros)."
+    },
+    {
+      "slug": "palabras-de-creacion",
+      "nombre": "Palabras de creación",
+      "nivel": 20,
+      "descripcion": "Dominas las palabras de la vida y de la muerte: siempre tienes preparados palabra de poder: sanar y palabra de poder: matar. Al lanzar uno de estos conjuros puedes hacer objetivo a una segunda criatura situada a 3 m o menos del primer objetivo."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "colegio-del-conocimiento",
+      "nombre": "Colegio del conocimiento",
+      "descripcion": "Bardos que recaban conjuros y secretos de diversas fuentes y se reúnen en bibliotecas y universidades. En nivel 3 ganan Competencias adicionales (competencia en tres habilidades) y Palabras cortantes (reacción que gasta Inspiración bárdica para restar el dado a una tirada de daño, prueba de característica o ataque exitoso de una criatura a 18 m). En nivel 6 obtienen Descubrimientos mágicos, aprendiendo dos conjuros de las listas de clérigo, druida o mago que siempre tienen preparados.",
+      "rasgos": [
+        {
+          "slug": "competencias-adicionales",
+          "nombre": "Competencias adicionales",
+          "nivel": 3,
+          "descripcion": "Ganas competencia en tres habilidades de tu elección."
+        },
+        {
+          "slug": "palabras-cortantes",
+          "nombre": "Palabras cortantes",
+          "nivel": 3,
+          "descripcion": "Cuando una criatura que puedas ver a 18 m o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración bárdica: tira el dado de Inspiración bárdica y resta el resultado a la tirada de la criatura, lo que reduce el daño o puede convertir el éxito en un fallo."
+        },
+        {
+          "slug": "descubrimientos-magicos",
+          "nombre": "Descubrimientos mágicos",
+          "nivel": 6,
+          "descripcion": "Aprendes dos conjuros de tu elección de las listas de conjuros de clérigo, druida o mago (trucos o conjuros para los que tengas espacios de conjuro). Siempre los tienes preparados y, cada vez que subas un nivel de bardo, puedes reemplazar uno de ellos por otro conjuro que cumpla estos requisitos."
+        },
+        {
+          "slug": "habilidad-sin-parangon",
+          "nombre": "Habilidad sin parangón",
+          "nivel": 14,
+          "descripcion": "Cuando hagas una prueba de característica o una tirada de ataque y falles, puedes gastar un uso de Inspiración bárdica: tira el dado de Inspiración bárdica y suma el resultado al d20, lo que podría convertir el fallo en un éxito. Si la tirada sigue fallando, la Inspiración bárdica no se gasta."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [35, 39]
+  }
+}

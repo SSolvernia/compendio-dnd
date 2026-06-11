@@ -1,0 +1,163 @@
+{
+  "slug": "explorador",
+  "nombre": "Explorador",
+  "dadoGolpe": "d10",
+  "caracteristicaPrincipal": "DES",
+  "salvaciones": ["FUE", "DES"],
+  "competenciasHabilidades": {
+    "elige": 3,
+    "opciones": ["Atletismo", "Investigación", "Naturaleza", "Percepción", "Perspicacia", "Sigilo", "Supervivencia", "Trato con animales"]
+  },
+  "armaduras": ["Ligeras", "Medias", "Escudos"],
+  "armas": ["Sencillas", "Marciales"],
+  "lanzador": "semi",
+  "caracteristicaLanzamiento": "SAB",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "enemigo-predilecto",
+      "nombre": "Enemigo predilecto",
+      "nivel": 1,
+      "descripcion": "Siempre tienes preparado el conjuro marca del cazador y puedes lanzarlo dos veces sin gastar espacio de conjuro, recuperando los usos tras un descanso largo. El número de usos sin gastar espacio aumenta a ciertos niveles según la columna 'Enemigo predilecto' de la tabla."
+    },
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Canalizas la magia de la naturaleza para lanzar conjuros de explorador. La tabla muestra tus espacios de conjuro, que recuperas tras un descanso largo. Comienzas eligiendo dos conjuros de explorador de nivel 1; la cantidad preparada crece según la columna 'Conjuros preparados'. La Sabiduría (SAB) es tu aptitud mágica y puedes usar un canalizador druídico como canalizador mágico."
+    },
+    {
+      "slug": "maestria-con-armas",
+      "nombre": "Maestría con armas",
+      "nivel": 1,
+      "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia (como arcos largos y espadas cortas). Tras un descanso largo puedes cambiar los tipos de armas elegidas."
+    },
+    {
+      "slug": "estilo-de-combate",
+      "nombre": "Estilo de combate",
+      "nivel": 2,
+      "descripcion": "Obtienes una dote de estilo de combate de tu elección. Como alternativa puedes elegir Guerrero druídico: aprendes dos trucos de druida (se recomiendan guía y voluta estelar) que cuentan como conjuros de explorador, con la Sabiduría como aptitud mágica. Al subir de nivel puedes sustituir uno de estos trucos por otro de druida."
+    },
+    {
+      "slug": "explorador-habil",
+      "nombre": "Explorador hábil",
+      "nivel": 2,
+      "descripcion": "Tus viajes te otorgan beneficios: conoces dos idiomas de tu elección y ganas pericia en una de tus competencias en habilidades con la que aún no tengas pericia."
+    },
+    {
+      "slug": "subclase-de-explorador",
+      "nombre": "Subclase de explorador",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de explorador (la subclase de Cazador se detalla tras la clase). Obtienes los rasgos de subclase correspondientes a tu nivel de explorador e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "ataque-adicional",
+      "nombre": "Ataque adicional",
+      "nivel": 5,
+      "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+    },
+    {
+      "slug": "errante",
+      "nombre": "Errante",
+      "nivel": 6,
+      "descripcion": "Tu velocidad aumenta en 3 m si no llevas armadura pesada. Además obtienes una velocidad nadando y una velocidad trepando iguales a tu velocidad."
+    },
+    {
+      "slug": "pericia",
+      "nombre": "Pericia",
+      "nivel": 9,
+      "descripcion": "Escoge dos de tus competencias en habilidades con las que no tengas pericia y ganas pericia en ellas."
+    },
+    {
+      "slug": "infatigable",
+      "nombre": "Infatigable",
+      "nivel": 10,
+      "descripcion": "Las fuerzas primigenias te ayudan en tus viajes. Puntos de golpe temporales: como acción de magia te concedes 1d8 + tu modificador por Sabiduría (mínimo 1) puntos de golpe temporales, usable tantas veces como tu modificador por Sabiduría (mínimo 1) y recuperable tras un descanso largo. Disminuir cansancio: tras un descanso corto tu nivel de cansancio, si lo tienes, se reduce en 1."
+    },
+    {
+      "slug": "cazador-persistente",
+      "nombre": "Cazador persistente",
+      "nivel": 13,
+      "descripcion": "Sufrir daño no rompe tu concentración del conjuro marca del cazador."
+    },
+    {
+      "slug": "velo-de-la-naturaleza",
+      "nombre": "Velo de la naturaleza",
+      "nivel": 14,
+      "descripcion": "Invocas espíritus de la naturaleza para esconderte. Como acción adicional, puedes otorgarte el estado de invisible hasta el final de tu siguiente turno. Puedes usar este rasgo tantas veces como tu modificador por Sabiduría (mínimo una vez) y recuperas los usos tras un descanso largo."
+    },
+    {
+      "slug": "cazador-preciso",
+      "nombre": "Cazador preciso",
+      "nivel": 17,
+      "descripcion": "Tienes ventaja en las tiradas de ataque contra la criatura que tenga tu marca del cazador sobre ella."
+    },
+    {
+      "slug": "sentidos-salvajes",
+      "nombre": "Sentidos salvajes",
+      "nivel": 18,
+      "descripcion": "Tu conexión con las fuerzas de la naturaleza te otorga visión ciega hasta 9 m."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional."
+    },
+    {
+      "slug": "azote-de-enemigos",
+      "nombre": "Azote de enemigos",
+      "nivel": 20,
+      "descripcion": "El dado de daño de tu marca del cazador es un d10 en lugar de un d6."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "cazador",
+      "nombre": "Cazador",
+      "descripcion": "Subclase que protege la naturaleza y a la gente contra fuerzas destructivas, acechando a sus presas en tierras salvajes. Nivel 3 (El cazador y la presa): eliges entre Azote de colosos (1d8 de daño adicional al acertar a una criatura que no esté a máximos PG, una vez por turno) o Destructor de hordas (un ataque adicional con la misma arma contra otra criatura a 1,5 m del objetivo). Nivel 3 (Sabiduría del cazador): conoces las inmunidades, resistencias y vulnerabilidades de la criatura con tu marca del cazador. Nivel 7 (Tácticas defensivas): eliges entre Defensa contra ataques múltiples o Escapar de la horda (ataques de oportunidad con desventaja contra ti). Nivel 11 (El cazador experto y la presa): una vez por turno puedes infligir el daño adicional del conjuro a otra criatura a 9 m o menos de la marcada. Nivel 15 (Defensa de cazador experto): como reacción al recibir daño te concedes resistencia a ese tipo de daño hasta el final del turno.",
+      "rasgos": [
+        {
+          "slug": "el-cazador-y-la-presa",
+          "nombre": "El cazador y la presa",
+          "nivel": 3,
+          "descripcion": "Eliges una opción (puedes cambiarla tras un descanso corto o largo): Azote de colosos, tu arma inflige 1d8 de daño adicional una vez por turno al acertar a una criatura que no tenga todos sus puntos de golpe; o Destructor de hordas, una vez por turno, al hacer un ataque con arma, realizas otro con la misma arma contra una criatura distinta a 1,5 m o menos del objetivo a la que no hayas atacado este turno."
+        },
+        {
+          "slug": "sabiduria-del-cazador",
+          "nombre": "Sabiduría del cazador",
+          "nivel": 3,
+          "descripcion": "Mientras una criatura tenga tu marca del cazador sobre ella, sabes si tiene inmunidades, resistencias o vulnerabilidades y cuáles son."
+        },
+        {
+          "slug": "tacticas-defensivas",
+          "nombre": "Tácticas defensivas",
+          "nivel": 7,
+          "descripcion": "Eliges una opción (puedes cambiarla tras un descanso corto o largo): Defensa contra ataques múltiples, cuando una criatura te acierte con una tirada de ataque tiene desventaja en las demás tiradas de ataque contra ti ese turno; o Escapar de la horda, los ataques de oportunidad tienen desventaja contra ti."
+        },
+        {
+          "slug": "el-cazador-experto-y-la-presa",
+          "nombre": "El cazador experto y la presa",
+          "nivel": 11,
+          "descripcion": "Una vez por turno, cuando inflijas daño a una criatura que tenga tu marca del cazador, también puedes hacer el daño adicional del conjuro a una criatura distinta que puedas ver a 9 m o menos de la primera."
+        },
+        {
+          "slug": "defensa-de-cazador-experto",
+          "nombre": "Defensa de cazador experto",
+          "nivel": 15,
+          "descripcion": "Cuando recibes daño, puedes usar una reacción para concederte resistencia a ese daño y a cualquier otro daño del mismo tipo hasta el final de ese turno."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [58, 61]
+  }
+}

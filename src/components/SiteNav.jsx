@@ -7,13 +7,14 @@ const LINKS = [
   { href: "/", label: "Inicio", match: (p) => p === "/" },
   { href: "/grimorio", label: "Grimorio", match: (p) => p.startsWith("/grimorio") },
   { href: "/clases", label: "Clases", match: (p) => p.startsWith("/clases") },
+  { href: "/personaje", label: "Ficha", match: (p) => p.startsWith("/personaje") },
 ];
 
 export default function SiteNav() {
   const pathname = usePathname() || "/";
 
   return (
-    <header className="relative z-20 border-b border-line/80 bg-ink/70 backdrop-blur-md">
+    <header className="relative z-20 border-b border-line/80 bg-ink/70 backdrop-blur-md print:hidden">
       <nav className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-3 py-2.5 sm:gap-4 sm:px-6 sm:py-3">
         <Link href="/" className="group flex min-w-0 items-center gap-2">
           <span className="shrink-0 text-gold transition group-hover:rotate-12">✦</span>

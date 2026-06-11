@@ -1,0 +1,2456 @@
+[
+  {
+    "slug": "barbaro",
+    "nombre": "Bárbaro",
+    "dadoGolpe": "d12",
+    "caracteristicaPrincipal": "FUE",
+    "salvaciones": [
+      "FUE",
+      "CON"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Atletismo",
+        "Intimidación",
+        "Naturaleza",
+        "Percepción",
+        "Supervivencia",
+        "Trato con animales"
+      ]
+    },
+    "armaduras": [
+      "Ligeras",
+      "Medias",
+      "Escudos"
+    ],
+    "armas": [
+      "Sencillas",
+      "Marciales"
+    ],
+    "lanzador": "ninguno",
+    "caracteristicaLanzamiento": null,
+    "formulasCA": [
+      "barbaro"
+    ],
+    "rasgosPorNivel": [
+      {
+        "slug": "defensa-sin-armadura",
+        "nombre": "Defensa sin armadura",
+        "nivel": 1,
+        "descripcion": "Mientras no lleves armadura, tu CA base es igual a 10 más tus modificadores por DES y CON. Obtienes este beneficio aunque lleves un escudo."
+      },
+      {
+        "slug": "furia",
+        "nombre": "Furia",
+        "nivel": 1,
+        "descripcion": "Como acción adicional, si no llevas armadura pesada, te dejas llevar por la furia un número de veces (columna \"N.º de furias\"); recuperas un uso tras descanso corto y todos tras descanso largo. Mientras estés enfurecido: resistencia al daño contundente, cortante y perforante; bonificador al daño en ataques basados en FUE (\"Daño por furia\"); ventaja en pruebas y salvaciones de FUE; no puedes concentrarte ni lanzar conjuros. Dura hasta el final de tu siguiente turno (termina antes si te pones armadura pesada o quedas incapacitado); puedes prolongarla atacando, forzando una salvación o usando una acción adicional, hasta 10 minutos."
+      },
+      {
+        "slug": "maestria-con-armas",
+        "nombre": "Maestría con armas",
+        "nivel": 1,
+        "descripcion": "Puedes usar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales a tu elección; tras un descanso largo puedes cambiar una de esas elecciones. El número de armas aumenta según la columna \"Maestría con armas\"."
+      },
+      {
+        "slug": "ataque-temerario",
+        "nombre": "Ataque temerario",
+        "nivel": 2,
+        "descripcion": "Al hacer tu primera tirada de ataque del turno, puedes atacar temerariamente: ganas ventaja en las tiradas de ataque basadas en FUE hasta el inicio de tu siguiente turno, pero las tiradas de ataque contra ti también tienen ventaja durante ese tiempo."
+      },
+      {
+        "slug": "sentir-el-peligro",
+        "nombre": "Sentir el peligro",
+        "nivel": 2,
+        "descripcion": "Tienes ventaja en las tiradas de salvación de DES, salvo que tengas el estado de incapacitado."
+      },
+      {
+        "slug": "conocimiento-primigenio",
+        "nombre": "Conocimiento primigenio",
+        "nivel": 3,
+        "descripcion": "Ganas competencia en otra habilidad de la lista de bárbaro. Además, mientras estés enfurecido, puedes hacer pruebas de Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia como pruebas de FUE en lugar de su característica habitual."
+      },
+      {
+        "slug": "subclase-de-barbaro",
+        "nombre": "Subclase de bárbaro",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de bárbaro (en el SRD, la Senda del berserker). A partir de ahora obtienes todos los rasgos de tu subclase de tu nivel de bárbaro e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "ataque-adicional",
+        "nombre": "Ataque adicional",
+        "nivel": 5,
+        "descripcion": "Cuando llevas a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+      },
+      {
+        "slug": "movimiento-rapido",
+        "nombre": "Movimiento rápido",
+        "nivel": 5,
+        "descripcion": "Tu velocidad aumenta en 3 m si no llevas armadura pesada."
+      },
+      {
+        "slug": "instinto-salvaje",
+        "nombre": "Instinto salvaje",
+        "nivel": 7,
+        "descripcion": "Tienes ventaja en las tiradas de iniciativa."
+      },
+      {
+        "slug": "salto-instintivo",
+        "nombre": "Salto instintivo",
+        "nivel": 7,
+        "descripcion": "Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad."
+      },
+      {
+        "slug": "golpe-brutal",
+        "nombre": "Golpe brutal",
+        "nivel": 9,
+        "descripcion": "Si usas Ataque temerario, puedes renunciar a la ventaja en una tirada de ataque basada en FUE (que no tenga desventaja). Si acierta, infliges 1d10 de daño adicional del mismo tipo y aplicas un efecto: Golpe enérgico (empujas al objetivo 4,5 m y puedes moverte hasta la mitad de tu velocidad hacia él sin provocar ataques de oportunidad) o Golpe ralentizador (reduces su velocidad en 4,5 m hasta el inicio de tu siguiente turno)."
+      },
+      {
+        "slug": "furia-implacable",
+        "nombre": "Furia implacable",
+        "nivel": 11,
+        "descripcion": "Si tus puntos de golpe se reducen a 0 mientras estás enfurecido sin morir al instante, puedes hacer una salvación de CON con CD 10; si la superas, tus puntos de golpe pasan a ser el doble de tu nivel de bárbaro. Cada uso posterior aumenta la CD en 5; vuelve a CD 10 tras un descanso corto o largo."
+      },
+      {
+        "slug": "golpe-brutal-mejorado",
+        "nombre": "Golpe brutal mejorado",
+        "nivel": 13,
+        "descripcion": "Añades nuevos efectos de Golpe brutal: Golpe abrumador (el objetivo tiene desventaja en su siguiente salvación y no puede hacer ataques de oportunidad hasta el inicio de tu siguiente turno) y Golpe desgarrador (la próxima tirada de ataque de otra criatura contra el objetivo obtiene +5)."
+      },
+      {
+        "slug": "furia-persistente",
+        "nombre": "Furia persistente",
+        "nivel": 15,
+        "descripcion": "Al tirar iniciativa puedes recuperar todos los usos gastados de furia (no de nuevo hasta acabar un descanso largo). Además, tu furia dura 10 minutos sin necesidad de prolongarla; termina antes si quedas inconsciente (no solo incapacitado) o te pones armadura pesada."
+      },
+      {
+        "slug": "golpe-brutal-mejorado-17",
+        "nombre": "Golpe brutal mejorado",
+        "nivel": 17,
+        "descripcion": "El daño adicional de Golpe brutal aumenta a 2d10. Además, puedes usar dos efectos diferentes de Golpe brutal cada vez que uses el rasgo."
+      },
+      {
+        "slug": "poderio-indomito",
+        "nombre": "Poderío indómito",
+        "nivel": 18,
+        "descripcion": "Si tu resultado en una prueba o salvación de FUE es inferior a tu puntuación de FUE, puedes usar esa puntuación en lugar del resultado."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas los requisitos. Se recomienda Don del ataque imparable."
+      },
+      {
+        "slug": "campeon-primordial",
+        "nombre": "Campeón primordial",
+        "nivel": 20,
+        "descripcion": "Encarnas un poder primigenio: tus puntuaciones de FUE y CON aumentan en 4, hasta un máximo de 25."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "senda-del-berserker",
+        "nombre": "Senda del berserker",
+        "descripcion": "Bárbaros que canalizan su furia en una violencia indómita, embriagándose del caos del combate. Rasgos: Frenesí (nivel 3, daño adicional en d6 igual a tu daño por furia al primer objetivo que aciertes con un ataque de FUE mientras usas Ataque temerario enfurecido), Furia irracional (nivel 6, inmunidad a asustado y hechizado mientras estés enfurecido) y Represalia (nivel 10, reacción para hacer un ataque cuerpo a cuerpo contra una criatura a 1,5 m que te haya dañado).",
+        "rasgos": [
+          {
+            "slug": "frenesi",
+            "nombre": "Frenesí",
+            "nivel": 3,
+            "descripcion": "Si usas Ataque temerario mientras estás enfurecido, el primer objetivo al que aciertes en tu turno con un ataque basado en la Fuerza sufre daño adicional: tira tantos d6 como tu bonificación de daño por furia y suma los resultados. El daño es del mismo tipo que el del arma o ataque sin armas utilizado."
+          },
+          {
+            "slug": "furia-irracional",
+            "nombre": "Furia irracional",
+            "nivel": 6,
+            "descripcion": "Tienes inmunidad a los estados de asustado y hechizado mientras estés enfurecido. Si estás asustado o hechizado cuando te dejes llevar por la furia, el estado termina para ti."
+          },
+          {
+            "slug": "represalia",
+            "nombre": "Represalia",
+            "nivel": 10,
+            "descripcion": "Cuando recibas daño de una criatura que esté a 1,5 m o menos de ti, puedes llevar a cabo una reacción para hacer un ataque cuerpo a cuerpo contra esa criatura usando un arma o un ataque sin armas."
+          },
+          {
+            "slug": "presencia-intimidante",
+            "nombre": "Presencia intimidante",
+            "nivel": 14,
+            "descripcion": "Como acción adicional, las criaturas de tu elección en una emanación de 9 m originada en ti deben hacer una tirada de salvación de Sabiduría (CD 8 más tu modificador por Fuerza y tu bonificador por competencia); si la fallan, quedan asustadas durante 1 minuto, repitiendo la salvación al final de cada uno de sus turnos. Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo, a menos que gastes un uso de tu furia (no requiere acción) para restablecerlo."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        32,
+        34
+      ]
+    },
+    "trucosPorNivel": null,
+    "conjurosPreparadosPorNivel": null
+  },
+  {
+    "slug": "bardo",
+    "nombre": "Bardo",
+    "dadoGolpe": "d8",
+    "caracteristicaPrincipal": "CAR",
+    "salvaciones": [
+      "DES",
+      "CAR"
+    ],
+    "competenciasHabilidades": {
+      "elige": 3,
+      "opciones": [
+        "Cualquiera"
+      ]
+    },
+    "armaduras": [
+      "Ligeras"
+    ],
+    "armas": [
+      "Sencillas"
+    ],
+    "lanzador": "completo",
+    "caracteristicaLanzamiento": "CAR",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "inspiracion-bardica",
+        "nombre": "Inspiración bárdica",
+        "nivel": 1,
+        "descripcion": "Como acción adicional inspiras a una criatura a 18 m o menos que pueda verte u oírte, otorgándole un dado de Inspiración bárdica (d6). Una vez en la siguiente hora, cuando falle una prueba con d20, puede tirar el dado y sumarlo. Lo concedes un número de veces igual a tu modificador por CAR (mínimo 1) y recuperas los usos tras un descanso largo. El dado sube a d8 en nivel 5, d10 en nivel 10 y d12 en nivel 15."
+      },
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Lanzas conjuros de la lista de bardo usando CAR como aptitud mágica. Conoces 2 trucos (más en niveles 4 y 10) y preparas conjuros de nivel 1+ (empezando con 4) según la tabla. Recuperas espacios tras un descanso largo y puedes usar un instrumento musical como canalizador mágico. Puedes sustituir un truco y un conjuro preparado al subir de nivel."
+      },
+      {
+        "slug": "aprendiz-de-mucho",
+        "nombre": "Aprendiz de mucho",
+        "nivel": 2,
+        "descripcion": "Sumas la mitad de tu bonificador por competencia (redondeando hacia abajo) a cualquier prueba de característica que use una habilidad en la que no seas competente y que no use de otro modo tu bonificador por competencia."
+      },
+      {
+        "slug": "pericia",
+        "nombre": "Pericia",
+        "nivel": 2,
+        "descripcion": "Ganas pericia en dos de tus competencias en habilidades de tu elección (se recomiendan Interpretación y Persuasión). En el nivel 9 ganas pericia en otras dos competencias."
+      },
+      {
+        "slug": "subclase-de-bardo",
+        "nombre": "Subclase de bardo",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de bardo (el SRD detalla el Colegio del conocimiento) que te otorga rasgos en ciertos niveles de bardo. De aquí en adelante obtienes todos los rasgos de tu subclase de tu nivel e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "fuente-de-inspiracion",
+        "nombre": "Fuente de inspiración",
+        "nivel": 5,
+        "descripcion": "Recuperas todos los usos de Inspiración bárdica tras un descanso corto o largo. Además, puedes gastar un espacio de conjuro (no requiere acción) para recuperar un uso gastado de Inspiración bárdica."
+      },
+      {
+        "slug": "contraencantamiento",
+        "nombre": "Contraencantamiento",
+        "nivel": 7,
+        "descripcion": "Si tú o una criatura a 9 m o menos falláis una tirada de salvación contra un efecto que aplique el estado de asustado o hechizado, puedes usar una reacción para repetir la tirada con ventaja."
+      },
+      {
+        "slug": "secretos-magicos",
+        "nombre": "Secretos mágicos",
+        "nivel": 10,
+        "descripcion": "Cada vez que alcances un nivel de bardo y aumente tu número de conjuros preparados, puedes elegir los nuevos conjuros de las listas de bardo, clérigo, druida y mago. Cuentan como conjuros de bardo. Además, al sustituir un conjuro preparado puedes hacerlo con uno de esas listas."
+      },
+      {
+        "slug": "inspiracion-superior",
+        "nombre": "Inspiración superior",
+        "nivel": 18,
+        "descripcion": "Cuando tires iniciativa, recuperas usos gastados de Inspiración bárdica hasta tener dos, si tuvieras menos de esa cifra."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones (se recomienda Don del recuerdo de conjuros)."
+      },
+      {
+        "slug": "palabras-de-creacion",
+        "nombre": "Palabras de creación",
+        "nivel": 20,
+        "descripcion": "Dominas las palabras de la vida y de la muerte: siempre tienes preparados palabra de poder: sanar y palabra de poder: matar. Al lanzar uno de estos conjuros puedes hacer objetivo a una segunda criatura situada a 3 m o menos del primer objetivo."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "colegio-del-conocimiento",
+        "nombre": "Colegio del conocimiento",
+        "descripcion": "Bardos que recaban conjuros y secretos de diversas fuentes y se reúnen en bibliotecas y universidades. En nivel 3 ganan Competencias adicionales (competencia en tres habilidades) y Palabras cortantes (reacción que gasta Inspiración bárdica para restar el dado a una tirada de daño, prueba de característica o ataque exitoso de una criatura a 18 m). En nivel 6 obtienen Descubrimientos mágicos, aprendiendo dos conjuros de las listas de clérigo, druida o mago que siempre tienen preparados.",
+        "rasgos": [
+          {
+            "slug": "competencias-adicionales",
+            "nombre": "Competencias adicionales",
+            "nivel": 3,
+            "descripcion": "Ganas competencia en tres habilidades de tu elección."
+          },
+          {
+            "slug": "palabras-cortantes",
+            "nombre": "Palabras cortantes",
+            "nivel": 3,
+            "descripcion": "Cuando una criatura que puedas ver a 18 m o menos de ti haga una tirada de daño o tenga éxito en una prueba de característica o una tirada de ataque, puedes llevar a cabo una reacción para gastar un uso de tu Inspiración bárdica: tira el dado de Inspiración bárdica y resta el resultado a la tirada de la criatura, lo que reduce el daño o puede convertir el éxito en un fallo."
+          },
+          {
+            "slug": "descubrimientos-magicos",
+            "nombre": "Descubrimientos mágicos",
+            "nivel": 6,
+            "descripcion": "Aprendes dos conjuros de tu elección de las listas de conjuros de clérigo, druida o mago (trucos o conjuros para los que tengas espacios de conjuro). Siempre los tienes preparados y, cada vez que subas un nivel de bardo, puedes reemplazar uno de ellos por otro conjuro que cumpla estos requisitos."
+          },
+          {
+            "slug": "habilidad-sin-parangon",
+            "nombre": "Habilidad sin parangón",
+            "nivel": 14,
+            "descripcion": "Cuando hagas una prueba de característica o una tirada de ataque y falles, puedes gastar un uso de Inspiración bárdica: tira el dado de Inspiración bárdica y suma el resultado al d20, lo que podría convertir el fallo en un éxito. Si la tirada sigue fallando, la Inspiración bárdica no se gasta."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        35,
+        39
+      ]
+    },
+    "trucosPorNivel": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "conjurosPreparadosPorNivel": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "slug": "brujo",
+    "nombre": "Brujo",
+    "dadoGolpe": "d8",
+    "caracteristicaPrincipal": "CAR",
+    "salvaciones": [
+      "SAB",
+      "CAR"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Conocimiento arcano",
+        "Engaño",
+        "Historia",
+        "Intimidación",
+        "Investigación",
+        "Naturaleza",
+        "Religión"
+      ]
+    },
+    "armaduras": [
+      "Ligeras"
+    ],
+    "armas": [
+      "Sencillas"
+    ],
+    "lanzador": "pacto",
+    "caracteristicaLanzamiento": "CAR",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "invocaciones-sobrenaturales",
+        "nombre": "Invocaciones sobrenaturales",
+        "nivel": 1,
+        "descripcion": "Obtienes invocaciones sobrenaturales, fragmentos de conocimiento prohibido que conceden capacidades mágicas u otros saberes. Empiezas con una invocación de tu elección (como Pacto del grimorio) y ganas más al subir de nivel según la columna 'Invocaciones'. Si una invocación tiene un requisito, debes cumplirlo para aprenderla. Al subir un nivel de brujo puedes sustituir una invocación por otra para la que cumplas las condiciones (salvo que sea requisito de otra que tengas)."
+      },
+      {
+        "slug": "magia-del-pacto",
+        "nombre": "Magia del pacto",
+        "nivel": 1,
+        "descripcion": "Has sellado un pacto con una entidad misteriosa que te otorga la capacidad de lanzar conjuros. Conoces dos trucos de brujo (más en niveles 4 y 10) y preparas conjuros de nivel 1+ según la tabla. Todos tus espacios de conjuro son del mismo nivel (de 1 a 5) y los recuperas tras un descanso corto o largo. Tu aptitud mágica es Carisma y puedes usar un canalizador arcano como canalizador mágico."
+      },
+      {
+        "slug": "astucia-magica",
+        "nombre": "Astucia mágica",
+        "nivel": 2,
+        "descripcion": "Puedes realizar un rito esotérico durante 1 minuto para recuperar una cantidad de espacios de conjuro utilizados de Magia del pacto igual o inferior a la mitad de tu máximo (redondeando hacia arriba). Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "subclase-de-brujo",
+        "nombre": "Subclase de brujo",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de brujo (como Patrón infernal), una especialización que te proporciona rasgos al alcanzar ciertos niveles de brujo. Obtienes todos los rasgos de tu subclase de tu nivel e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "contactar-patron",
+        "nombre": "Contactar patrón",
+        "nivel": 9,
+        "descripcion": "Siempre tienes preparado el conjuro contactar con otro plano y puedes lanzarlo sin gastar un espacio de conjuro para contactar con tu patrón, superando automáticamente su tirada de salvación. No puedes volver a lanzarlo de esta forma hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "arcanum-mistico",
+        "nombre": "Arcanum místico",
+        "nivel": 11,
+        "descripcion": "Tu patrón te recompensa con un arcanum: escoges un conjuro de brujo de nivel 6 que puedes lanzar una vez sin gastar espacio de conjuro (recuperándolo tras un descanso largo). Obtienes conjuros adicionales que lanzas igual en los niveles 13 (nivel 7), 15 (nivel 8) y 17 (nivel 9). Al subir de nivel puedes sustituir un conjuro de arcanum por otro del mismo nivel."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico (se recomienda Don del destino) u otra dote de tu elección para la que cumplas las condiciones."
+      },
+      {
+        "slug": "maestro-sobrenatural",
+        "nombre": "Maestro sobrenatural",
+        "nivel": 20,
+        "descripcion": "Cuando empleas tu rasgo Astucia mágica, recuperas todos los espacios de conjuro utilizados de Magia del pacto."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "patron-infernal",
+        "nombre": "Patrón infernal",
+        "descripcion": "Haces un trato con los Planos Inferiores, negociando con un señor demoníaco, archidiablo u otro infernal notable. Concede conjuros siempre preparados (Conjuros del infernal) y los rasgos: Bendición del oscuro (nivel 3, ganas puntos de golpe temporales al reducir a 0 a un enemigo), La suerte del oscuro (nivel 6, sumas 1d10 a una prueba de característica o salvación un número de veces igual a tu modificador por Carisma), Resistencia infernal (nivel 10, resistencia a un tipo de daño elegido tras un descanso) y Arrastrar por el infierno (nivel 14, teletransportas a un objetivo a los Planos Inferiores causándole 8d10 de daño psíquico tras fallar una salvación de Carisma).",
+        "rasgos": [
+          {
+            "slug": "bendicion-del-oscuro",
+            "nombre": "Bendición del oscuro",
+            "nivel": 3,
+            "descripcion": "Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes puntos de golpe temporales iguales a tu modificador por Carisma más tu nivel de brujo (mínimo 1). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti."
+          },
+          {
+            "slug": "conjuros-del-infernal",
+            "nombre": "Conjuros del infernal",
+            "nivel": 3,
+            "descripcion": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados: cuando alcances un nivel de brujo especificado en la tabla «Conjuros del infernal», a partir de entonces siempre tendrás preparados los conjuros que se indican."
+          },
+          {
+            "slug": "la-suerte-del-oscuro",
+            "nombre": "La suerte del oscuro",
+            "nivel": 6,
+            "descripcion": "Puedes invocar a tu patrón para alterar el destino: cuando hagas una prueba de característica o una tirada de salvación, puedes sumar 1d10 a tu tirada, después de ver el resultado pero antes de que ocurran sus efectos. Puedes usarlo tantas veces como tu modificador por Carisma (mínimo una), no más de una vez por tirada, y recuperas todos los usos tras un descanso largo."
+          },
+          {
+            "slug": "resistencia-infernal",
+            "nombre": "Resistencia infernal",
+            "nivel": 10,
+            "descripcion": "Tras finalizar un descanso corto o largo, elige un tipo de daño que no sea el de fuerza. Tienes resistencia a ese tipo de daño hasta que elijas uno distinto con este rasgo."
+          },
+          {
+            "slug": "arrastrar-por-el-infierno",
+            "nombre": "Arrastrar por el infierno",
+            "nivel": 14,
+            "descripcion": "Una vez por turno, cuando aciertes a una criatura con una tirada de ataque, puedes intentar teletransportarla a los Planos Inferiores: si falla una tirada de salvación de Carisma contra tu CD de salvación de conjuros, desaparece y, si no es un infernal, sufre 8d10 de daño psíquico y queda incapacitada hasta el final de tu siguiente turno, cuando regresa a su espacio anterior o al más cercano sin ocupar. Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecerlo."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        40,
+        46
+      ]
+    },
+    "trucosPorNivel": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "conjurosPreparadosPorNivel": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      13,
+      13,
+      14,
+      14,
+      15,
+      15
+    ]
+  },
+  {
+    "slug": "clerigo",
+    "nombre": "Clérigo",
+    "dadoGolpe": "d8",
+    "caracteristicaPrincipal": "SAB",
+    "salvaciones": [
+      "SAB",
+      "CAR"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Historia",
+        "Medicina",
+        "Perspicacia",
+        "Persuasión",
+        "Religión"
+      ]
+    },
+    "armaduras": [
+      "Ligeras",
+      "Medias",
+      "Escudos"
+    ],
+    "armas": [
+      "Sencillas"
+    ],
+    "lanzador": "completo",
+    "caracteristicaLanzamiento": "SAB",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Lanzas conjuros de clérigo usando Sabiduría como aptitud mágica, con un símbolo sagrado como canalizador. Conoces 3 trucos (recomendados: guía, llama sagrada y taumaturgia) y aprendes uno más a los niveles 4 y 10. Preparas conjuros de nivel 1 y superiores de la lista de clérigo (empiezas con 4 conjuros de nivel 1), pudiendo cambiarlos tras un descanso largo. Recuperas los espacios de conjuro tras un descanso largo."
+      },
+      {
+        "slug": "orden-divina",
+        "nombre": "Orden divina",
+        "nivel": 1,
+        "descripcion": "Te consagras a una función sacra a tu elección. Protector: ganas competencia con armas marciales y entrenamiento con armaduras pesadas. Taumaturgo: conoces un truco adicional de clérigo y obtienes un bonificador a las pruebas de Inteligencia (Conocimiento arcano y Religión) igual a tu modificador por Sabiduría (mínimo +1)."
+      },
+      {
+        "slug": "canalizar-divinidad",
+        "nombre": "Canalizar divinidad",
+        "nivel": 2,
+        "descripcion": "Canalizas energía divina para crear efectos mágicos, empezando con Chispa divina y Expulsar muertos vivientes. Tienes 2 usos (más en niveles superiores), recuperando 1 tras un descanso corto y todos tras uno largo. La CD es igual a la de tus conjuros. Chispa divina (acción de magia, a 9 m): tira 1d8 + mod. SAB para curar PG o forzar salvación de CON contra ese daño necrótico o radiante (mitad si la supera); escala a los niveles 7, 13 y 18. Expulsar muertos vivientes (acción de magia): los muertos vivientes a 9 m hacen salvación de SAB o quedan asustados e incapacitados 1 minuto, huyendo de ti; termina si sufren daño, si te incapacitan o mueres."
+      },
+      {
+        "slug": "subclase-de-clerigo",
+        "nombre": "Subclase de clérigo",
+        "nivel": 3,
+        "descripcion": "Consigues una subclase de clérigo a tu elección (el SRD detalla el Dominio de la vida). De aquí en adelante obtienes todos los rasgos de tu subclase que sean de tu nivel de clérigo e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "abrasar-muertos-vivientes",
+        "nombre": "Abrasar muertos vivientes",
+        "nivel": 5,
+        "descripcion": "Cuando uses Expulsar muertos vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y sumar los resultados. Cada muerto viviente que falle su salvación sufre ese total de daño radiante, sin poner fin al efecto de expulsión."
+      },
+      {
+        "slug": "golpes-benditos",
+        "nombre": "Golpes benditos",
+        "nivel": 7,
+        "descripcion": "Eliges una opción. Golpe divino: una vez por turno, al acertar un ataque con arma, el objetivo sufre 1d8 de daño necrótico o radiante adicional. Lanzamiento potente: sumas tu modificador por Sabiduría al daño de cualquier truco de clérigo."
+      },
+      {
+        "slug": "mejora-de-caracteristica-8",
+        "nombre": "Mejora de característica",
+        "nivel": 8,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones."
+      },
+      {
+        "slug": "intercesion-divina",
+        "nombre": "Intercesión divina",
+        "nivel": 10,
+        "descripcion": "Como acción de magia, eliges cualquier conjuro de clérigo de nivel 5 o inferior que no requiera reacción y lo lanzas como parte de la misma acción sin gastar espacio de conjuro ni componentes materiales. No puedes volver a usarlo hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "mejora-de-caracteristica-12",
+        "nombre": "Mejora de característica",
+        "nivel": 12,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones."
+      },
+      {
+        "slug": "golpes-benditos-mejorados",
+        "nombre": "Golpes benditos mejorados",
+        "nivel": 14,
+        "descripcion": "La opción elegida para Golpes benditos se vuelve más poderosa. Golpe divino: el daño adicional aumenta a 2d8. Lanzamiento potente: al dañar a una criatura con un truco de clérigo, concedes a ti o a otra criatura a 18 m PG temporales iguales al doble de tu modificador por Sabiduría."
+      },
+      {
+        "slug": "mejora-de-caracteristica-16",
+        "nombre": "Mejora de característica",
+        "nivel": 16,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas las condiciones. Se recomienda Don del destino."
+      },
+      {
+        "slug": "intercesion-divina-mayor",
+        "nombre": "Intercesión divina mayor",
+        "nivel": 20,
+        "descripcion": "Al usar Intercesión divina puedes elegir el conjuro deseo. Si lo haces, no podrás volver a usar Intercesión divina hasta finalizar 2d4 descansos largos."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "dominio-de-la-vida",
+        "nombre": "Dominio de la vida",
+        "descripcion": "Subclase centrada en la energía positiva que sustenta la vida; sus clérigos son maestros de la curación. A nivel 3 obtiene conjuros de dominio siempre preparados (Discípulo de la vida: los conjuros de curación restauran PG adicionales iguales a 2 más el nivel del espacio) y Preservar vida (acción de magia que gasta un uso de Canalizar divinidad para curar PG iguales a cinco veces tu nivel de clérigo, repartidos entre criaturas maltrechas a 9 m, sin superar la mitad de sus PG máximos). A nivel 6, Sanador bendito te cura al lanzar conjuros de curación sobre otros. A nivel 17, Sanación suprema usa el resultado máximo de los dados de curación.",
+        "rasgos": [
+          {
+            "slug": "conjuros-del-dominio-de-la-vida",
+            "nombre": "Conjuros del dominio de la vida",
+            "nivel": 3,
+            "descripcion": "Siempre tienes preparados los conjuros indicados en la tabla «Conjuros del dominio de la vida» al alcanzar el nivel de clérigo correspondiente: nivel 3, auxilio, bendición, curar heridas y restablecimiento menor; nivel 5, palabra de curación en masa y revivir; nivel 7, aura de vida y guarda contra la muerte; nivel 9, curar heridas en masa y restablecimiento mayor."
+          },
+          {
+            "slug": "discipulo-de-la-vida",
+            "nombre": "Discípulo de la vida",
+            "nivel": 3,
+            "descripcion": "Cuando uses un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una criatura, esa criatura recupera puntos de golpe adicionales en el turno en que lances el conjuro, iguales a 2 más el nivel del espacio de conjuro."
+          },
+          {
+            "slug": "preservar-vida",
+            "nombre": "Preservar vida",
+            "nivel": 3,
+            "descripcion": "Como acción de magia, muestras tu símbolo sagrado y gastas un uso de Canalizar divinidad para restaurar una cantidad de puntos de golpe igual a cinco veces tu nivel de clérigo, repartidos entre criaturas maltrechas a 9 m o menos de ti (puedes incluirte). Este rasgo no puede hacer que una criatura supere la mitad de sus puntos de golpe máximos."
+          },
+          {
+            "slug": "sanador-bendito",
+            "nombre": "Sanador bendito",
+            "nivel": 6,
+            "descripcion": "Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperas una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro."
+          },
+          {
+            "slug": "sanacion-suprema",
+            "nombre": "Sanación suprema",
+            "nivel": 17,
+            "descripcion": "Cuando vayas a tirar uno o más dados para hacer que una criatura recupere puntos de golpe con un conjuro o con Canalizar divinidad, no tiras los dados: usas el número más alto de cada dado (por ejemplo, en lugar de 2d6, la criatura recupera 12)."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        47,
+        51
+      ]
+    },
+    "trucosPorNivel": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "conjurosPreparadosPorNivel": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "slug": "druida",
+    "nombre": "Druida",
+    "dadoGolpe": "d8",
+    "caracteristicaPrincipal": "SAB",
+    "salvaciones": [
+      "INT",
+      "SAB"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Conocimiento arcano",
+        "Medicina",
+        "Naturaleza",
+        "Percepción",
+        "Perspicacia",
+        "Religión",
+        "Supervivencia",
+        "Trato con animales"
+      ]
+    },
+    "armaduras": [
+      "Ligeras",
+      "Escudos"
+    ],
+    "armas": [
+      "Sencillas"
+    ],
+    "lanzador": "completo",
+    "caracteristicaLanzamiento": "SAB",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "druidico",
+        "nombre": "Druídico",
+        "nivel": 1,
+        "descripcion": "Conoces el druídico, el idioma secreto de los druidas, y siempre tienes preparado el conjuro hablar con los animales. Puedes dejar mensajes ocultos en druídico; los demás necesitan superar una prueba de Inteligencia (Investigación) CD 15 para detectarlos, y solo pueden descifrarlos con magia."
+      },
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Lanzas conjuros de druida usando Sabiduría como aptitud mágica. Conoces 2 trucos de la lista de druida (más a niveles 4 y 10) y preparas 4 conjuros de nivel 1 al inicio, ampliables según la columna Conjuros preparados. Recuperas los espacios tras un descanso largo y puedes cambiar los conjuros preparados al finalizarlo. Puedes usar un canalizador druídico como canalizador mágico."
+      },
+      {
+        "slug": "orden-primigenia",
+        "nombre": "Orden primigenia",
+        "nivel": 1,
+        "descripcion": "Eliges una función: Guardián (ganas competencia con armas marciales y entrenamiento con armaduras medias) o Naturalista (conoces un truco adicional de druida y sumas un bonificador igual a tu modificador por Sabiduría, mínimo +1, a tus pruebas de Inteligencia de Conocimiento arcano y Naturaleza)."
+      },
+      {
+        "slug": "companero-salvaje",
+        "nombre": "Compañero salvaje",
+        "nivel": 2,
+        "descripcion": "Como acción de magia, puedes gastar un espacio de conjuro o un uso de Forma salvaje para lanzar encontrar familiar sin componentes materiales. El familiar es un feérico y desaparece tras un descanso largo."
+      },
+      {
+        "slug": "forma-salvaje",
+        "nombre": "Forma salvaje",
+        "nivel": 2,
+        "descripcion": "Como acción adicional, adoptas la forma de una bestia conocida durante un número de horas igual a la mitad de tu nivel de druida (o hasta que vuelvas a usarla, quedes incapacitado o mueras). Tienes 2 usos (recuperas uno tras descanso corto y todos tras descanso largo), con más usos a niveles superiores. Conoces 4 formas (VD máx. 1/4 sin vuelo), aumentando a VD 1/2 con 6 formas a nivel 4 y VD 1 con 8 formas y vuelo a nivel 8. Obtienes PG temporales iguales a tu nivel de druida al transformarte."
+      },
+      {
+        "slug": "subclase-de-druida",
+        "nombre": "Subclase de druida",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de druida (el Círculo de la tierra se detalla en el SRD) y obtienes sus rasgos de tu nivel de druida e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas los requisitos. Se repite a niveles 8, 12 y 16."
+      },
+      {
+        "slug": "resurgimiento-salvaje",
+        "nombre": "Resurgimiento salvaje",
+        "nivel": 5,
+        "descripcion": "Una vez por turno, si no te quedan usos de Forma salvaje, puedes gastar un espacio de conjuro para obtener un uso (no requiere acción). Además, puedes gastar un uso de Forma salvaje para obtener un espacio de conjuro de nivel 1 (no requiere acción), pero no de nuevo hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "furia-elemental",
+        "nombre": "Furia elemental",
+        "nivel": 7,
+        "descripcion": "Eliges una opción: Golpe primordial (una vez por turno, al acertar un ataque con arma o de bestia en Forma salvaje, infliges 1d8 de daño adicional de frío, fuego, relámpago o trueno) o Lanzamiento potente (sumas tu modificador por Sabiduría al daño de tus trucos de druida)."
+      },
+      {
+        "slug": "furia-elemental-mejorada",
+        "nombre": "Furia elemental mejorada",
+        "nivel": 15,
+        "descripcion": "Tu opción de Furia elemental mejora: Golpe primordial pasa a 2d8 de daño adicional; Lanzamiento potente aumenta en 90 m el alcance de los trucos de druida que tengan un alcance de 3 m o más."
+      },
+      {
+        "slug": "conjurar-como-bestia",
+        "nombre": "Conjurar como bestia",
+        "nivel": 18,
+        "descripcion": "Mientras usas Forma salvaje, puedes lanzar conjuros en forma de bestia, salvo los que tengan un componente material con coste especificado o que se consuma como parte del conjuro."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas los requisitos. Se recomienda Don del viaje dimensional."
+      },
+      {
+        "slug": "archidruida",
+        "nombre": "Archidruida",
+        "nivel": 20,
+        "descripcion": "Ganas: Forma salvaje perenne (al tirar iniciativa sin usos de Forma salvaje, recuperas uno), Mago de la naturaleza (conviertes usos no gastados de Forma salvaje en un único espacio de conjuro, cada uso aporta 2 niveles de conjuro; no de nuevo hasta un descanso largo) y Longevidad (envejeces solo un año por cada diez que pasan)."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "circulo-de-la-tierra",
+        "nombre": "Círculo de la tierra",
+        "descripcion": "Druidas místicos y sabios que custodian ritos y conocimientos antiguos reuniéndose en círculos sagrados. Rasgos: Ayuda de la tierra (nivel 3, gastas un uso de Forma salvaje para crear una esfera de 3 m que inflige 2d6 de daño necrótico con salvación de CON y cura 2d6 a una criatura, escalando a niveles 10 y 14); Conjuros del círculo de la tierra (nivel 3, eliges un tipo de terreno árido, polar, templado o tropical que te otorga conjuros preparados); Recuperación natural (nivel 6, lanzas un conjuro preparado por Conjuros de círculo sin gastar espacio, y recuperas espacios de conjuro tras un descanso corto); Protección de la naturaleza (nivel 10, inmune a envenenado y resistencia a un tipo de daño según tu terreno).",
+        "rasgos": [
+          {
+            "slug": "ayuda-de-la-tierra",
+            "nombre": "Ayuda de la tierra",
+            "nivel": 3,
+            "descripcion": "Como acción de magia, gastas un uso de Forma salvaje para elegir un punto a 18 m o menos: en una esfera de 3 m de radio, las criaturas de tu elección hacen una tirada de salvación de Constitución contra tu CD de conjuros y sufren 2d6 de daño necrótico (la mitad si la superan), y una criatura de tu elección en la zona recupera 2d6 puntos de golpe. El daño y la curación aumentan a 3d6 en el nivel 10 y a 4d6 en el nivel 14."
+          },
+          {
+            "slug": "conjuros-del-circulo-de-la-tierra",
+            "nombre": "Conjuros del círculo de la tierra",
+            "nivel": 3,
+            "descripcion": "Tras finalizar un descanso largo, eliges un tipo de terreno (árido, polar, templado o tropical) y tienes siempre preparados los conjuros de círculo asociados a ese terreno para tu nivel de druida e inferiores."
+          },
+          {
+            "slug": "recuperacion-natural",
+            "nombre": "Recuperación natural",
+            "nivel": 6,
+            "descripcion": "Una vez por descanso largo, puedes lanzar un conjuro de nivel 1+ preparado por Conjuros de círculo sin gastar espacio de conjuro. Además, una vez por descanso largo, tras un descanso corto puedes recuperar espacios de conjuro gastados cuya suma de niveles sea igual o inferior a la mitad de tu nivel de druida (redondeando hacia arriba), sin que ninguno sea de nivel 6 o más."
+          },
+          {
+            "slug": "proteccion-de-la-naturaleza",
+            "nombre": "Protección de la naturaleza",
+            "nivel": 10,
+            "descripcion": "Eres inmune al estado de envenenado y tienes resistencia a un tipo de daño según tu terreno actual de Conjuros de círculo: árido (fuego), polar (frío), templado (relámpago) o tropical (veneno)."
+          },
+          {
+            "slug": "santuario-de-la-naturaleza",
+            "nombre": "Santuario de la naturaleza",
+            "nivel": 14,
+            "descripcion": "Como acción de magia, gastas un uso de Forma salvaje para hacer aparecer árboles y enredaderas espectrales en un cubo de 4,5 m de lado a 36 m o menos, durante 1 minuto o hasta que estés incapacitado o mueras. Tus aliados y tú tenéis cobertura media en la zona y tus aliados obtienen la resistencia de tu Protección de la naturaleza; como acción adicional puedes mover el cubo hasta 18 m."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        52,
+        57
+      ]
+    },
+    "trucosPorNivel": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "conjurosPreparadosPorNivel": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "slug": "explorador",
+    "nombre": "Explorador",
+    "dadoGolpe": "d10",
+    "caracteristicaPrincipal": "DES",
+    "salvaciones": [
+      "FUE",
+      "DES"
+    ],
+    "competenciasHabilidades": {
+      "elige": 3,
+      "opciones": [
+        "Atletismo",
+        "Investigación",
+        "Naturaleza",
+        "Percepción",
+        "Perspicacia",
+        "Sigilo",
+        "Supervivencia",
+        "Trato con animales"
+      ]
+    },
+    "armaduras": [
+      "Ligeras",
+      "Medias",
+      "Escudos"
+    ],
+    "armas": [
+      "Sencillas",
+      "Marciales"
+    ],
+    "lanzador": "semi",
+    "caracteristicaLanzamiento": "SAB",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "enemigo-predilecto",
+        "nombre": "Enemigo predilecto",
+        "nivel": 1,
+        "descripcion": "Siempre tienes preparado el conjuro marca del cazador y puedes lanzarlo dos veces sin gastar espacio de conjuro, recuperando los usos tras un descanso largo. El número de usos sin gastar espacio aumenta a ciertos niveles según la columna 'Enemigo predilecto' de la tabla."
+      },
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Canalizas la magia de la naturaleza para lanzar conjuros de explorador. La tabla muestra tus espacios de conjuro, que recuperas tras un descanso largo. Comienzas eligiendo dos conjuros de explorador de nivel 1; la cantidad preparada crece según la columna 'Conjuros preparados'. La Sabiduría (SAB) es tu aptitud mágica y puedes usar un canalizador druídico como canalizador mágico."
+      },
+      {
+        "slug": "maestria-con-armas",
+        "nombre": "Maestría con armas",
+        "nivel": 1,
+        "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia (como arcos largos y espadas cortas). Tras un descanso largo puedes cambiar los tipos de armas elegidas."
+      },
+      {
+        "slug": "estilo-de-combate",
+        "nombre": "Estilo de combate",
+        "nivel": 2,
+        "descripcion": "Obtienes una dote de estilo de combate de tu elección. Como alternativa puedes elegir Guerrero druídico: aprendes dos trucos de druida (se recomiendan guía y voluta estelar) que cuentan como conjuros de explorador, con la Sabiduría como aptitud mágica. Al subir de nivel puedes sustituir uno de estos trucos por otro de druida."
+      },
+      {
+        "slug": "explorador-habil",
+        "nombre": "Explorador hábil",
+        "nivel": 2,
+        "descripcion": "Tus viajes te otorgan beneficios: conoces dos idiomas de tu elección y ganas pericia en una de tus competencias en habilidades con la que aún no tengas pericia."
+      },
+      {
+        "slug": "subclase-de-explorador",
+        "nombre": "Subclase de explorador",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de explorador (la subclase de Cazador se detalla tras la clase). Obtienes los rasgos de subclase correspondientes a tu nivel de explorador e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "ataque-adicional",
+        "nombre": "Ataque adicional",
+        "nivel": 5,
+        "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+      },
+      {
+        "slug": "errante",
+        "nombre": "Errante",
+        "nivel": 6,
+        "descripcion": "Tu velocidad aumenta en 3 m si no llevas armadura pesada. Además obtienes una velocidad nadando y una velocidad trepando iguales a tu velocidad."
+      },
+      {
+        "slug": "pericia",
+        "nombre": "Pericia",
+        "nivel": 9,
+        "descripcion": "Escoge dos de tus competencias en habilidades con las que no tengas pericia y ganas pericia en ellas."
+      },
+      {
+        "slug": "infatigable",
+        "nombre": "Infatigable",
+        "nivel": 10,
+        "descripcion": "Las fuerzas primigenias te ayudan en tus viajes. Puntos de golpe temporales: como acción de magia te concedes 1d8 + tu modificador por Sabiduría (mínimo 1) puntos de golpe temporales, usable tantas veces como tu modificador por Sabiduría (mínimo 1) y recuperable tras un descanso largo. Disminuir cansancio: tras un descanso corto tu nivel de cansancio, si lo tienes, se reduce en 1."
+      },
+      {
+        "slug": "cazador-persistente",
+        "nombre": "Cazador persistente",
+        "nivel": 13,
+        "descripcion": "Sufrir daño no rompe tu concentración del conjuro marca del cazador."
+      },
+      {
+        "slug": "velo-de-la-naturaleza",
+        "nombre": "Velo de la naturaleza",
+        "nivel": 14,
+        "descripcion": "Invocas espíritus de la naturaleza para esconderte. Como acción adicional, puedes otorgarte el estado de invisible hasta el final de tu siguiente turno. Puedes usar este rasgo tantas veces como tu modificador por Sabiduría (mínimo una vez) y recuperas los usos tras un descanso largo."
+      },
+      {
+        "slug": "cazador-preciso",
+        "nombre": "Cazador preciso",
+        "nivel": 17,
+        "descripcion": "Tienes ventaja en las tiradas de ataque contra la criatura que tenga tu marca del cazador sobre ella."
+      },
+      {
+        "slug": "sentidos-salvajes",
+        "nombre": "Sentidos salvajes",
+        "nivel": 18,
+        "descripcion": "Tu conexión con las fuerzas de la naturaleza te otorga visión ciega hasta 9 m."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don del viaje dimensional."
+      },
+      {
+        "slug": "azote-de-enemigos",
+        "nombre": "Azote de enemigos",
+        "nivel": 20,
+        "descripcion": "El dado de daño de tu marca del cazador es un d10 en lugar de un d6."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "cazador",
+        "nombre": "Cazador",
+        "descripcion": "Subclase que protege la naturaleza y a la gente contra fuerzas destructivas, acechando a sus presas en tierras salvajes. Nivel 3 (El cazador y la presa): eliges entre Azote de colosos (1d8 de daño adicional al acertar a una criatura que no esté a máximos PG, una vez por turno) o Destructor de hordas (un ataque adicional con la misma arma contra otra criatura a 1,5 m del objetivo). Nivel 3 (Sabiduría del cazador): conoces las inmunidades, resistencias y vulnerabilidades de la criatura con tu marca del cazador. Nivel 7 (Tácticas defensivas): eliges entre Defensa contra ataques múltiples o Escapar de la horda (ataques de oportunidad con desventaja contra ti). Nivel 11 (El cazador experto y la presa): una vez por turno puedes infligir el daño adicional del conjuro a otra criatura a 9 m o menos de la marcada. Nivel 15 (Defensa de cazador experto): como reacción al recibir daño te concedes resistencia a ese tipo de daño hasta el final del turno.",
+        "rasgos": [
+          {
+            "slug": "el-cazador-y-la-presa",
+            "nombre": "El cazador y la presa",
+            "nivel": 3,
+            "descripcion": "Eliges una opción (puedes cambiarla tras un descanso corto o largo): Azote de colosos, tu arma inflige 1d8 de daño adicional una vez por turno al acertar a una criatura que no tenga todos sus puntos de golpe; o Destructor de hordas, una vez por turno, al hacer un ataque con arma, realizas otro con la misma arma contra una criatura distinta a 1,5 m o menos del objetivo a la que no hayas atacado este turno."
+          },
+          {
+            "slug": "sabiduria-del-cazador",
+            "nombre": "Sabiduría del cazador",
+            "nivel": 3,
+            "descripcion": "Mientras una criatura tenga tu marca del cazador sobre ella, sabes si tiene inmunidades, resistencias o vulnerabilidades y cuáles son."
+          },
+          {
+            "slug": "tacticas-defensivas",
+            "nombre": "Tácticas defensivas",
+            "nivel": 7,
+            "descripcion": "Eliges una opción (puedes cambiarla tras un descanso corto o largo): Defensa contra ataques múltiples, cuando una criatura te acierte con una tirada de ataque tiene desventaja en las demás tiradas de ataque contra ti ese turno; o Escapar de la horda, los ataques de oportunidad tienen desventaja contra ti."
+          },
+          {
+            "slug": "el-cazador-experto-y-la-presa",
+            "nombre": "El cazador experto y la presa",
+            "nivel": 11,
+            "descripcion": "Una vez por turno, cuando inflijas daño a una criatura que tenga tu marca del cazador, también puedes hacer el daño adicional del conjuro a una criatura distinta que puedas ver a 9 m o menos de la primera."
+          },
+          {
+            "slug": "defensa-de-cazador-experto",
+            "nombre": "Defensa de cazador experto",
+            "nivel": 15,
+            "descripcion": "Cuando recibes daño, puedes usar una reacción para concederte resistencia a ese daño y a cualquier otro daño del mismo tipo hasta el final de ese turno."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        58,
+        61
+      ]
+    },
+    "trucosPorNivel": null,
+    "conjurosPreparadosPorNivel": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      7,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      14,
+      14,
+      15,
+      15
+    ]
+  },
+  {
+    "slug": "guerrero",
+    "nombre": "Guerrero",
+    "dadoGolpe": "d10",
+    "caracteristicaPrincipal": "FUE",
+    "salvaciones": [
+      "FUE",
+      "CON"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Acrobacias",
+        "Atletismo",
+        "Historia",
+        "Intimidación",
+        "Percepción",
+        "Perspicacia",
+        "Persuasión",
+        "Supervivencia",
+        "Trato con animales"
+      ]
+    },
+    "armaduras": [
+      "Ligeras",
+      "Medias",
+      "Pesadas",
+      "Escudos"
+    ],
+    "armas": [
+      "Sencillas",
+      "Marciales"
+    ],
+    "lanzador": "ninguno",
+    "caracteristicaLanzamiento": null,
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "estilo-de-combate",
+        "nombre": "Estilo de combate",
+        "nivel": 1,
+        "descripcion": "Obtienes una dote de estilo de combate de tu elección (se recomienda Defensa). Cada vez que subas un nivel de guerrero, puedes sustituir la dote elegida por otra dote de estilo de combate."
+      },
+      {
+        "slug": "maestria-con-armas",
+        "nombre": "Maestría con armas",
+        "nivel": 1,
+        "descripcion": "Puedes usar las propiedades de maestría con tres tipos de armas sencillas o marciales de tu elección. Tras un descanso largo puedes cambiar una elección. El número de armas aumenta con el nivel según la columna \"Maestría con armas\"."
+      },
+      {
+        "slug": "tomar-aliento",
+        "nombre": "Tomar aliento",
+        "nivel": 1,
+        "descripcion": "Como acción adicional, recuperas puntos de golpe iguales a 1d10 más tu nivel de guerrero. Tiene dos usos: recuperas uno tras un descanso corto y todos tras un descanso largo. Obtienes usos adicionales al subir de nivel."
+      },
+      {
+        "slug": "accion-subita",
+        "nombre": "Acción súbita",
+        "nivel": 2,
+        "descripcion": "En tu turno puedes llevar a cabo una acción más, salvo la acción de magia. Solo puedes usarlo de nuevo tras un descanso corto o largo. Desde el nivel 17 puedes usarlo dos veces antes de descansar, pero solo una por turno."
+      },
+      {
+        "slug": "mente-tactica",
+        "nombre": "Mente táctica",
+        "nivel": 2,
+        "descripcion": "Cuando falles una prueba de característica, puedes gastar un uso de Tomar aliento para tirar 1d10 y sumarlo a la prueba, pudiendo convertir el fallo en éxito. Si aun así fallas, no se gasta el uso."
+      },
+      {
+        "slug": "subclase-de-guerrero",
+        "nombre": "Subclase de guerrero",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de guerrero que te proporciona rasgos al alcanzar ciertos niveles. A partir de aquí obtienes todos los rasgos de tu subclase de tu nivel de guerrero e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 6, 8, 12, 14 y 16."
+      },
+      {
+        "slug": "ataque-adicional",
+        "nombre": "Ataque adicional",
+        "nivel": 5,
+        "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+      },
+      {
+        "slug": "desplazamiento-tactico",
+        "nombre": "Desplazamiento táctico",
+        "nivel": 5,
+        "descripcion": "Cuando uses Tomar aliento con una acción adicional, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+      },
+      {
+        "slug": "indomito",
+        "nombre": "Indómito",
+        "nivel": 9,
+        "descripcion": "Si fallas una tirada de salvación, puedes repetirla con un bonificador igual a tu nivel de guerrero, quedándote con el nuevo resultado. Solo una vez por descanso largo; dos veces desde el nivel 13 y tres desde el nivel 17."
+      },
+      {
+        "slug": "maestro-tactico",
+        "nombre": "Maestro táctico",
+        "nivel": 9,
+        "descripcion": "Cuando ataques con un arma cuya propiedad de maestría puedas usar, puedes sustituir esa propiedad para el ataque por debilitar, empujar o ralentizar."
+      },
+      {
+        "slug": "dos-ataques-adicionales",
+        "nombre": "Dos ataques adicionales",
+        "nivel": 11,
+        "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer tres ataques en lugar de uno."
+      },
+      {
+        "slug": "ataques-estudiados",
+        "nombre": "Ataques estudiados",
+        "nivel": 13,
+        "descripcion": "Si haces una tirada de ataque contra una criatura y fallas, tendrás ventaja en tu siguiente tirada de ataque contra esa criatura antes del final de tu siguiente turno."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas las condiciones. Se recomienda Don de la pericia en combate."
+      },
+      {
+        "slug": "tres-ataques-adicionales",
+        "nombre": "Tres ataques adicionales",
+        "nivel": 20,
+        "descripcion": "Cuando lleves a cabo la acción de atacar en tu turno, puedes hacer cuatro ataques en lugar de uno."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "campeon",
+        "nombre": "Campeón",
+        "descripcion": "Subclase de ejemplo del SRD para el guerrero, mencionada como la subclase detallada tras la descripción de la clase. Se centra en la maestría física y la pericia marcial.",
+        "rasgos": [
+          {
+            "slug": "atleta-sobresaliente",
+            "nombre": "Atleta sobresaliente",
+            "nivel": 3,
+            "descripcion": "Tienes ventaja en las tiradas de iniciativa y en las pruebas de Fuerza (Atletismo). Además, justo después de causar un crítico, puedes moverte hasta la mitad de tu velocidad sin provocar ataques de oportunidad."
+          },
+          {
+            "slug": "critico-mejorado",
+            "nombre": "Crítico mejorado",
+            "nivel": 3,
+            "descripcion": "Tus tiradas de ataque con armas y tus ataques sin armas pueden causar críticos con un resultado de 19 o 20 en el d20."
+          },
+          {
+            "slug": "estilo-de-combate-adicional",
+            "nombre": "Estilo de combate adicional",
+            "nivel": 7,
+            "descripcion": "Obtienes otra dote de estilo de combate de tu elección."
+          },
+          {
+            "slug": "guerrero-heroico",
+            "nombre": "Guerrero heroico",
+            "nivel": 10,
+            "descripcion": "La emoción de la batalla te empuja hacia la victoria: durante un combate, puedes otorgarte inspiración heroica siempre que empieces tu turno sin ella."
+          },
+          {
+            "slug": "critico-superior",
+            "nombre": "Crítico superior",
+            "nivel": 15,
+            "descripcion": "Tus tiradas de ataque con armas y tus ataques sin armas ahora pueden causar críticos con un resultado de 18 a 20 en el d20."
+          },
+          {
+            "slug": "superviviente",
+            "nombre": "Superviviente",
+            "nivel": 18,
+            "descripcion": "Desafiar a la muerte: tienes ventaja en las tiradas de salvación contra muerte y un resultado de 18 a 20 cuenta como sacar un 20. Mejoría heroica: al principio de cada uno de tus turnos, recuperas 5 + tu modificador por Constitución puntos de golpe si estás maltrecho y tienes al menos 1 punto de golpe."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        62,
+        63
+      ]
+    },
+    "trucosPorNivel": null,
+    "conjurosPreparadosPorNivel": null
+  },
+  {
+    "slug": "hechicero",
+    "nombre": "Hechicero",
+    "dadoGolpe": "d6",
+    "caracteristicaPrincipal": "CAR",
+    "salvaciones": [
+      "CON",
+      "CAR"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Conocimiento arcano",
+        "Engaño",
+        "Intimidación",
+        "Perspicacia",
+        "Persuasión",
+        "Religión"
+      ]
+    },
+    "armaduras": [],
+    "armas": [
+      "Sencillas"
+    ],
+    "lanzador": "completo",
+    "caracteristicaLanzamiento": "CAR",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Recurres a tu magia innata para lanzar conjuros de hechicero usando CAR como aptitud mágica. Conoces 4 trucos y preparas conjuros de nivel 1+ según la tabla, recuperando los espacios tras un descanso largo. Puedes usar un canalizador arcano como canalizador mágico."
+      },
+      {
+        "slug": "hechiceria-innata",
+        "nombre": "Hechicería innata",
+        "nivel": 1,
+        "descripcion": "Como acción adicional desatas tu magia latente durante 1 minuto: la CD de salvación de tus conjuros aumenta en 1 y tienes ventaja en las tiradas de ataque de tus conjuros. Puedes usarlo 2 veces y recuperas los usos tras un descanso largo."
+      },
+      {
+        "slug": "fuente-de-magia",
+        "nombre": "Fuente de magia",
+        "nivel": 2,
+        "descripcion": "Obtienes puntos de hechicería (2 al inicio, más según la tabla) que recuperas tras un descanso largo. Puedes gastar un espacio de conjuro para ganar tantos puntos como su nivel (sin acción), o como acción adicional crear espacios de conjuro de hasta nivel 5 gastando puntos según la tabla; esos espacios se desvanecen tras un descanso largo."
+      },
+      {
+        "slug": "metamagia",
+        "nombre": "Metamagia",
+        "nivel": 2,
+        "descripcion": "Eliges 2 opciones de metamagia para modificar tus conjuros gastando puntos de hechicería. Solo puedes usar una opción por conjuro al lanzarlo, salvo que se indique lo contrario. Cada vez que subes de nivel puedes sustituir una opción, y obtienes 2 opciones más en el nivel 10 y otras 2 en el 17."
+      },
+      {
+        "slug": "subclase-de-hechicero",
+        "nombre": "Subclase de hechicero",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de hechicero (la Hechicería dracónica se detalla en el SRD). A partir de entonces obtienes todos los rasgos de la subclase de tu nivel de hechicero e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "recuperacion-magica",
+        "nombre": "Recuperación mágica",
+        "nivel": 5,
+        "descripcion": "Tras un descanso corto recuperas puntos de hechicería iguales o inferiores a la mitad de tu nivel de hechicero (redondeando hacia abajo). No puedes volver a usarlo hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "encarnacion-magica",
+        "nombre": "Encarnación mágica",
+        "nivel": 7,
+        "descripcion": "Si te quedas sin usos de Hechicería innata, puedes activarlo gastando 2 puntos de hechicería con la acción adicional. Además, mientras Hechicería innata esté activo, puedes usar hasta dos opciones de metamagia en cada conjuro que lances."
+      },
+      {
+        "slug": "metamagia-10",
+        "nombre": "Metamagia",
+        "nivel": 10,
+        "descripcion": "Obtienes 2 opciones de metamagia adicionales de tu elección."
+      },
+      {
+        "slug": "metamagia-17",
+        "nombre": "Metamagia",
+        "nivel": 17,
+        "descripcion": "Obtienes otras 2 opciones de metamagia adicionales de tu elección."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas las condiciones (se recomienda Don del viaje dimensional). Además, mientras Hechicería innata esté activo, puedes usar una opción de metamagia en cada uno de tus turnos sin gastar puntos de hechicería."
+      },
+      {
+        "slug": "apoteosis-arcana",
+        "nombre": "Apoteosis arcana",
+        "nivel": 20,
+        "descripcion": "Alcanzas la cumbre de tu poder arcano, culminando tu dominio de la magia innata (rasgo capstone del hechicero)."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "hechiceria-draconica",
+        "nombre": "Hechicería dracónica",
+        "descripcion": "Tu magia innata proviene de un don dracónico. Otorga conjuros dracónicos siempre preparados (niv. 3, 5, 7 y 9), Resistencia dracónica (niv. 3) que aumenta tus PG máximos y da CA base 10 + DES + CAR sin armadura, Afinidad elemental (niv. 6) con resistencia a un tipo de daño dracónico y suma de tu mod. por CAR al daño de ese tipo, Alas de dragón (niv. 14) con velocidad de vuelo de 18 m, y Compañero dragón (niv. 18) que mejora el conjuro invocar dragón.",
+        "rasgos": [
+          {
+            "slug": "conjuros-draconicos",
+            "nombre": "Conjuros dracónicos",
+            "nivel": 3,
+            "descripcion": "Siempre tienes preparados ciertos conjuros al alcanzar los niveles indicados: nivel 3, aliento de dragón, alterar el propio aspecto, orbe cromático y orden imperiosa; nivel 5, terror y volar; nivel 7, hechizar monstruo y ojo arcano; nivel 9, conocer las leyendas e invocar dragón."
+          },
+          {
+            "slug": "resistencia-draconica",
+            "nombre": "Resistencia dracónica",
+            "nivel": 3,
+            "descripcion": "Tus puntos de golpe máximos aumentan en 3 y en 1 más por cada nivel de hechicero que subas en el futuro. Además, mientras no lleves armadura, tu clase de armadura base es igual a 10 más tus modificadores por Destreza y Carisma."
+          },
+          {
+            "slug": "afinidad-elemental",
+            "nombre": "Afinidad elemental",
+            "nivel": 6,
+            "descripcion": "Elige un tipo de daño asociado a los dragones (ácido, frío, fuego, relámpago o veneno): tienes resistencia a ese tipo de daño y, cuando lances un conjuro que inflija daño de ese tipo, puedes sumar tu modificador por Carisma a una tirada de daño del conjuro."
+          },
+          {
+            "slug": "alas-de-dragon",
+            "nombre": "Alas de dragón",
+            "nivel": 14,
+            "descripcion": "Como acción adicional, te crecen alas dracónicas que permanecen 1 hora o hasta que las hagas desaparecer (no requiere acción) y te otorgan una velocidad volando de 18 m. Una vez por descanso largo, o restableces su uso gastando 3 puntos de hechicería (no requiere acción)."
+          },
+          {
+            "slug": "companero-dragon",
+            "nombre": "Compañero dragón",
+            "nivel": 18,
+            "descripcion": "Puedes lanzar invocar dragón sin componente material y una vez sin gastar espacio de conjuro por descanso largo. Al empezar a lanzarlo, puedes modificarlo para que no requiera concentración; si lo haces, su duración es de 1 minuto."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        64,
+        70
+      ]
+    },
+    "trucosPorNivel": [
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "conjurosPreparadosPorNivel": [
+      2,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      16,
+      17,
+      17,
+      18,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  {
+    "slug": "mago",
+    "nombre": "Mago",
+    "dadoGolpe": "d6",
+    "caracteristicaPrincipal": "INT",
+    "salvaciones": [
+      "INT",
+      "SAB"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Conocimiento arcano",
+        "Historia",
+        "Investigación",
+        "Medicina",
+        "Naturaleza",
+        "Perspicacia",
+        "Religión"
+      ]
+    },
+    "armaduras": [],
+    "armas": [
+      "Sencillas"
+    ],
+    "lanzador": "completo",
+    "caracteristicaLanzamiento": "INT",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Lanzas conjuros de mago usando INT como aptitud mágica. Conoces tres trucos (recomendados: luz, mano de mago y rayo de escarcha) y aprendes más en los niveles 4 y 10. Mantienes un libro de conjuros (objeto Diminuto de 1,5 kg y 100 páginas) que empieza con seis conjuros de nivel 1; cada vez que subes de nivel añades dos conjuros a tu elección. Preparas conjuros de tu libro según la columna \"Conjuros preparados\" de la tabla y recuperas todos los espacios tras un descanso largo. Puedes usar un canalizador arcano o tu libro de conjuros como canalizador mágico. Tras un descanso largo puedes cambiar trucos y conjuros preparados."
+      },
+      {
+        "slug": "adepto-en-rituales",
+        "nombre": "Adepto en rituales",
+        "nivel": 1,
+        "descripcion": "Puedes lanzar de forma ritual cualquier conjuro de mago marcado como \"ritual\" que figure en tu libro de conjuros, sin necesidad de tenerlo preparado, pero debes leerlo del libro para lanzarlo así."
+      },
+      {
+        "slug": "recuperacion-arcana",
+        "nombre": "Recuperación arcana",
+        "nivel": 1,
+        "descripcion": "Tras un descanso corto puedes recuperar espacios de conjuro gastados estudiando tu libro. La suma de sus niveles debe ser igual o inferior a la mitad de tu nivel de mago (redondeando hacia arriba) y ninguno puede ser de nivel 6 o superior. Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "academico",
+        "nombre": "Académico",
+        "nivel": 2,
+        "descripcion": "Elige una habilidad en la que tengas competencia entre Conocimiento arcano, Historia, Investigación, Medicina, Naturaleza o Religión. Ganas pericia en la habilidad elegida."
+      },
+      {
+        "slug": "subclase-de-mago",
+        "nombre": "Subclase de mago",
+        "nivel": 3,
+        "descripcion": "Consigues una subclase de mago de tu elección (el SRD detalla la subclase de Evocador). De aquí en adelante obtienes todos los rasgos de tu subclase de tu nivel de mago e inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "memorizar-conjuro",
+        "nombre": "Memorizar conjuro",
+        "nivel": 5,
+        "descripcion": "Tras un descanso corto, puedes estudiar tu libro de conjuros y sustituir un conjuro de nivel 1 o superior que tengas preparado con tu rasgo Lanzamiento de conjuros por otro de nivel 1 o superior del libro."
+      },
+      {
+        "slug": "mejora-de-caracteristica-8",
+        "nombre": "Mejora de característica",
+        "nivel": 8,
+        "descripcion": "Obtienes de nuevo el rasgo Mejora de característica: una dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones."
+      },
+      {
+        "slug": "rasgo-de-subclase-10",
+        "nombre": "Rasgo de subclase",
+        "nivel": 10,
+        "descripcion": "Obtienes un rasgo de tu subclase de mago correspondiente al nivel 10."
+      },
+      {
+        "slug": "mejora-de-caracteristica-12",
+        "nombre": "Mejora de característica",
+        "nivel": 12,
+        "descripcion": "Obtienes de nuevo el rasgo Mejora de característica: una dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones."
+      },
+      {
+        "slug": "rasgo-de-subclase-14",
+        "nombre": "Rasgo de subclase",
+        "nivel": 14,
+        "descripcion": "Obtienes un rasgo de tu subclase de mago correspondiente al nivel 14."
+      },
+      {
+        "slug": "mejora-de-caracteristica-16",
+        "nombre": "Mejora de característica",
+        "nivel": 16,
+        "descripcion": "Obtienes de nuevo el rasgo Mejora de característica: una dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones."
+      },
+      {
+        "slug": "maestria-sobre-conjuros",
+        "nombre": "Maestría sobre conjuros",
+        "nivel": 18,
+        "descripcion": "Elige un conjuro de nivel 1 y otro de nivel 2 de tu libro con tiempo de lanzamiento de una acción. Siempre los tienes preparados y puedes lanzarlos a su nivel más bajo sin gastar un espacio de conjuro; para lanzarlos a nivel superior debes gastar uno. Tras un descanso largo puedes sustituir uno de ellos por otro del mismo nivel que cumpla los requisitos."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones (se recomienda Don del recuerdo de conjuros)."
+      },
+      {
+        "slug": "conjuros-caracteristicos",
+        "nombre": "Conjuros característicos",
+        "nivel": 20,
+        "descripcion": "Escoge dos conjuros de nivel 3 de tu libro como conjuros característicos. Siempre los tienes preparados y puedes lanzar cada uno una vez a nivel 3 sin gastar un espacio de conjuro; tras lanzarlo no puedes volver a hacerlo así hasta finalizar un descanso corto o largo. Para lanzarlos a nivel superior debes gastar un espacio de conjuro."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "evocador",
+        "nombre": "Evocador",
+        "descripcion": "Mago especializado en magia de evocación para crear potentes efectos elementales (frío, llamas, ácidos, truenos y relámpagos). Rasgos: Experto en evocación (nivel 3), que añade conjuros de evocación a tu libro sin coste; Truco potente (nivel 3), por el que tus trucos de daño causan la mitad del daño al fallar el ataque o cuando el objetivo supera la salvación; Esculpir conjuros (nivel 6), que permite proteger a 1 más el nivel del conjuro criaturas de tus evocaciones; y Evocación potenciada (nivel 10), que suma tu modificador por INT a una tirada de daño de tus conjuros de evocación.",
+        "rasgos": [
+          {
+            "slug": "experto-en-evocacion",
+            "nombre": "Experto en evocación",
+            "nivel": 3,
+            "descripcion": "Eliges dos conjuros de mago de la escuela de evocación de nivel 2 o inferior y los añades a tu libro de conjuros sin coste. Además, siempre que consigas un nuevo nivel de espacios de conjuro de esta clase, puedes añadir un conjuro de evocación de mago a tu libro sin coste, de un nivel para el que tengas espacios."
+          },
+          {
+            "slug": "truco-potente",
+            "nombre": "Truco potente",
+            "nivel": 3,
+            "descripcion": "Cuando lances un truco a una criatura y falles la tirada de ataque o el objetivo supere la tirada de salvación, el objetivo recibe la mitad del daño del truco (si causa alguno), pero no sufre ningún otro de sus efectos adicionales."
+          },
+          {
+            "slug": "esculpir-conjuros",
+            "nombre": "Esculpir conjuros",
+            "nivel": 6,
+            "descripcion": "Cuando lances un conjuro de evocación que afecte a otras criaturas que puedas ver, puedes elegir una cantidad de ellas igual a 1 más el nivel del conjuro: tienen éxito automáticamente en sus tiradas de salvación contra el conjuro y no reciben daño si normalmente recibirían la mitad al superar la salvación."
+          },
+          {
+            "slug": "evocacion-potenciada",
+            "nombre": "Evocación potenciada",
+            "nivel": 10,
+            "descripcion": "Siempre que lances un conjuro de mago de la escuela de evocación, puedes sumar tu modificador por Inteligencia a una tirada de daño del conjuro."
+          },
+          {
+            "slug": "sobrecanalizar",
+            "nombre": "Sobrecanalizar",
+            "nivel": 14,
+            "descripcion": "Cuando lances un conjuro de mago que cause daño usando un espacio de conjuro de niveles 1 a 5, puedes infligir el máximo daño posible el turno en que lo lanzas. La primera vez por descanso largo no hay efecto negativo; cada uso posterior sin descanso largo te inflige 2d12 de daño necrótico por nivel del espacio (que ignora resistencias e inmunidades), aumentando en 1d12 con cada uso adicional."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        71,
+        76
+      ]
+    },
+    "trucosPorNivel": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "conjurosPreparadosPorNivel": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  },
+  {
+    "slug": "monje",
+    "nombre": "Monje",
+    "dadoGolpe": "d8",
+    "caracteristicaPrincipal": "DES",
+    "salvaciones": [
+      "FUE",
+      "DES"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Acrobacias",
+        "Atletismo",
+        "Historia",
+        "Perspicacia",
+        "Religión",
+        "Sigilo"
+      ]
+    },
+    "armaduras": [],
+    "armas": [
+      "Sencillas",
+      "Marciales ligeras"
+    ],
+    "lanzador": "ninguno",
+    "caracteristicaLanzamiento": null,
+    "formulasCA": [
+      "monje"
+    ],
+    "rasgosPorNivel": [
+      {
+        "slug": "artes-marciales",
+        "nombre": "Artes marciales",
+        "nivel": 1,
+        "descripcion": "Mientras no lleves armadura ni escudo y estés desarmado o uses armas de monje (cuerpo a cuerpo sencillas o marciales ligeras), obtienes beneficios. Puedes hacer un ataque sin armas como acción adicional. Tu dado de Artes marciales (1d6 en nivel 1, escala hasta 1d12) sustituye el daño de tus ataques sin armas y armas de monje. Puedes usar DES en lugar de FUE para ataque y daño con esas armas, y para la CD de agarre o empujón."
+      },
+      {
+        "slug": "defensa-sin-armadura",
+        "nombre": "Defensa sin armadura",
+        "nivel": 1,
+        "descripcion": "Mientras no lleves armadura ni escudo, tu CA base es igual a 10 más tus modificadores por DES y SAB."
+      },
+      {
+        "slug": "concentracion-de-monje",
+        "nombre": "Concentración de monje",
+        "nivel": 2,
+        "descripcion": "Obtienes puntos de concentración (según tu nivel) que se recuperan tras un descanso corto o largo. La CD de salvación de tus rasgos es 8 + mod. por SAB + bonificador por competencia. Empiezas con tres rasgos: Defensa paciente (acción adicional para destrabarse; gasta 1 punto para destrabarse y esquivar), Paso del viento (acción adicional para correr; gasta 1 punto para destrabarse y correr, duplicando tu salto), y Ráfaga de golpes (gasta 1 punto para hacer dos ataques sin armas como acción adicional)."
+      },
+      {
+        "slug": "metabolismo-asombroso",
+        "nombre": "Metabolismo asombroso",
+        "nivel": 2,
+        "descripcion": "Al tirar iniciativa puedes recuperar todos los puntos de concentración gastados; al hacerlo, tira tu dado de Artes marciales y recuperas PG iguales a tu nivel de monje más el resultado. No puedes repetirlo hasta finalizar un descanso largo."
+      },
+      {
+        "slug": "movimiento-sin-armadura",
+        "nombre": "Movimiento sin armadura",
+        "nivel": 2,
+        "descripcion": "Tu velocidad aumenta en 3 m si no llevas armadura ni escudo. Esta bonificación crece al subir de nivel (hasta +9 m en nivel 18)."
+      },
+      {
+        "slug": "desviar-ataques",
+        "nombre": "Desviar ataques",
+        "nivel": 3,
+        "descripcion": "Cuando un ataque te acierte con daño contundente, cortante o perforante, puedes usar tu reacción para reducir el daño en 1d10 + mod. por DES + tu nivel de monje. Si lo reduces a 0, puedes gastar 1 punto de concentración para redirigir la fuerza: una criatura (a 1,5 m si cuerpo a cuerpo, o a 18 m sin cobertura completa si a distancia) debe superar una salvación de DES o sufre el doble de tu dado de Artes marciales + mod. por DES del mismo tipo de daño."
+      },
+      {
+        "slug": "subclase-de-monje",
+        "nombre": "Subclase de monje",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de monje (Guerrero de la mano abierta en el SRD). Obtienes sus rasgos en los niveles de monje correspondientes."
+      },
+      {
+        "slug": "caida-lenta",
+        "nombre": "Caída lenta",
+        "nivel": 4,
+        "descripcion": "Como reacción al caer, reduces el daño de la caída en una cantidad igual a cinco veces tu nivel de monje."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "ataque-adicional",
+        "nombre": "Ataque adicional",
+        "nivel": 5,
+        "descripcion": "Cuando llevas a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+      },
+      {
+        "slug": "golpe-aturdidor",
+        "nombre": "Golpe aturdidor",
+        "nivel": 5,
+        "descripcion": "Una vez por turno, al acertar con un arma de monje o ataque sin armas, puedes gastar 1 punto de concentración: el objetivo hace una salvación de CON. Si la falla, queda aturdido hasta el inicio de tu siguiente turno; si la supera, su velocidad se reduce a la mitad y el siguiente ataque contra él antes de ese momento tiene ventaja."
+      },
+      {
+        "slug": "golpes-potenciados",
+        "nombre": "Golpes potenciados",
+        "nivel": 6,
+        "descripcion": "Siempre que inflijas daño con tu ataque sin armas, puedes elegir entre causar daño de fuerza o su tipo de daño normal."
+      },
+      {
+        "slug": "evasion",
+        "nombre": "Evasión",
+        "nivel": 7,
+        "descripcion": "Cuando un efecto te permita una salvación de DES para sufrir la mitad de daño, no recibes daño si la superas y solo la mitad si la fallas. No te beneficias si estás incapacitado."
+      },
+      {
+        "slug": "mejora-de-caracteristica-8",
+        "nombre": "Mejora de característica",
+        "nivel": 8,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos."
+      },
+      {
+        "slug": "movimiento-acrobatico",
+        "nombre": "Movimiento acrobático",
+        "nivel": 9,
+        "descripcion": "Mientras no lleves armadura ni escudo, puedes moverte por superficies verticales y sobre líquidos sin caer durante el movimiento."
+      },
+      {
+        "slug": "autorrestablecimiento",
+        "nombre": "Autorrestablecimiento",
+        "nivel": 10,
+        "descripcion": "Al final de cada uno de tus turnos puedes eliminar uno de los siguientes estados que te afecten: asustado, envenenado o hechizado. Además, privarte de comida y bebida no te aplica niveles de cansancio."
+      },
+      {
+        "slug": "concentracion-agudizada",
+        "nombre": "Concentración agudizada",
+        "nivel": 10,
+        "descripcion": "Mejora tus rasgos básicos. Defensa paciente: al gastar un punto obtienes PG temporales iguales al doble de tu dado de Artes marciales. Paso del viento: puedes mover contigo a una criatura voluntaria Grande o menor a 1,5 m sin provocar ataques de oportunidad. Ráfaga de golpes: puedes gastar 1 punto para hacer tres ataques sin armas en lugar de dos."
+      },
+      {
+        "slug": "rasgo-de-subclase-11",
+        "nombre": "Rasgo de subclase",
+        "nivel": 11,
+        "descripcion": "Obtienes un rasgo de tu subclase de monje correspondiente al nivel 11."
+      },
+      {
+        "slug": "mejora-de-caracteristica-12",
+        "nombre": "Mejora de característica",
+        "nivel": 12,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos."
+      },
+      {
+        "slug": "desviar-energia",
+        "nombre": "Desviar energía",
+        "nivel": 13,
+        "descripcion": "Ahora puedes usar tu rasgo Desviar ataques contra ataques de cualquier tipo de daño, no solo contundente, cortante o perforante."
+      },
+      {
+        "slug": "superviviente-disciplinado",
+        "nombre": "Superviviente disciplinado",
+        "nivel": 14,
+        "descripcion": "Obtienes competencia en todas las tiradas de salvación. Además, cuando falles una salvación puedes gastar 1 punto de concentración para repetirla, usando el nuevo resultado."
+      },
+      {
+        "slug": "concentracion-perfecta",
+        "nombre": "Concentración perfecta",
+        "nivel": 15,
+        "descripcion": "Cuando tires iniciativa y no uses Metabolismo asombroso, recuperas puntos de concentración hasta tener 4 si te quedan 3 o menos."
+      },
+      {
+        "slug": "mejora-de-caracteristica-16",
+        "nombre": "Mejora de característica",
+        "nivel": 16,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos."
+      },
+      {
+        "slug": "rasgo-de-subclase-17",
+        "nombre": "Rasgo de subclase",
+        "nivel": 17,
+        "descripcion": "Obtienes un rasgo de tu subclase de monje correspondiente al nivel 17."
+      },
+      {
+        "slug": "defensa-superior",
+        "nombre": "Defensa superior",
+        "nivel": 18,
+        "descripcion": "Al principio de tu turno puedes gastar 3 puntos de concentración para tener resistencia a todo el daño excepto al de fuerza durante 1 minuto o hasta que quedes incapacitado."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don del ataque imparable."
+      },
+      {
+        "slug": "cuerpo-y-mente",
+        "nombre": "Cuerpo y mente",
+        "nivel": 20,
+        "descripcion": "Tus puntuaciones de DES y SAB aumentan en 4, hasta un máximo de 25."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "guerrero-de-la-mano-abierta",
+        "nombre": "Guerrero de la mano abierta",
+        "descripcion": "Maestros del combate sin armas que dominan técnicas para empujar y derribar adversarios y canalizan su energía. Rasgos: Técnica de la mano abierta (nivel 3: al acertar con un ataque de Ráfaga de golpes impones Derribar [salvación DES o derribado], Desconcertar [sin ataques de oportunidad] o Empujar [salvación FUE o empujado 4,5 m]); Paso veloz (nivel 11: tras una acción adicional que no sea Paso del viento, puedes usar también Paso del viento); Palma estremecedora (nivel 17: al acertar con un ataque sin armas gastas 4 puntos de concentración para iniciar vibraciones que duran tantos días como tu nivel; al terminarlas, el objetivo hace una salvación de CON y sufre 10d12 de daño de fuerza, mitad si la supera).",
+        "rasgos": [
+          {
+            "slug": "tecnica-de-la-mano-abierta",
+            "nombre": "Técnica de la mano abierta",
+            "nivel": 3,
+            "descripcion": "Siempre que aciertes a una criatura con un ataque de Ráfaga de golpes, puedes imponerle uno de estos efectos: Derribar (salvación de Destreza o queda derribado), Desconcertar (no puede realizar ataques de oportunidad hasta el principio de su siguiente turno) o Empujar (salvación de Fuerza o es empujado hasta 4,5 m)."
+          },
+          {
+            "slug": "plenitud-de-cuerpo",
+            "nombre": "Plenitud de cuerpo",
+            "nivel": 6,
+            "descripcion": "Como acción adicional, tiras tu dado de Artes marciales y recuperas puntos de golpe iguales al resultado más tu modificador por Sabiduría (mínimo 1). Usos por descanso largo iguales a tu modificador por Sabiduría (mínimo uno)."
+          },
+          {
+            "slug": "paso-veloz",
+            "nombre": "Paso veloz",
+            "nivel": 11,
+            "descripcion": "Cuando utilices una acción adicional que no sea Paso del viento, puedes usar también Paso del viento inmediatamente después de esa acción adicional."
+          },
+          {
+            "slug": "palma-estremecedora",
+            "nombre": "Palma estremecedora",
+            "nivel": 17,
+            "descripcion": "Cuando aciertes con un ataque sin armas, puedes gastar 4 puntos de concentración para iniciar vibraciones imperceptibles que duran tantos días como tu nivel de monje. Al ponerles fin (con tu acción o renunciando a un ataque), el objetivo hace una salvación de Constitución y sufre 10d12 de daño de fuerza, o la mitad si la supera. Solo una criatura puede estar bajo este efecto a la vez."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        77,
+        80
+      ]
+    },
+    "trucosPorNivel": null,
+    "conjurosPreparadosPorNivel": null
+  },
+  {
+    "slug": "paladin",
+    "nombre": "Paladín",
+    "dadoGolpe": "d10",
+    "caracteristicaPrincipal": "FUE",
+    "salvaciones": [
+      "SAB",
+      "CAR"
+    ],
+    "competenciasHabilidades": {
+      "elige": 2,
+      "opciones": [
+        "Atletismo",
+        "Intimidación",
+        "Medicina",
+        "Perspicacia",
+        "Persuasión",
+        "Religión"
+      ]
+    },
+    "armaduras": [
+      "Ligeras",
+      "Medias",
+      "Pesadas",
+      "Escudos"
+    ],
+    "armas": [
+      "Sencillas",
+      "Marciales"
+    ],
+    "lanzador": "semi",
+    "caracteristicaLanzamiento": "CAR",
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "imponer-las-manos",
+        "nombre": "Imponer las manos",
+        "nivel": 1,
+        "descripcion": "Tienes una reserva de curación que se recarga tras un descanso largo, igual a cinco veces tu nivel de paladín en puntos de golpe. Como acción adicional, tocas a una criatura (puedes ser tú) y le restauras puntos de golpe hasta el máximo que quede en la reserva. También puedes gastar 5 puntos de la reserva para eliminar el estado de envenenada, sin que esos puntos restauren PG."
+      },
+      {
+        "slug": "lanzamiento-de-conjuros",
+        "nombre": "Lanzamiento de conjuros",
+        "nivel": 1,
+        "descripcion": "Lanzas conjuros de paladín mediante oración y meditación. Preparas conjuros de nivel 1 y superiores de la lista de paladín (empiezas con dos de nivel 1) y recuperas todos los espacios tras un descanso largo. El Carisma es tu aptitud mágica y la CD de salvación de tus conjuros. Puedes usar un símbolo sagrado como canalizador mágico y cambiar conjuros preparados tras un descanso largo."
+      },
+      {
+        "slug": "maestria-con-armas",
+        "nombre": "Maestría con armas",
+        "nivel": 1,
+        "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia (como espadas largas y jabalinas). Tras un descanso largo, puedes cambiar los tipos de armas elegidas."
+      },
+      {
+        "slug": "castigo-de-paladin",
+        "nombre": "Castigo de paladín",
+        "nivel": 2,
+        "descripcion": "Siempre tienes preparado el conjuro castigo divino. Además, puedes lanzarlo sin gastar un espacio de conjuro una vez, recuperando esa capacidad tras finalizar un descanso largo."
+      },
+      {
+        "slug": "estilo-de-combate",
+        "nombre": "Estilo de combate",
+        "nivel": 2,
+        "descripcion": "Obtienes una dote de estilo de combate de tu elección. En su lugar puedes elegir Guerrero bendito: aprendes dos trucos de clérigo (se recomiendan guía y llama sagrada) que cuentan como conjuros de paladín y usan Carisma como aptitud mágica; cada vez que subas de nivel puedes sustituir uno de esos trucos."
+      },
+      {
+        "slug": "canalizar-divinidad",
+        "nombre": "Canalizar divinidad",
+        "nivel": 3,
+        "descripcion": "Canalizas energía divina de los Planos Exteriores para alimentar efectos mágicos, empezando con Sentidos divinos. Tienes dos usos (tres en nivel 11); recuperas uno tras un descanso corto y todos tras un descanso largo. Si un efecto requiere salvación, la CD es la de tus conjuros. Sentidos divinos: como acción adicional, durante 10 minutos detectas celestiales, infernales y muertos vivientes a 18 m o menos, así como lugares u objetos consagrados o profanados."
+      },
+      {
+        "slug": "subclase-de-paladin",
+        "nombre": "Subclase de paladín",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de paladín (el SRD detalla el Juramento de entrega), una especialización que te otorga rasgos a ciertos niveles de paladín. A partir de aquí obtienes todos los rasgos de tu subclase de tu nivel o inferiores."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+      },
+      {
+        "slug": "ataque-adicional",
+        "nombre": "Ataque adicional",
+        "nivel": 5,
+        "descripcion": "Cuando llevas a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+      },
+      {
+        "slug": "corcel-fiel",
+        "nombre": "Corcel fiel",
+        "nivel": 5,
+        "descripcion": "Siempre tienes preparado el conjuro hallar corcel. También puedes lanzarlo una vez sin gastar un espacio de conjuro, recuperando esa capacidad tras un descanso largo."
+      },
+      {
+        "slug": "aura-de-proteccion",
+        "nombre": "Aura de protección",
+        "nivel": 6,
+        "descripcion": "Irradias un aura protectora invisible en una emanación de 3 m (inactiva si estás incapacitado). Tus aliados dentro del aura y tú obtenéis un bonificador a las tiradas de salvación igual a tu modificador por Carisma (mínimo +1). Con otro paladín presente, una criatura solo se beneficia de un Aura de protección a la vez."
+      },
+      {
+        "slug": "rasgo-de-subclase-7",
+        "nombre": "Rasgo de subclase",
+        "nivel": 7,
+        "descripcion": "Obtienes un rasgo otorgado por tu subclase de paladín al alcanzar el nivel 7."
+      },
+      {
+        "slug": "abjurar-de-los-enemigos",
+        "nombre": "Abjurar de los enemigos",
+        "nivel": 9,
+        "descripcion": "Como acción de magia, gastas un uso de Canalizar divinidad para hacer objetivo, mientras muestras tu símbolo sagrado o arma, a tantas criaturas que veas a 18 m o menos como tu modificador por Carisma (mínimo una). Cada objetivo supera una salvación de Sabiduría o queda asustado durante 1 minuto o hasta recibir daño; mientras esté asustado así, solo puede hacer una acción de entre moverse, realizar una acción o una acción adicional en sus turnos."
+      },
+      {
+        "slug": "aura-de-coraje",
+        "nombre": "Aura de coraje",
+        "nivel": 10,
+        "descripcion": "Tus aliados y tú tenéis inmunidad al estado de asustados mientras estéis dentro de tu Aura de protección. Si un aliado asustado entra en el aura, ese estado no le afecta mientras esté dentro."
+      },
+      {
+        "slug": "golpes-radiantes",
+        "nombre": "Golpes radiantes",
+        "nivel": 11,
+        "descripcion": "Cuando aciertas a un objetivo con una tirada de ataque usando un arma cuerpo a cuerpo o un ataque sin armas, el objetivo recibe 1d8 de daño radiante adicional."
+      },
+      {
+        "slug": "mejora-de-caracteristica-12",
+        "nombre": "Mejora de característica",
+        "nivel": 12,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones (rasgo repetido de nivel 4)."
+      },
+      {
+        "slug": "toque-reparador",
+        "nombre": "Toque reparador",
+        "nivel": 14,
+        "descripcion": "Cuando usas Imponer las manos sobre una criatura, también puedes eliminar uno o más de los estados: asustado, aturdido, cegado, ensordecido, hechizado o paralizado. Gastas 5 puntos de la reserva de curación por cada estado eliminado, sin que esos puntos restauren PG."
+      },
+      {
+        "slug": "rasgo-de-subclase-15",
+        "nombre": "Rasgo de subclase",
+        "nivel": 15,
+        "descripcion": "Obtienes un rasgo otorgado por tu subclase de paladín al alcanzar el nivel 15."
+      },
+      {
+        "slug": "mejora-de-caracteristica-16",
+        "nombre": "Mejora de característica",
+        "nivel": 16,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones (rasgo repetido de nivel 4)."
+      },
+      {
+        "slug": "expansion-de-aura",
+        "nombre": "Expansión de aura",
+        "nivel": 18,
+        "descripcion": "Tu Aura de protección ahora es una emanación de 9 m."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don de la visión verdadera."
+      },
+      {
+        "slug": "rasgo-de-subclase-20",
+        "nombre": "Rasgo de subclase",
+        "nivel": 20,
+        "descripcion": "Obtienes un rasgo otorgado por tu subclase de paladín al alcanzar el nivel 20."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "juramento-de-entrega",
+        "nombre": "Juramento de entrega",
+        "descripcion": "Subclase que vincula al paladín con los ideales de la justicia y el orden, encarnando al caballero de brillante armadura. Otorga conjuros preparados de juramento (niveles 3, 5, 9, 13 y 17) y los rasgos: Arma sagrada (nivel 3, gasta Canalizar divinidad para imbuir un arma cuerpo a cuerpo, sumando tu modificador por Carisma al ataque y eligiendo daño normal o radiante, además de emitir luz), Aura de entrega (nivel 7, inmunidad al estado de hechizados dentro del Aura de protección), Castigo protector (nivel 15, al lanzar castigo divino otorgas cobertura media a aliados y a ti dentro del aura hasta tu siguiente turno) y Halo sagrado (nivel 20, como acción adicional imbuyes el aura de poder divino durante 10 minutos: daño radiante a enemigos que comiencen su turno dentro, luz solar y ventaja en salvaciones forzadas por infernales o muertos vivientes).",
+        "rasgos": [
+          {
+            "slug": "arma-sagrada",
+            "nombre": "Arma sagrada",
+            "nivel": 3,
+            "descripcion": "Cuando realizas la acción de atacar, puedes gastar un uso de Canalizar divinidad para imbuir de energía positiva un arma cuerpo a cuerpo durante 10 minutos: sumas tu modificador por Carisma a las tiradas de ataque con ella (mínimo +1), cada impacto puede infligir su daño normal o daño radiante, y el arma emite luz brillante en un radio de 6 m y luz tenue 6 m más allá."
+          },
+          {
+            "slug": "conjuros-del-juramento-de-entrega",
+            "nombre": "Conjuros del juramento de entrega",
+            "nivel": 3,
+            "descripcion": "Siempre tienes preparados ciertos conjuros al alcanzar los niveles indicados: nivel 3, escudo de fe y protección contra el bien y el mal; nivel 5, auxilio y zona de la verdad; nivel 9, disipar magia y señal de esperanza; nivel 13, guardián de la fe y libertad de movimiento; nivel 17, comunión y golpe flamígero."
+          },
+          {
+            "slug": "aura-de-entrega",
+            "nombre": "Aura de entrega",
+            "nivel": 7,
+            "descripcion": "Tus aliados y tú tenéis inmunidad al estado de hechizados mientras estéis dentro de tu Aura de protección; si un aliado hechizado entra en el aura, ese estado no tiene efecto en él mientras esté dentro."
+          },
+          {
+            "slug": "castigo-protector",
+            "nombre": "Castigo protector",
+            "nivel": 15,
+            "descripcion": "Siempre que lances castigo divino, tus aliados y tú tenéis cobertura media mientras estéis dentro de tu Aura de protección, hasta el principio de tu siguiente turno."
+          },
+          {
+            "slug": "halo-sagrado",
+            "nombre": "Halo sagrado",
+            "nivel": 20,
+            "descripcion": "Como acción adicional, imbuyes de poder divino tu Aura de protección durante 10 minutos: los enemigos que comiencen su turno dentro reciben daño radiante igual a tu modificador por Carisma más tu bonificador por competencia, el aura se llena de luz brillante del sol y tienes ventaja en las salvaciones que te obliguen a hacer infernales o muertos vivientes. Una vez por descanso largo, o restableces su uso gastando un espacio de conjuro de nivel 5."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        81,
+        85
+      ]
+    },
+    "trucosPorNivel": null,
+    "conjurosPreparadosPorNivel": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      7,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      12,
+      12,
+      14,
+      14,
+      15,
+      15
+    ]
+  },
+  {
+    "slug": "picaro",
+    "nombre": "Pícaro",
+    "dadoGolpe": "d8",
+    "caracteristicaPrincipal": "DES",
+    "salvaciones": [
+      "DES",
+      "INT"
+    ],
+    "competenciasHabilidades": {
+      "elige": 4,
+      "opciones": [
+        "Acrobacias",
+        "Atletismo",
+        "Engaño",
+        "Intimidación",
+        "Investigación",
+        "Juego de manos",
+        "Percepción",
+        "Perspicacia",
+        "Persuasión",
+        "Sigilo"
+      ]
+    },
+    "armaduras": [
+      "Ligeras"
+    ],
+    "armas": [
+      "Sencillas",
+      "Marciales ligeras o sutiles"
+    ],
+    "lanzador": "ninguno",
+    "caracteristicaLanzamiento": null,
+    "formulasCA": [],
+    "rasgosPorNivel": [
+      {
+        "slug": "ataque-furtivo",
+        "nombre": "Ataque furtivo",
+        "nivel": 1,
+        "descripcion": "Una vez por turno, infliges daño adicional a una criatura a la que aciertes con un arma sutil o a distancia si tienes ventaja en la tirada, o si un aliado no incapacitado está a 1,5 m o menos del objetivo y no sufres desventaja. El daño es del mismo tipo que el del arma y comienza en 1d6, aumentando con el nivel hasta 10d6."
+      },
+      {
+        "slug": "jerga-de-ladrones",
+        "nombre": "Jerga de ladrones",
+        "nivel": 1,
+        "descripcion": "Conoces la jerga de ladrones y otro idioma de tu elección de las tablas de idiomas del capítulo de creación de personajes."
+      },
+      {
+        "slug": "maestria-con-armas",
+        "nombre": "Maestría con armas",
+        "nivel": 1,
+        "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas con las que tengas competencia (p. ej. dagas y arcos cortos). Tras un descanso largo puedes cambiar los tipos de armas elegidas."
+      },
+      {
+        "slug": "pericia",
+        "nombre": "Pericia",
+        "nivel": 1,
+        "descripcion": "Ganas pericia en dos de tus competencias en habilidades de tu elección (se recomiendan Juego de manos y Sigilo). En el nivel 6 ganas pericia en otras dos competencias en habilidades."
+      },
+      {
+        "slug": "accion-astuta",
+        "nombre": "Acción astuta",
+        "nivel": 2,
+        "descripcion": "En tu turno puedes realizar como acción adicional una de estas acciones: correr, destrabarse o esconderse. Alternativamente, como acción adicional te concedes ventaja en tu siguiente tirada de ataque del turno, solo si no te has movido; tras usarlo tu velocidad es 0 hasta el final del turno."
+      },
+      {
+        "slug": "punteria-certera",
+        "nombre": "Puntería certera",
+        "nivel": 3,
+        "descripcion": "Rasgo de nivel 3 del pícaro asociado a su elección de subclase (aparece junto a la subclase de pícaro en la tabla de rasgos)."
+      },
+      {
+        "slug": "subclase-de-picaro",
+        "nombre": "Subclase de pícaro",
+        "nivel": 3,
+        "descripcion": "Eliges una subclase de pícaro (la de ladrón se detalla tras la clase). Obtienes sus rasgos de tu nivel de pícaro e inferiores conforme avanzas."
+      },
+      {
+        "slug": "mejora-de-caracteristica",
+        "nombre": "Mejora de característica",
+        "nivel": 4,
+        "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16."
+      },
+      {
+        "slug": "esquiva-asombrosa",
+        "nombre": "Esquiva asombrosa",
+        "nivel": 5,
+        "descripcion": "Cuando un atacante que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir a la mitad el daño que te causa (redondeando hacia abajo)."
+      },
+      {
+        "slug": "golpe-astuto",
+        "nombre": "Golpe astuto",
+        "nivel": 5,
+        "descripcion": "Cuando inflijes daño de Ataque furtivo, puedes añadir un efecto de Golpe astuto renunciando a dados de daño según su coste (retirados antes de tirar). La CD de salvación es 8 + tu mod. por DES + tu bonificador por competencia, y debes llevar útiles de envenenador. Opciones: Retirada (1d6, te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad), Tropiezo (1d6, salvación de DES o derribado), Veneno (1d6, salvación de CON o envenenado durante 1 minuto, repitiendo al final de cada turno)."
+      },
+      {
+        "slug": "pericia-6",
+        "nombre": "Pericia",
+        "nivel": 6,
+        "descripcion": "Ganas pericia en otras dos de tus competencias en habilidades de tu elección."
+      },
+      {
+        "slug": "evasion",
+        "nombre": "Evasión",
+        "nivel": 7,
+        "descripcion": "Cuando un efecto te permita una tirada de salvación de DES para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo la mitad si la fallas. No puedes usarlo si estás incapacitado."
+      },
+      {
+        "slug": "talentos-fiables",
+        "nombre": "Talentos fiables",
+        "nivel": 7,
+        "descripcion": "Al hacer una prueba de característica que use una de tus competencias en habilidades o con herramientas, puedes sustituir un resultado de 9 o menos en el d20 por un 10."
+      },
+      {
+        "slug": "rasgo-de-subclase-9",
+        "nombre": "Rasgo de subclase",
+        "nivel": 9,
+        "descripcion": "Obtienes el rasgo de nivel 9 de tu subclase de pícaro."
+      },
+      {
+        "slug": "golpe-astuto-mejorado",
+        "nombre": "Golpe astuto mejorado",
+        "nivel": 11,
+        "descripcion": "Puedes usar hasta dos efectos de Golpe astuto cuando inflijas daño de Ataque furtivo, pagando el coste en dados por cada efecto."
+      },
+      {
+        "slug": "rasgo-de-subclase-13",
+        "nombre": "Rasgo de subclase",
+        "nivel": 13,
+        "descripcion": "Obtienes el rasgo de nivel 13 de tu subclase de pícaro."
+      },
+      {
+        "slug": "golpes-taimados",
+        "nombre": "Golpes taimados",
+        "nivel": 14,
+        "descripcion": "Se añaden nuevas opciones de Golpe astuto: Confundir (2d6, salvación de CON o el objetivo solo podrá moverse, realizar una acción o una acción adicional en su próximo turno), Noquear (6d6, salvación de CON o inconsciente durante 1 minuto o hasta recibir daño, repitiendo al final de cada turno) y Ofuscar (3d6, salvación de DES o cegado hasta el final de su siguiente turno)."
+      },
+      {
+        "slug": "mente-escurridiza",
+        "nombre": "Mente escurridiza",
+        "nivel": 15,
+        "descripcion": "Ganas competencia en las tiradas de salvación de Sabiduría y Carisma."
+      },
+      {
+        "slug": "rasgo-de-subclase-17",
+        "nombre": "Rasgo de subclase",
+        "nivel": 17,
+        "descripcion": "Obtienes el rasgo de nivel 17 de tu subclase de pícaro."
+      },
+      {
+        "slug": "elusivo",
+        "nombre": "Elusivo",
+        "nivel": 18,
+        "descripcion": "Ninguna tirada de ataque contra ti tendrá ventaja a menos que tengas el estado de incapacitado."
+      },
+      {
+        "slug": "don-epico",
+        "nombre": "Don épico",
+        "nivel": 19,
+        "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones (se recomienda Don del espíritu de la noche)."
+      },
+      {
+        "slug": "golpe-de-suerte",
+        "nombre": "Golpe de suerte",
+        "nivel": 20,
+        "descripcion": "Si fallas una prueba con d20, puedes convertir el resultado de la tirada en un 20. Tras usarlo, no podrás volver a hacerlo hasta finalizar un descanso corto o largo."
+      }
+    ],
+    "subclases": [
+      {
+        "slug": "ladron",
+        "nombre": "Ladrón",
+        "descripcion": "Mezcla de ladrón, cazatesoros y explorador, el arquetipo del aventurero clásico que mejora agilidad, sigilo y exploración de ruinas. Rasgos: Balconero (nivel 3: velocidad trepando igual a tu velocidad y saltos con DES en lugar de FUE) y Manos rápidas (nivel 3: como acción adicional, Juego de manos para robar/forzar cerraduras/desarmar trampas, o usar un objeto mágico que requiera una acción); Sigilo supremo (nivel 9: opción de Golpe astuto Ataque sigiloso, coste 1d6, mantiene el estado de invisible tras esconderse si terminas el turno con cobertura tres cuartos o completa); Usar objetos mágicos (nivel 13: 1d6 para no gastar cargas con un 6, usar pergaminos de conjuro con INT, y sintonizarte con hasta cuatro objetos mágicos); Reflejos de ladrón (nivel 17: actúas dos turnos en el primer asalto, el segundo en tu iniciativa menos 10).",
+        "rasgos": [
+          {
+            "slug": "balconero",
+            "nombre": "Balconero",
+            "nivel": 3,
+            "descripcion": "Te has entrenado para llegar a lugares difíciles de alcanzar: obtienes una velocidad trepando igual a tu velocidad y puedes determinar tu distancia de salto empleando tu Destreza en lugar de tu Fuerza."
+          },
+          {
+            "slug": "manos-rapidas",
+            "nombre": "Manos rápidas",
+            "nivel": 3,
+            "descripcion": "Como acción adicional, puedes hacer una prueba de Destreza (Juego de manos) para robarle a alguien o usar herramientas de ladrón para forzar una cerradura o desarmar una trampa, o emplear la acción de utilizar o de magia para usar un objeto mágico que necesite una acción."
+          },
+          {
+            "slug": "sigilo-supremo",
+            "nombre": "Sigilo supremo",
+            "nivel": 9,
+            "descripcion": "Obtienes la opción de Golpe astuto Ataque sigiloso (coste: 1d6): si tienes el estado de invisible por una acción de esconderse, el ataque no pone fin a ese estado si terminas el turno tras una cobertura tres cuartos o completa."
+          },
+          {
+            "slug": "usar-objetos-magicos",
+            "nombre": "Usar objetos mágicos",
+            "nivel": 13,
+            "descripcion": "Cuando uses una propiedad de objeto mágico que gaste cargas, tira 1d6: con un 6 no gastas cargas. Puedes usar cualquier pergamino de conjuro empleando la Inteligencia como aptitud mágica (los de nivel 1 o trucos de forma fiable; los de mayor nivel requieren superar una prueba de Inteligencia (Conocimiento arcano) CD 10 + nivel del conjuro o el pergamino se desintegra). Puedes sintonizarte con hasta cuatro objetos mágicos a la vez."
+          },
+          {
+            "slug": "reflejos-de-ladron",
+            "nombre": "Reflejos de ladrón",
+            "nivel": 17,
+            "descripcion": "Puedes actuar dos turnos durante el primer asalto de cualquier combate: el primero según tu iniciativa normal y el segundo en tu iniciativa menos 10."
+          }
+        ]
+      }
+    ],
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        86,
+        88
+      ]
+    },
+    "trucosPorNivel": null,
+    "conjurosPreparadosPorNivel": null
+  }
+]

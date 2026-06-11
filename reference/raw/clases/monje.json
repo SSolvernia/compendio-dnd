@@ -1,0 +1,217 @@
+{
+  "slug": "monje",
+  "nombre": "Monje",
+  "dadoGolpe": "d8",
+  "caracteristicaPrincipal": "DES",
+  "salvaciones": ["FUE", "DES"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": ["Acrobacias", "Atletismo", "Historia", "Perspicacia", "Religión", "Sigilo"]
+  },
+  "armaduras": [],
+  "armas": ["Sencillas", "Marciales ligeras"],
+  "lanzador": "ninguno",
+  "caracteristicaLanzamiento": null,
+  "formulasCA": ["monje"],
+  "rasgosPorNivel": [
+    {
+      "slug": "artes-marciales",
+      "nombre": "Artes marciales",
+      "nivel": 1,
+      "descripcion": "Mientras no lleves armadura ni escudo y estés desarmado o uses armas de monje (cuerpo a cuerpo sencillas o marciales ligeras), obtienes beneficios. Puedes hacer un ataque sin armas como acción adicional. Tu dado de Artes marciales (1d6 en nivel 1, escala hasta 1d12) sustituye el daño de tus ataques sin armas y armas de monje. Puedes usar DES en lugar de FUE para ataque y daño con esas armas, y para la CD de agarre o empujón."
+    },
+    {
+      "slug": "defensa-sin-armadura",
+      "nombre": "Defensa sin armadura",
+      "nivel": 1,
+      "descripcion": "Mientras no lleves armadura ni escudo, tu CA base es igual a 10 más tus modificadores por DES y SAB."
+    },
+    {
+      "slug": "concentracion-de-monje",
+      "nombre": "Concentración de monje",
+      "nivel": 2,
+      "descripcion": "Obtienes puntos de concentración (según tu nivel) que se recuperan tras un descanso corto o largo. La CD de salvación de tus rasgos es 8 + mod. por SAB + bonificador por competencia. Empiezas con tres rasgos: Defensa paciente (acción adicional para destrabarse; gasta 1 punto para destrabarse y esquivar), Paso del viento (acción adicional para correr; gasta 1 punto para destrabarse y correr, duplicando tu salto), y Ráfaga de golpes (gasta 1 punto para hacer dos ataques sin armas como acción adicional)."
+    },
+    {
+      "slug": "metabolismo-asombroso",
+      "nombre": "Metabolismo asombroso",
+      "nivel": 2,
+      "descripcion": "Al tirar iniciativa puedes recuperar todos los puntos de concentración gastados; al hacerlo, tira tu dado de Artes marciales y recuperas PG iguales a tu nivel de monje más el resultado. No puedes repetirlo hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "movimiento-sin-armadura",
+      "nombre": "Movimiento sin armadura",
+      "nivel": 2,
+      "descripcion": "Tu velocidad aumenta en 3 m si no llevas armadura ni escudo. Esta bonificación crece al subir de nivel (hasta +9 m en nivel 18)."
+    },
+    {
+      "slug": "desviar-ataques",
+      "nombre": "Desviar ataques",
+      "nivel": 3,
+      "descripcion": "Cuando un ataque te acierte con daño contundente, cortante o perforante, puedes usar tu reacción para reducir el daño en 1d10 + mod. por DES + tu nivel de monje. Si lo reduces a 0, puedes gastar 1 punto de concentración para redirigir la fuerza: una criatura (a 1,5 m si cuerpo a cuerpo, o a 18 m sin cobertura completa si a distancia) debe superar una salvación de DES o sufre el doble de tu dado de Artes marciales + mod. por DES del mismo tipo de daño."
+    },
+    {
+      "slug": "subclase-de-monje",
+      "nombre": "Subclase de monje",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de monje (Guerrero de la mano abierta en el SRD). Obtienes sus rasgos en los niveles de monje correspondientes."
+    },
+    {
+      "slug": "caida-lenta",
+      "nombre": "Caída lenta",
+      "nivel": 4,
+      "descripcion": "Como reacción al caer, reduces el daño de la caída en una cantidad igual a cinco veces tu nivel de monje."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "ataque-adicional",
+      "nombre": "Ataque adicional",
+      "nivel": 5,
+      "descripcion": "Cuando llevas a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+    },
+    {
+      "slug": "golpe-aturdidor",
+      "nombre": "Golpe aturdidor",
+      "nivel": 5,
+      "descripcion": "Una vez por turno, al acertar con un arma de monje o ataque sin armas, puedes gastar 1 punto de concentración: el objetivo hace una salvación de CON. Si la falla, queda aturdido hasta el inicio de tu siguiente turno; si la supera, su velocidad se reduce a la mitad y el siguiente ataque contra él antes de ese momento tiene ventaja."
+    },
+    {
+      "slug": "golpes-potenciados",
+      "nombre": "Golpes potenciados",
+      "nivel": 6,
+      "descripcion": "Siempre que inflijas daño con tu ataque sin armas, puedes elegir entre causar daño de fuerza o su tipo de daño normal."
+    },
+    {
+      "slug": "evasion",
+      "nombre": "Evasión",
+      "nivel": 7,
+      "descripcion": "Cuando un efecto te permita una salvación de DES para sufrir la mitad de daño, no recibes daño si la superas y solo la mitad si la fallas. No te beneficias si estás incapacitado."
+    },
+    {
+      "slug": "mejora-de-caracteristica-8",
+      "nombre": "Mejora de característica",
+      "nivel": 8,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos."
+    },
+    {
+      "slug": "movimiento-acrobatico",
+      "nombre": "Movimiento acrobático",
+      "nivel": 9,
+      "descripcion": "Mientras no lleves armadura ni escudo, puedes moverte por superficies verticales y sobre líquidos sin caer durante el movimiento."
+    },
+    {
+      "slug": "autorrestablecimiento",
+      "nombre": "Autorrestablecimiento",
+      "nivel": 10,
+      "descripcion": "Al final de cada uno de tus turnos puedes eliminar uno de los siguientes estados que te afecten: asustado, envenenado o hechizado. Además, privarte de comida y bebida no te aplica niveles de cansancio."
+    },
+    {
+      "slug": "concentracion-agudizada",
+      "nombre": "Concentración agudizada",
+      "nivel": 10,
+      "descripcion": "Mejora tus rasgos básicos. Defensa paciente: al gastar un punto obtienes PG temporales iguales al doble de tu dado de Artes marciales. Paso del viento: puedes mover contigo a una criatura voluntaria Grande o menor a 1,5 m sin provocar ataques de oportunidad. Ráfaga de golpes: puedes gastar 1 punto para hacer tres ataques sin armas en lugar de dos."
+    },
+    {
+      "slug": "rasgo-de-subclase-11",
+      "nombre": "Rasgo de subclase",
+      "nivel": 11,
+      "descripcion": "Obtienes un rasgo de tu subclase de monje correspondiente al nivel 11."
+    },
+    {
+      "slug": "mejora-de-caracteristica-12",
+      "nombre": "Mejora de característica",
+      "nivel": 12,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos."
+    },
+    {
+      "slug": "desviar-energia",
+      "nombre": "Desviar energía",
+      "nivel": 13,
+      "descripcion": "Ahora puedes usar tu rasgo Desviar ataques contra ataques de cualquier tipo de daño, no solo contundente, cortante o perforante."
+    },
+    {
+      "slug": "superviviente-disciplinado",
+      "nombre": "Superviviente disciplinado",
+      "nivel": 14,
+      "descripcion": "Obtienes competencia en todas las tiradas de salvación. Además, cuando falles una salvación puedes gastar 1 punto de concentración para repetirla, usando el nuevo resultado."
+    },
+    {
+      "slug": "concentracion-perfecta",
+      "nombre": "Concentración perfecta",
+      "nivel": 15,
+      "descripcion": "Cuando tires iniciativa y no uses Metabolismo asombroso, recuperas puntos de concentración hasta tener 4 si te quedan 3 o menos."
+    },
+    {
+      "slug": "mejora-de-caracteristica-16",
+      "nombre": "Mejora de característica",
+      "nivel": 16,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas los requisitos."
+    },
+    {
+      "slug": "rasgo-de-subclase-17",
+      "nombre": "Rasgo de subclase",
+      "nivel": 17,
+      "descripcion": "Obtienes un rasgo de tu subclase de monje correspondiente al nivel 17."
+    },
+    {
+      "slug": "defensa-superior",
+      "nombre": "Defensa superior",
+      "nivel": 18,
+      "descripcion": "Al principio de tu turno puedes gastar 3 puntos de concentración para tener resistencia a todo el daño excepto al de fuerza durante 1 minuto o hasta que quedes incapacitado."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas los requisitos. Se recomienda Don del ataque imparable."
+    },
+    {
+      "slug": "cuerpo-y-mente",
+      "nombre": "Cuerpo y mente",
+      "nivel": 20,
+      "descripcion": "Tus puntuaciones de DES y SAB aumentan en 4, hasta un máximo de 25."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "guerrero-de-la-mano-abierta",
+      "nombre": "Guerrero de la mano abierta",
+      "descripcion": "Maestros del combate sin armas que dominan técnicas para empujar y derribar adversarios y canalizan su energía. Rasgos: Técnica de la mano abierta (nivel 3: al acertar con un ataque de Ráfaga de golpes impones Derribar [salvación DES o derribado], Desconcertar [sin ataques de oportunidad] o Empujar [salvación FUE o empujado 4,5 m]); Paso veloz (nivel 11: tras una acción adicional que no sea Paso del viento, puedes usar también Paso del viento); Palma estremecedora (nivel 17: al acertar con un ataque sin armas gastas 4 puntos de concentración para iniciar vibraciones que duran tantos días como tu nivel; al terminarlas, el objetivo hace una salvación de CON y sufre 10d12 de daño de fuerza, mitad si la supera).",
+      "rasgos": [
+        {
+          "slug": "tecnica-de-la-mano-abierta",
+          "nombre": "Técnica de la mano abierta",
+          "nivel": 3,
+          "descripcion": "Siempre que aciertes a una criatura con un ataque de Ráfaga de golpes, puedes imponerle uno de estos efectos: Derribar (salvación de Destreza o queda derribado), Desconcertar (no puede realizar ataques de oportunidad hasta el principio de su siguiente turno) o Empujar (salvación de Fuerza o es empujado hasta 4,5 m)."
+        },
+        {
+          "slug": "plenitud-de-cuerpo",
+          "nombre": "Plenitud de cuerpo",
+          "nivel": 6,
+          "descripcion": "Como acción adicional, tiras tu dado de Artes marciales y recuperas puntos de golpe iguales al resultado más tu modificador por Sabiduría (mínimo 1). Usos por descanso largo iguales a tu modificador por Sabiduría (mínimo uno)."
+        },
+        {
+          "slug": "paso-veloz",
+          "nombre": "Paso veloz",
+          "nivel": 11,
+          "descripcion": "Cuando utilices una acción adicional que no sea Paso del viento, puedes usar también Paso del viento inmediatamente después de esa acción adicional."
+        },
+        {
+          "slug": "palma-estremecedora",
+          "nombre": "Palma estremecedora",
+          "nivel": 17,
+          "descripcion": "Cuando aciertes con un ataque sin armas, puedes gastar 4 puntos de concentración para iniciar vibraciones imperceptibles que duran tantos días como tu nivel de monje. Al ponerles fin (con tu acción o renunciando a un ataque), el objetivo hace una salvación de Constitución y sufre 10d12 de daño de fuerza, o la mitad si la supera. Solo una criatura puede estar bajo este efecto a la vez."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [77, 80]
+  }
+}

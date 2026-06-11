@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "acolito",
+    "nombre": "Acólito",
+    "caracteristicas": [
+      "INT",
+      "SAB",
+      "CAR"
+    ],
+    "dote": "Iniciado en la magia (clérigo)",
+    "doteSlug": "iniciado-en-la-magia",
+    "competenciasHabilidades": [
+      "Perspicacia",
+      "Religión"
+    ],
+    "competenciaHerramientas": [
+      "Suministros de calígrafo"
+    ],
+    "herramientasSlugs": [
+      "suministros-de-caligrafo"
+    ],
+    "equipo": {
+      "opciones": [
+        "(A) Suministros de calígrafo, libro (de oraciones), pergamino (10 hojas), símbolo sagrado, túnica y 8 po",
+        "(B) 50 po"
+      ]
+    },
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        89,
+        89
+      ]
+    }
+  },
+  {
+    "slug": "criminal",
+    "nombre": "Criminal",
+    "caracteristicas": [
+      "DES",
+      "CON",
+      "INT"
+    ],
+    "dote": "Alerta",
+    "doteSlug": "alerta",
+    "competenciasHabilidades": [
+      "Juego de manos",
+      "Sigilo"
+    ],
+    "competenciaHerramientas": [
+      "Herramientas de ladrón"
+    ],
+    "herramientasSlugs": [
+      "herramientas-de-ladron"
+    ],
+    "equipo": {
+      "opciones": [
+        "(A) 2 dagas, herramientas de ladrón, palanqueta, 2 bolsas, ropas de viaje y 16 po",
+        "(B) 50 po"
+      ]
+    },
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        89,
+        89
+      ]
+    }
+  },
+  {
+    "slug": "erudito",
+    "nombre": "Erudito",
+    "caracteristicas": [
+      "CON",
+      "INT",
+      "SAB"
+    ],
+    "dote": "Iniciado en la magia (mago)",
+    "doteSlug": "iniciado-en-la-magia",
+    "competenciasHabilidades": [
+      "Conocimiento arcano",
+      "Historia"
+    ],
+    "competenciaHerramientas": [
+      "Suministros de calígrafo"
+    ],
+    "herramientasSlugs": [
+      "suministros-de-caligrafo"
+    ],
+    "equipo": {
+      "opciones": [
+        "(A) Bastón, suministros de calígrafo, libro (de historia), pergamino (8 hojas), túnica y 8 po",
+        "(B) 50 po"
+      ]
+    },
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        89,
+        89
+      ]
+    }
+  },
+  {
+    "slug": "soldado",
+    "nombre": "Soldado",
+    "caracteristicas": [
+      "FUE",
+      "DES",
+      "CON"
+    ],
+    "dote": "Atacante salvaje",
+    "doteSlug": "atacante-salvaje",
+    "competenciasHabilidades": [
+      "Atletismo",
+      "Intimidación"
+    ],
+    "competenciaHerramientas": [
+      "Elige un tipo de juego"
+    ],
+    "herramientasSlugs": [
+      "juego"
+    ],
+    "equipo": {
+      "opciones": [
+        "(A) Lanza, arco corto, 20 flechas, aljaba, juego (el mismo elegido como herramienta), útiles de sanador, ropas de viaje y 14 po",
+        "(B) 50 po"
+      ]
+    },
+    "fuente": {
+      "documento": "SRD 5.2.1",
+      "paginas": [
+        89,
+        89
+      ]
+    }
+  }
+]

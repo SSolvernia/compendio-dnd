@@ -1,0 +1,115 @@
+{
+  "slug": "brujo",
+  "nombre": "Brujo",
+  "dadoGolpe": "d8",
+  "caracteristicaPrincipal": "CAR",
+  "salvaciones": ["SAB", "CAR"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": ["Conocimiento arcano", "Engaño", "Historia", "Intimidación", "Investigación", "Naturaleza", "Religión"]
+  },
+  "armaduras": ["Ligeras"],
+  "armas": ["Sencillas"],
+  "lanzador": "pacto",
+  "caracteristicaLanzamiento": "CAR",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "invocaciones-sobrenaturales",
+      "nombre": "Invocaciones sobrenaturales",
+      "nivel": 1,
+      "descripcion": "Obtienes invocaciones sobrenaturales, fragmentos de conocimiento prohibido que conceden capacidades mágicas u otros saberes. Empiezas con una invocación de tu elección (como Pacto del grimorio) y ganas más al subir de nivel según la columna 'Invocaciones'. Si una invocación tiene un requisito, debes cumplirlo para aprenderla. Al subir un nivel de brujo puedes sustituir una invocación por otra para la que cumplas las condiciones (salvo que sea requisito de otra que tengas)."
+    },
+    {
+      "slug": "magia-del-pacto",
+      "nombre": "Magia del pacto",
+      "nivel": 1,
+      "descripcion": "Has sellado un pacto con una entidad misteriosa que te otorga la capacidad de lanzar conjuros. Conoces dos trucos de brujo (más en niveles 4 y 10) y preparas conjuros de nivel 1+ según la tabla. Todos tus espacios de conjuro son del mismo nivel (de 1 a 5) y los recuperas tras un descanso corto o largo. Tu aptitud mágica es Carisma y puedes usar un canalizador arcano como canalizador mágico."
+    },
+    {
+      "slug": "astucia-magica",
+      "nombre": "Astucia mágica",
+      "nivel": 2,
+      "descripcion": "Puedes realizar un rito esotérico durante 1 minuto para recuperar una cantidad de espacios de conjuro utilizados de Magia del pacto igual o inferior a la mitad de tu máximo (redondeando hacia arriba). Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "subclase-de-brujo",
+      "nombre": "Subclase de brujo",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de brujo (como Patrón infernal), una especialización que te proporciona rasgos al alcanzar ciertos niveles de brujo. Obtienes todos los rasgos de tu subclase de tu nivel e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "contactar-patron",
+      "nombre": "Contactar patrón",
+      "nivel": 9,
+      "descripcion": "Siempre tienes preparado el conjuro contactar con otro plano y puedes lanzarlo sin gastar un espacio de conjuro para contactar con tu patrón, superando automáticamente su tirada de salvación. No puedes volver a lanzarlo de esta forma hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "arcanum-mistico",
+      "nombre": "Arcanum místico",
+      "nivel": 11,
+      "descripcion": "Tu patrón te recompensa con un arcanum: escoges un conjuro de brujo de nivel 6 que puedes lanzar una vez sin gastar espacio de conjuro (recuperándolo tras un descanso largo). Obtienes conjuros adicionales que lanzas igual en los niveles 13 (nivel 7), 15 (nivel 8) y 17 (nivel 9). Al subir de nivel puedes sustituir un conjuro de arcanum por otro del mismo nivel."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico (se recomienda Don del destino) u otra dote de tu elección para la que cumplas las condiciones."
+    },
+    {
+      "slug": "maestro-sobrenatural",
+      "nombre": "Maestro sobrenatural",
+      "nivel": 20,
+      "descripcion": "Cuando empleas tu rasgo Astucia mágica, recuperas todos los espacios de conjuro utilizados de Magia del pacto."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "patron-infernal",
+      "nombre": "Patrón infernal",
+      "descripcion": "Haces un trato con los Planos Inferiores, negociando con un señor demoníaco, archidiablo u otro infernal notable. Concede conjuros siempre preparados (Conjuros del infernal) y los rasgos: Bendición del oscuro (nivel 3, ganas puntos de golpe temporales al reducir a 0 a un enemigo), La suerte del oscuro (nivel 6, sumas 1d10 a una prueba de característica o salvación un número de veces igual a tu modificador por Carisma), Resistencia infernal (nivel 10, resistencia a un tipo de daño elegido tras un descanso) y Arrastrar por el infierno (nivel 14, teletransportas a un objetivo a los Planos Inferiores causándole 8d10 de daño psíquico tras fallar una salvación de Carisma).",
+      "rasgos": [
+        {
+          "slug": "bendicion-del-oscuro",
+          "nombre": "Bendición del oscuro",
+          "nivel": 3,
+          "descripcion": "Cuando reduzcas a 0 los puntos de golpe de un enemigo, obtienes puntos de golpe temporales iguales a tu modificador por Carisma más tu nivel de brujo (mínimo 1). También obtienes este beneficio si otra criatura reduce a 0 los puntos de golpe de un enemigo a 3 m o menos de ti."
+        },
+        {
+          "slug": "conjuros-del-infernal",
+          "nombre": "Conjuros del infernal",
+          "nivel": 3,
+          "descripcion": "La magia de tu patrón garantiza que siempre tengas ciertos conjuros preparados: cuando alcances un nivel de brujo especificado en la tabla «Conjuros del infernal», a partir de entonces siempre tendrás preparados los conjuros que se indican."
+        },
+        {
+          "slug": "la-suerte-del-oscuro",
+          "nombre": "La suerte del oscuro",
+          "nivel": 6,
+          "descripcion": "Puedes invocar a tu patrón para alterar el destino: cuando hagas una prueba de característica o una tirada de salvación, puedes sumar 1d10 a tu tirada, después de ver el resultado pero antes de que ocurran sus efectos. Puedes usarlo tantas veces como tu modificador por Carisma (mínimo una), no más de una vez por tirada, y recuperas todos los usos tras un descanso largo."
+        },
+        {
+          "slug": "resistencia-infernal",
+          "nombre": "Resistencia infernal",
+          "nivel": 10,
+          "descripcion": "Tras finalizar un descanso corto o largo, elige un tipo de daño que no sea el de fuerza. Tienes resistencia a ese tipo de daño hasta que elijas uno distinto con este rasgo."
+        },
+        {
+          "slug": "arrastrar-por-el-infierno",
+          "nombre": "Arrastrar por el infierno",
+          "nivel": 14,
+          "descripcion": "Una vez por turno, cuando aciertes a una criatura con una tirada de ataque, puedes intentar teletransportarla a los Planos Inferiores: si falla una tirada de salvación de Carisma contra tu CD de salvación de conjuros, desaparece y, si no es un infernal, sufre 8d10 de daño psíquico y queda incapacitada hasta el final de tu siguiente turno, cuando regresa a su espacio anterior o al más cercano sin ocupar. Una vez usado, no puedes volver a hacerlo hasta finalizar un descanso largo, a menos que gastes un espacio de conjuro de Magia del pacto (no requiere acción) para restablecerlo."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [40, 46]
+  }
+}

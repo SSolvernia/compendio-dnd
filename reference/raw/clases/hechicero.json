@@ -1,0 +1,140 @@
+{
+  "slug": "hechicero",
+  "nombre": "Hechicero",
+  "dadoGolpe": "d6",
+  "caracteristicaPrincipal": "CAR",
+  "salvaciones": ["CON", "CAR"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": [
+      "Conocimiento arcano",
+      "Engaño",
+      "Intimidación",
+      "Perspicacia",
+      "Persuasión",
+      "Religión"
+    ]
+  },
+  "armaduras": [],
+  "armas": ["Sencillas"],
+  "lanzador": "completo",
+  "caracteristicaLanzamiento": "CAR",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Recurres a tu magia innata para lanzar conjuros de hechicero usando CAR como aptitud mágica. Conoces 4 trucos y preparas conjuros de nivel 1+ según la tabla, recuperando los espacios tras un descanso largo. Puedes usar un canalizador arcano como canalizador mágico."
+    },
+    {
+      "slug": "hechiceria-innata",
+      "nombre": "Hechicería innata",
+      "nivel": 1,
+      "descripcion": "Como acción adicional desatas tu magia latente durante 1 minuto: la CD de salvación de tus conjuros aumenta en 1 y tienes ventaja en las tiradas de ataque de tus conjuros. Puedes usarlo 2 veces y recuperas los usos tras un descanso largo."
+    },
+    {
+      "slug": "fuente-de-magia",
+      "nombre": "Fuente de magia",
+      "nivel": 2,
+      "descripcion": "Obtienes puntos de hechicería (2 al inicio, más según la tabla) que recuperas tras un descanso largo. Puedes gastar un espacio de conjuro para ganar tantos puntos como su nivel (sin acción), o como acción adicional crear espacios de conjuro de hasta nivel 5 gastando puntos según la tabla; esos espacios se desvanecen tras un descanso largo."
+    },
+    {
+      "slug": "metamagia",
+      "nombre": "Metamagia",
+      "nivel": 2,
+      "descripcion": "Eliges 2 opciones de metamagia para modificar tus conjuros gastando puntos de hechicería. Solo puedes usar una opción por conjuro al lanzarlo, salvo que se indique lo contrario. Cada vez que subes de nivel puedes sustituir una opción, y obtienes 2 opciones más en el nivel 10 y otras 2 en el 17."
+    },
+    {
+      "slug": "subclase-de-hechicero",
+      "nombre": "Subclase de hechicero",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de hechicero (la Hechicería dracónica se detalla en el SRD). A partir de entonces obtienes todos los rasgos de la subclase de tu nivel de hechicero e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "recuperacion-magica",
+      "nombre": "Recuperación mágica",
+      "nivel": 5,
+      "descripcion": "Tras un descanso corto recuperas puntos de hechicería iguales o inferiores a la mitad de tu nivel de hechicero (redondeando hacia abajo). No puedes volver a usarlo hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "encarnacion-magica",
+      "nombre": "Encarnación mágica",
+      "nivel": 7,
+      "descripcion": "Si te quedas sin usos de Hechicería innata, puedes activarlo gastando 2 puntos de hechicería con la acción adicional. Además, mientras Hechicería innata esté activo, puedes usar hasta dos opciones de metamagia en cada conjuro que lances."
+    },
+    {
+      "slug": "metamagia",
+      "nombre": "Metamagia",
+      "nivel": 10,
+      "descripcion": "Obtienes 2 opciones de metamagia adicionales de tu elección."
+    },
+    {
+      "slug": "metamagia",
+      "nombre": "Metamagia",
+      "nivel": 17,
+      "descripcion": "Obtienes otras 2 opciones de metamagia adicionales de tu elección."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas las condiciones (se recomienda Don del viaje dimensional). Además, mientras Hechicería innata esté activo, puedes usar una opción de metamagia en cada uno de tus turnos sin gastar puntos de hechicería."
+    },
+    {
+      "slug": "apoteosis-arcana",
+      "nombre": "Apoteosis arcana",
+      "nivel": 20,
+      "descripcion": "Alcanzas la cumbre de tu poder arcano, culminando tu dominio de la magia innata (rasgo capstone del hechicero)."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "hechiceria-draconica",
+      "nombre": "Hechicería dracónica",
+      "descripcion": "Tu magia innata proviene de un don dracónico. Otorga conjuros dracónicos siempre preparados (niv. 3, 5, 7 y 9), Resistencia dracónica (niv. 3) que aumenta tus PG máximos y da CA base 10 + DES + CAR sin armadura, Afinidad elemental (niv. 6) con resistencia a un tipo de daño dracónico y suma de tu mod. por CAR al daño de ese tipo, Alas de dragón (niv. 14) con velocidad de vuelo de 18 m, y Compañero dragón (niv. 18) que mejora el conjuro invocar dragón.",
+      "rasgos": [
+        {
+          "slug": "conjuros-draconicos",
+          "nombre": "Conjuros dracónicos",
+          "nivel": 3,
+          "descripcion": "Siempre tienes preparados ciertos conjuros al alcanzar los niveles indicados: nivel 3, aliento de dragón, alterar el propio aspecto, orbe cromático y orden imperiosa; nivel 5, terror y volar; nivel 7, hechizar monstruo y ojo arcano; nivel 9, conocer las leyendas e invocar dragón."
+        },
+        {
+          "slug": "resistencia-draconica",
+          "nombre": "Resistencia dracónica",
+          "nivel": 3,
+          "descripcion": "Tus puntos de golpe máximos aumentan en 3 y en 1 más por cada nivel de hechicero que subas en el futuro. Además, mientras no lleves armadura, tu clase de armadura base es igual a 10 más tus modificadores por Destreza y Carisma."
+        },
+        {
+          "slug": "afinidad-elemental",
+          "nombre": "Afinidad elemental",
+          "nivel": 6,
+          "descripcion": "Elige un tipo de daño asociado a los dragones (ácido, frío, fuego, relámpago o veneno): tienes resistencia a ese tipo de daño y, cuando lances un conjuro que inflija daño de ese tipo, puedes sumar tu modificador por Carisma a una tirada de daño del conjuro."
+        },
+        {
+          "slug": "alas-de-dragon",
+          "nombre": "Alas de dragón",
+          "nivel": 14,
+          "descripcion": "Como acción adicional, te crecen alas dracónicas que permanecen 1 hora o hasta que las hagas desaparecer (no requiere acción) y te otorgan una velocidad volando de 18 m. Una vez por descanso largo, o restableces su uso gastando 3 puntos de hechicería (no requiere acción)."
+        },
+        {
+          "slug": "companero-dragon",
+          "nombre": "Compañero dragón",
+          "nivel": 18,
+          "descripcion": "Puedes lanzar invocar dragón sin componente material y una vez sin gastar espacio de conjuro por descanso largo. Al empezar a lanzarlo, puedes modificarlo para que no requiera concentración; si lo haces, su duración es de 1 minuto."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [64, 70]
+  }
+}

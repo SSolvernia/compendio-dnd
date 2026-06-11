@@ -1,0 +1,19 @@
+ATRIBUCIÓN — Contenido del SRD 5.2.1 (Creative Commons Attribution 4.0)
+========================================================================
+
+Los datos de juego en src/data/srd/ y el texto en reference/clean/ derivan del
+documento de referencia del sistema 5.2.1 ("SRD 5.2.1"), proporcionado por
+Wizards of the Coast LLC bajo la licencia CC-BY-4.0.
+
+Declaración de atribución requerida (texto literal del SRD 5.2.1, p2):
+
+  Esta obra incluye material procedente del documento de referencia del sistema
+  5.2.1 ("SRD 5.2.1") de Wizards of the Coast LLC, disponible en
+  https://www.dndbeyond.com/srd. La licencia sobre el SRD 5.2.1 se concede de
+  acuerdo con la licencia internacional de atribución/reconocimiento 4.0 de
+  Creative Commons, disponible en https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Nota: Wizards pide que no se incluyan más atribuciones o reconocimientos a
+Wizards, su empresa matriz o sus filiales más allá de la declaración anterior.
+
+Licencia CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/

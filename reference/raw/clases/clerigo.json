@@ -1,0 +1,145 @@
+{
+  "slug": "clerigo",
+  "nombre": "Clérigo",
+  "dadoGolpe": "d8",
+  "caracteristicaPrincipal": "SAB",
+  "salvaciones": ["SAB", "CAR"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": ["Historia", "Medicina", "Perspicacia", "Persuasión", "Religión"]
+  },
+  "armaduras": ["Ligeras", "Medias", "Escudos"],
+  "armas": ["Sencillas"],
+  "lanzador": "completo",
+  "caracteristicaLanzamiento": "SAB",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Lanzas conjuros de clérigo usando Sabiduría como aptitud mágica, con un símbolo sagrado como canalizador. Conoces 3 trucos (recomendados: guía, llama sagrada y taumaturgia) y aprendes uno más a los niveles 4 y 10. Preparas conjuros de nivel 1 y superiores de la lista de clérigo (empiezas con 4 conjuros de nivel 1), pudiendo cambiarlos tras un descanso largo. Recuperas los espacios de conjuro tras un descanso largo."
+    },
+    {
+      "slug": "orden-divina",
+      "nombre": "Orden divina",
+      "nivel": 1,
+      "descripcion": "Te consagras a una función sacra a tu elección. Protector: ganas competencia con armas marciales y entrenamiento con armaduras pesadas. Taumaturgo: conoces un truco adicional de clérigo y obtienes un bonificador a las pruebas de Inteligencia (Conocimiento arcano y Religión) igual a tu modificador por Sabiduría (mínimo +1)."
+    },
+    {
+      "slug": "canalizar-divinidad",
+      "nombre": "Canalizar divinidad",
+      "nivel": 2,
+      "descripcion": "Canalizas energía divina para crear efectos mágicos, empezando con Chispa divina y Expulsar muertos vivientes. Tienes 2 usos (más en niveles superiores), recuperando 1 tras un descanso corto y todos tras uno largo. La CD es igual a la de tus conjuros. Chispa divina (acción de magia, a 9 m): tira 1d8 + mod. SAB para curar PG o forzar salvación de CON contra ese daño necrótico o radiante (mitad si la supera); escala a los niveles 7, 13 y 18. Expulsar muertos vivientes (acción de magia): los muertos vivientes a 9 m hacen salvación de SAB o quedan asustados e incapacitados 1 minuto, huyendo de ti; termina si sufren daño, si te incapacitan o mueres."
+    },
+    {
+      "slug": "subclase-de-clerigo",
+      "nombre": "Subclase de clérigo",
+      "nivel": 3,
+      "descripcion": "Consigues una subclase de clérigo a tu elección (el SRD detalla el Dominio de la vida). De aquí en adelante obtienes todos los rasgos de tu subclase que sean de tu nivel de clérigo e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "abrasar-muertos-vivientes",
+      "nombre": "Abrasar muertos vivientes",
+      "nivel": 5,
+      "descripcion": "Cuando uses Expulsar muertos vivientes, puedes tirar una cantidad de d8 igual a tu modificador por Sabiduría (mínimo 1d8) y sumar los resultados. Cada muerto viviente que falle su salvación sufre ese total de daño radiante, sin poner fin al efecto de expulsión."
+    },
+    {
+      "slug": "golpes-benditos",
+      "nombre": "Golpes benditos",
+      "nivel": 7,
+      "descripcion": "Eliges una opción. Golpe divino: una vez por turno, al acertar un ataque con arma, el objetivo sufre 1d8 de daño necrótico o radiante adicional. Lanzamiento potente: sumas tu modificador por Sabiduría al daño de cualquier truco de clérigo."
+    },
+    {
+      "slug": "mejora-de-caracteristica-8",
+      "nombre": "Mejora de característica",
+      "nivel": 8,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones."
+    },
+    {
+      "slug": "intercesion-divina",
+      "nombre": "Intercesión divina",
+      "nivel": 10,
+      "descripcion": "Como acción de magia, eliges cualquier conjuro de clérigo de nivel 5 o inferior que no requiera reacción y lo lanzas como parte de la misma acción sin gastar espacio de conjuro ni componentes materiales. No puedes volver a usarlo hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "mejora-de-caracteristica-12",
+      "nombre": "Mejora de característica",
+      "nivel": 12,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones."
+    },
+    {
+      "slug": "golpes-benditos-mejorados",
+      "nombre": "Golpes benditos mejorados",
+      "nivel": 14,
+      "descripcion": "La opción elegida para Golpes benditos se vuelve más poderosa. Golpe divino: el daño adicional aumenta a 2d8. Lanzamiento potente: al dañar a una criatura con un truco de clérigo, concedes a ti o a otra criatura a 18 m PG temporales iguales al doble de tu modificador por Sabiduría."
+    },
+    {
+      "slug": "mejora-de-caracteristica-16",
+      "nombre": "Mejora de característica",
+      "nivel": 16,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas las condiciones."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas las condiciones. Se recomienda Don del destino."
+    },
+    {
+      "slug": "intercesion-divina-mayor",
+      "nombre": "Intercesión divina mayor",
+      "nivel": 20,
+      "descripcion": "Al usar Intercesión divina puedes elegir el conjuro deseo. Si lo haces, no podrás volver a usar Intercesión divina hasta finalizar 2d4 descansos largos."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "dominio-de-la-vida",
+      "nombre": "Dominio de la vida",
+      "descripcion": "Subclase centrada en la energía positiva que sustenta la vida; sus clérigos son maestros de la curación. A nivel 3 obtiene conjuros de dominio siempre preparados (Discípulo de la vida: los conjuros de curación restauran PG adicionales iguales a 2 más el nivel del espacio) y Preservar vida (acción de magia que gasta un uso de Canalizar divinidad para curar PG iguales a cinco veces tu nivel de clérigo, repartidos entre criaturas maltrechas a 9 m, sin superar la mitad de sus PG máximos). A nivel 6, Sanador bendito te cura al lanzar conjuros de curación sobre otros. A nivel 17, Sanación suprema usa el resultado máximo de los dados de curación.",
+      "rasgos": [
+        {
+          "slug": "conjuros-del-dominio-de-la-vida",
+          "nombre": "Conjuros del dominio de la vida",
+          "nivel": 3,
+          "descripcion": "Siempre tienes preparados los conjuros indicados en la tabla «Conjuros del dominio de la vida» al alcanzar el nivel de clérigo correspondiente: nivel 3, auxilio, bendición, curar heridas y restablecimiento menor; nivel 5, palabra de curación en masa y revivir; nivel 7, aura de vida y guarda contra la muerte; nivel 9, curar heridas en masa y restablecimiento mayor."
+        },
+        {
+          "slug": "discipulo-de-la-vida",
+          "nombre": "Discípulo de la vida",
+          "nivel": 3,
+          "descripcion": "Cuando uses un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una criatura, esa criatura recupera puntos de golpe adicionales en el turno en que lances el conjuro, iguales a 2 más el nivel del espacio de conjuro."
+        },
+        {
+          "slug": "preservar-vida",
+          "nombre": "Preservar vida",
+          "nivel": 3,
+          "descripcion": "Como acción de magia, muestras tu símbolo sagrado y gastas un uso de Canalizar divinidad para restaurar una cantidad de puntos de golpe igual a cinco veces tu nivel de clérigo, repartidos entre criaturas maltrechas a 9 m o menos de ti (puedes incluirte). Este rasgo no puede hacer que una criatura supere la mitad de sus puntos de golpe máximos."
+        },
+        {
+          "slug": "sanador-bendito",
+          "nombre": "Sanador bendito",
+          "nivel": 6,
+          "descripcion": "Inmediatamente después de usar un espacio de conjuro para lanzar un conjuro que haga recuperar puntos de golpe a una o varias criaturas que no seas tú, recuperas una cantidad de puntos de golpe igual a 2 más el nivel del espacio de conjuro."
+        },
+        {
+          "slug": "sanacion-suprema",
+          "nombre": "Sanación suprema",
+          "nivel": 17,
+          "descripcion": "Cuando vayas a tirar uno o más dados para hacer que una criatura recupere puntos de golpe con un conjuro o con Canalizar divinidad, no tiras los dados: usas el número más alto de cada dado (por ejemplo, en lugar de 2d6, la criatura recupera 12)."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [47, 51]
+  }
+}

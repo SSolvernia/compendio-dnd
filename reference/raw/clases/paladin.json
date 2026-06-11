@@ -1,0 +1,193 @@
+{
+  "slug": "paladin",
+  "nombre": "Paladín",
+  "dadoGolpe": "d10",
+  "caracteristicaPrincipal": "FUE",
+  "salvaciones": ["SAB", "CAR"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": ["Atletismo", "Intimidación", "Medicina", "Perspicacia", "Persuasión", "Religión"]
+  },
+  "armaduras": ["Ligeras", "Medias", "Pesadas", "Escudos"],
+  "armas": ["Sencillas", "Marciales"],
+  "lanzador": "semi",
+  "caracteristicaLanzamiento": "CAR",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "imponer-las-manos",
+      "nombre": "Imponer las manos",
+      "nivel": 1,
+      "descripcion": "Tienes una reserva de curación que se recarga tras un descanso largo, igual a cinco veces tu nivel de paladín en puntos de golpe. Como acción adicional, tocas a una criatura (puedes ser tú) y le restauras puntos de golpe hasta el máximo que quede en la reserva. También puedes gastar 5 puntos de la reserva para eliminar el estado de envenenada, sin que esos puntos restauren PG."
+    },
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Lanzas conjuros de paladín mediante oración y meditación. Preparas conjuros de nivel 1 y superiores de la lista de paladín (empiezas con dos de nivel 1) y recuperas todos los espacios tras un descanso largo. El Carisma es tu aptitud mágica y la CD de salvación de tus conjuros. Puedes usar un símbolo sagrado como canalizador mágico y cambiar conjuros preparados tras un descanso largo."
+    },
+    {
+      "slug": "maestria-con-armas",
+      "nombre": "Maestría con armas",
+      "nivel": 1,
+      "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas de tu elección con las que tengas competencia (como espadas largas y jabalinas). Tras un descanso largo, puedes cambiar los tipos de armas elegidas."
+    },
+    {
+      "slug": "castigo-de-paladin",
+      "nombre": "Castigo de paladín",
+      "nivel": 2,
+      "descripcion": "Siempre tienes preparado el conjuro castigo divino. Además, puedes lanzarlo sin gastar un espacio de conjuro una vez, recuperando esa capacidad tras finalizar un descanso largo."
+    },
+    {
+      "slug": "estilo-de-combate",
+      "nombre": "Estilo de combate",
+      "nivel": 2,
+      "descripcion": "Obtienes una dote de estilo de combate de tu elección. En su lugar puedes elegir Guerrero bendito: aprendes dos trucos de clérigo (se recomiendan guía y llama sagrada) que cuentan como conjuros de paladín y usan Carisma como aptitud mágica; cada vez que subas de nivel puedes sustituir uno de esos trucos."
+    },
+    {
+      "slug": "canalizar-divinidad",
+      "nombre": "Canalizar divinidad",
+      "nivel": 3,
+      "descripcion": "Canalizas energía divina de los Planos Exteriores para alimentar efectos mágicos, empezando con Sentidos divinos. Tienes dos usos (tres en nivel 11); recuperas uno tras un descanso corto y todos tras un descanso largo. Si un efecto requiere salvación, la CD es la de tus conjuros. Sentidos divinos: como acción adicional, durante 10 minutos detectas celestiales, infernales y muertos vivientes a 18 m o menos, así como lugares u objetos consagrados o profanados."
+    },
+    {
+      "slug": "subclase-de-paladin",
+      "nombre": "Subclase de paladín",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de paladín (el SRD detalla el Juramento de entrega), una especialización que te otorga rasgos a ciertos niveles de paladín. A partir de aquí obtienes todos los rasgos de tu subclase de tu nivel o inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 12 y 16."
+    },
+    {
+      "slug": "ataque-adicional",
+      "nombre": "Ataque adicional",
+      "nivel": 5,
+      "descripcion": "Cuando llevas a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno."
+    },
+    {
+      "slug": "corcel-fiel",
+      "nombre": "Corcel fiel",
+      "nivel": 5,
+      "descripcion": "Siempre tienes preparado el conjuro hallar corcel. También puedes lanzarlo una vez sin gastar un espacio de conjuro, recuperando esa capacidad tras un descanso largo."
+    },
+    {
+      "slug": "aura-de-proteccion",
+      "nombre": "Aura de protección",
+      "nivel": 6,
+      "descripcion": "Irradias un aura protectora invisible en una emanación de 3 m (inactiva si estás incapacitado). Tus aliados dentro del aura y tú obtenéis un bonificador a las tiradas de salvación igual a tu modificador por Carisma (mínimo +1). Con otro paladín presente, una criatura solo se beneficia de un Aura de protección a la vez."
+    },
+    {
+      "slug": "rasgo-de-subclase-7",
+      "nombre": "Rasgo de subclase",
+      "nivel": 7,
+      "descripcion": "Obtienes un rasgo otorgado por tu subclase de paladín al alcanzar el nivel 7."
+    },
+    {
+      "slug": "abjurar-de-los-enemigos",
+      "nombre": "Abjurar de los enemigos",
+      "nivel": 9,
+      "descripcion": "Como acción de magia, gastas un uso de Canalizar divinidad para hacer objetivo, mientras muestras tu símbolo sagrado o arma, a tantas criaturas que veas a 18 m o menos como tu modificador por Carisma (mínimo una). Cada objetivo supera una salvación de Sabiduría o queda asustado durante 1 minuto o hasta recibir daño; mientras esté asustado así, solo puede hacer una acción de entre moverse, realizar una acción o una acción adicional en sus turnos."
+    },
+    {
+      "slug": "aura-de-coraje",
+      "nombre": "Aura de coraje",
+      "nivel": 10,
+      "descripcion": "Tus aliados y tú tenéis inmunidad al estado de asustados mientras estéis dentro de tu Aura de protección. Si un aliado asustado entra en el aura, ese estado no le afecta mientras esté dentro."
+    },
+    {
+      "slug": "golpes-radiantes",
+      "nombre": "Golpes radiantes",
+      "nivel": 11,
+      "descripcion": "Cuando aciertas a un objetivo con una tirada de ataque usando un arma cuerpo a cuerpo o un ataque sin armas, el objetivo recibe 1d8 de daño radiante adicional."
+    },
+    {
+      "slug": "mejora-de-caracteristica-12",
+      "nombre": "Mejora de característica",
+      "nivel": 12,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones (rasgo repetido de nivel 4)."
+    },
+    {
+      "slug": "toque-reparador",
+      "nombre": "Toque reparador",
+      "nivel": 14,
+      "descripcion": "Cuando usas Imponer las manos sobre una criatura, también puedes eliminar uno o más de los estados: asustado, aturdido, cegado, ensordecido, hechizado o paralizado. Gastas 5 puntos de la reserva de curación por cada estado eliminado, sin que esos puntos restauren PG."
+    },
+    {
+      "slug": "rasgo-de-subclase-15",
+      "nombre": "Rasgo de subclase",
+      "nivel": 15,
+      "descripcion": "Obtienes un rasgo otorgado por tu subclase de paladín al alcanzar el nivel 15."
+    },
+    {
+      "slug": "mejora-de-caracteristica-16",
+      "nombre": "Mejora de característica",
+      "nivel": 16,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones (rasgo repetido de nivel 4)."
+    },
+    {
+      "slug": "expansion-de-aura",
+      "nombre": "Expansión de aura",
+      "nivel": 18,
+      "descripcion": "Tu Aura de protección ahora es una emanación de 9 m."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones. Se recomienda Don de la visión verdadera."
+    },
+    {
+      "slug": "rasgo-de-subclase-20",
+      "nombre": "Rasgo de subclase",
+      "nivel": 20,
+      "descripcion": "Obtienes un rasgo otorgado por tu subclase de paladín al alcanzar el nivel 20."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "juramento-de-entrega",
+      "nombre": "Juramento de entrega",
+      "descripcion": "Subclase que vincula al paladín con los ideales de la justicia y el orden, encarnando al caballero de brillante armadura. Otorga conjuros preparados de juramento (niveles 3, 5, 9, 13 y 17) y los rasgos: Arma sagrada (nivel 3, gasta Canalizar divinidad para imbuir un arma cuerpo a cuerpo, sumando tu modificador por Carisma al ataque y eligiendo daño normal o radiante, además de emitir luz), Aura de entrega (nivel 7, inmunidad al estado de hechizados dentro del Aura de protección), Castigo protector (nivel 15, al lanzar castigo divino otorgas cobertura media a aliados y a ti dentro del aura hasta tu siguiente turno) y Halo sagrado (nivel 20, como acción adicional imbuyes el aura de poder divino durante 10 minutos: daño radiante a enemigos que comiencen su turno dentro, luz solar y ventaja en salvaciones forzadas por infernales o muertos vivientes).",
+      "rasgos": [
+        {
+          "slug": "arma-sagrada",
+          "nombre": "Arma sagrada",
+          "nivel": 3,
+          "descripcion": "Cuando realizas la acción de atacar, puedes gastar un uso de Canalizar divinidad para imbuir de energía positiva un arma cuerpo a cuerpo durante 10 minutos: sumas tu modificador por Carisma a las tiradas de ataque con ella (mínimo +1), cada impacto puede infligir su daño normal o daño radiante, y el arma emite luz brillante en un radio de 6 m y luz tenue 6 m más allá."
+        },
+        {
+          "slug": "conjuros-del-juramento-de-entrega",
+          "nombre": "Conjuros del juramento de entrega",
+          "nivel": 3,
+          "descripcion": "Siempre tienes preparados ciertos conjuros al alcanzar los niveles indicados: nivel 3, escudo de fe y protección contra el bien y el mal; nivel 5, auxilio y zona de la verdad; nivel 9, disipar magia y señal de esperanza; nivel 13, guardián de la fe y libertad de movimiento; nivel 17, comunión y golpe flamígero."
+        },
+        {
+          "slug": "aura-de-entrega",
+          "nombre": "Aura de entrega",
+          "nivel": 7,
+          "descripcion": "Tus aliados y tú tenéis inmunidad al estado de hechizados mientras estéis dentro de tu Aura de protección; si un aliado hechizado entra en el aura, ese estado no tiene efecto en él mientras esté dentro."
+        },
+        {
+          "slug": "castigo-protector",
+          "nombre": "Castigo protector",
+          "nivel": 15,
+          "descripcion": "Siempre que lances castigo divino, tus aliados y tú tenéis cobertura media mientras estéis dentro de tu Aura de protección, hasta el principio de tu siguiente turno."
+        },
+        {
+          "slug": "halo-sagrado",
+          "nombre": "Halo sagrado",
+          "nivel": 20,
+          "descripcion": "Como acción adicional, imbuyes de poder divino tu Aura de protección durante 10 minutos: los enemigos que comiencen su turno dentro reciben daño radiante igual a tu modificador por Carisma más tu bonificador por competencia, el aura se llena de luz brillante del sol y tienes ventaja en las salvaciones que te obliguen a hacer infernales o muertos vivientes. Una vez por descanso largo, o restableces su uso gastando un espacio de conjuro de nivel 5."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [81, 85]
+  }
+}

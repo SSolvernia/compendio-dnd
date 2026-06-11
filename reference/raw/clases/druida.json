@@ -1,0 +1,148 @@
+{
+  "slug": "druida",
+  "nombre": "Druida",
+  "dadoGolpe": "d8",
+  "caracteristicaPrincipal": "SAB",
+  "salvaciones": ["INT", "SAB"],
+  "competenciasHabilidades": {
+    "elige": 2,
+    "opciones": [
+      "Conocimiento arcano",
+      "Medicina",
+      "Naturaleza",
+      "Percepción",
+      "Perspicacia",
+      "Religión",
+      "Supervivencia",
+      "Trato con animales"
+    ]
+  },
+  "armaduras": ["Ligeras", "Escudos"],
+  "armas": ["Sencillas"],
+  "lanzador": "completo",
+  "caracteristicaLanzamiento": "SAB",
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "druidico",
+      "nombre": "Druídico",
+      "nivel": 1,
+      "descripcion": "Conoces el druídico, el idioma secreto de los druidas, y siempre tienes preparado el conjuro hablar con los animales. Puedes dejar mensajes ocultos en druídico; los demás necesitan superar una prueba de Inteligencia (Investigación) CD 15 para detectarlos, y solo pueden descifrarlos con magia."
+    },
+    {
+      "slug": "lanzamiento-de-conjuros",
+      "nombre": "Lanzamiento de conjuros",
+      "nivel": 1,
+      "descripcion": "Lanzas conjuros de druida usando Sabiduría como aptitud mágica. Conoces 2 trucos de la lista de druida (más a niveles 4 y 10) y preparas 4 conjuros de nivel 1 al inicio, ampliables según la columna Conjuros preparados. Recuperas los espacios tras un descanso largo y puedes cambiar los conjuros preparados al finalizarlo. Puedes usar un canalizador druídico como canalizador mágico."
+    },
+    {
+      "slug": "orden-primigenia",
+      "nombre": "Orden primigenia",
+      "nivel": 1,
+      "descripcion": "Eliges una función: Guardián (ganas competencia con armas marciales y entrenamiento con armaduras medias) o Naturalista (conoces un truco adicional de druida y sumas un bonificador igual a tu modificador por Sabiduría, mínimo +1, a tus pruebas de Inteligencia de Conocimiento arcano y Naturaleza)."
+    },
+    {
+      "slug": "companero-salvaje",
+      "nombre": "Compañero salvaje",
+      "nivel": 2,
+      "descripcion": "Como acción de magia, puedes gastar un espacio de conjuro o un uso de Forma salvaje para lanzar encontrar familiar sin componentes materiales. El familiar es un feérico y desaparece tras un descanso largo."
+    },
+    {
+      "slug": "forma-salvaje",
+      "nombre": "Forma salvaje",
+      "nivel": 2,
+      "descripcion": "Como acción adicional, adoptas la forma de una bestia conocida durante un número de horas igual a la mitad de tu nivel de druida (o hasta que vuelvas a usarla, quedes incapacitado o mueras). Tienes 2 usos (recuperas uno tras descanso corto y todos tras descanso largo), con más usos a niveles superiores. Conoces 4 formas (VD máx. 1/4 sin vuelo), aumentando a VD 1/2 con 6 formas a nivel 4 y VD 1 con 8 formas y vuelo a nivel 8. Obtienes PG temporales iguales a tu nivel de druida al transformarte."
+    },
+    {
+      "slug": "subclase-de-druida",
+      "nombre": "Subclase de druida",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de druida (el Círculo de la tierra se detalla en el SRD) y obtienes sus rasgos de tu nivel de druida e inferiores."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas los requisitos. Se repite a niveles 8, 12 y 16."
+    },
+    {
+      "slug": "resurgimiento-salvaje",
+      "nombre": "Resurgimiento salvaje",
+      "nivel": 5,
+      "descripcion": "Una vez por turno, si no te quedan usos de Forma salvaje, puedes gastar un espacio de conjuro para obtener un uso (no requiere acción). Además, puedes gastar un uso de Forma salvaje para obtener un espacio de conjuro de nivel 1 (no requiere acción), pero no de nuevo hasta finalizar un descanso largo."
+    },
+    {
+      "slug": "furia-elemental",
+      "nombre": "Furia elemental",
+      "nivel": 7,
+      "descripcion": "Eliges una opción: Golpe primordial (una vez por turno, al acertar un ataque con arma o de bestia en Forma salvaje, infliges 1d8 de daño adicional de frío, fuego, relámpago o trueno) o Lanzamiento potente (sumas tu modificador por Sabiduría al daño de tus trucos de druida)."
+    },
+    {
+      "slug": "furia-elemental-mejorada",
+      "nombre": "Furia elemental mejorada",
+      "nivel": 15,
+      "descripcion": "Tu opción de Furia elemental mejora: Golpe primordial pasa a 2d8 de daño adicional; Lanzamiento potente aumenta en 90 m el alcance de los trucos de druida que tengan un alcance de 3 m o más."
+    },
+    {
+      "slug": "conjurar-como-bestia",
+      "nombre": "Conjurar como bestia",
+      "nivel": 18,
+      "descripcion": "Mientras usas Forma salvaje, puedes lanzar conjuros en forma de bestia, salvo los que tengan un componente material con coste especificado o que se consuma como parte del conjuro."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas los requisitos. Se recomienda Don del viaje dimensional."
+    },
+    {
+      "slug": "archidruida",
+      "nombre": "Archidruida",
+      "nivel": 20,
+      "descripcion": "Ganas: Forma salvaje perenne (al tirar iniciativa sin usos de Forma salvaje, recuperas uno), Mago de la naturaleza (conviertes usos no gastados de Forma salvaje en un único espacio de conjuro, cada uso aporta 2 niveles de conjuro; no de nuevo hasta un descanso largo) y Longevidad (envejeces solo un año por cada diez que pasan)."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "circulo-de-la-tierra",
+      "nombre": "Círculo de la tierra",
+      "descripcion": "Druidas místicos y sabios que custodian ritos y conocimientos antiguos reuniéndose en círculos sagrados. Rasgos: Ayuda de la tierra (nivel 3, gastas un uso de Forma salvaje para crear una esfera de 3 m que inflige 2d6 de daño necrótico con salvación de CON y cura 2d6 a una criatura, escalando a niveles 10 y 14); Conjuros del círculo de la tierra (nivel 3, eliges un tipo de terreno árido, polar, templado o tropical que te otorga conjuros preparados); Recuperación natural (nivel 6, lanzas un conjuro preparado por Conjuros de círculo sin gastar espacio, y recuperas espacios de conjuro tras un descanso corto); Protección de la naturaleza (nivel 10, inmune a envenenado y resistencia a un tipo de daño según tu terreno).",
+      "rasgos": [
+        {
+          "slug": "ayuda-de-la-tierra",
+          "nombre": "Ayuda de la tierra",
+          "nivel": 3,
+          "descripcion": "Como acción de magia, gastas un uso de Forma salvaje para elegir un punto a 18 m o menos: en una esfera de 3 m de radio, las criaturas de tu elección hacen una tirada de salvación de Constitución contra tu CD de conjuros y sufren 2d6 de daño necrótico (la mitad si la superan), y una criatura de tu elección en la zona recupera 2d6 puntos de golpe. El daño y la curación aumentan a 3d6 en el nivel 10 y a 4d6 en el nivel 14."
+        },
+        {
+          "slug": "conjuros-del-circulo-de-la-tierra",
+          "nombre": "Conjuros del círculo de la tierra",
+          "nivel": 3,
+          "descripcion": "Tras finalizar un descanso largo, eliges un tipo de terreno (árido, polar, templado o tropical) y tienes siempre preparados los conjuros de círculo asociados a ese terreno para tu nivel de druida e inferiores."
+        },
+        {
+          "slug": "recuperacion-natural",
+          "nombre": "Recuperación natural",
+          "nivel": 6,
+          "descripcion": "Una vez por descanso largo, puedes lanzar un conjuro de nivel 1+ preparado por Conjuros de círculo sin gastar espacio de conjuro. Además, una vez por descanso largo, tras un descanso corto puedes recuperar espacios de conjuro gastados cuya suma de niveles sea igual o inferior a la mitad de tu nivel de druida (redondeando hacia arriba), sin que ninguno sea de nivel 6 o más."
+        },
+        {
+          "slug": "proteccion-de-la-naturaleza",
+          "nombre": "Protección de la naturaleza",
+          "nivel": 10,
+          "descripcion": "Eres inmune al estado de envenenado y tienes resistencia a un tipo de daño según tu terreno actual de Conjuros de círculo: árido (fuego), polar (frío), templado (relámpago) o tropical (veneno)."
+        },
+        {
+          "slug": "santuario-de-la-naturaleza",
+          "nombre": "Santuario de la naturaleza",
+          "nivel": 14,
+          "descripcion": "Como acción de magia, gastas un uso de Forma salvaje para hacer aparecer árboles y enredaderas espectrales en un cubo de 4,5 m de lado a 36 m o menos, durante 1 minuto o hasta que estés incapacitado o mueras. Tus aliados y tú tenéis cobertura media en la zona y tus aliados obtienen la resistencia de tu Protección de la naturaleza; como acción adicional puedes mover el cubo hasta 18 m."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [52, 57]
+  }
+}

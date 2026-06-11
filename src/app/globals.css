@@ -127,3 +127,21 @@
     animation: none;
   }
 }
+
+/* Impresión / exportar a PDF de la hoja de personaje: tinta sobre papel. */
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  body::before {
+    display: none; /* quita la veladura de grano */
+  }
+  .surgir {
+    animation: none;
+  }
+  .filete {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}

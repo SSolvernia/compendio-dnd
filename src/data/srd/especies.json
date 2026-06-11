@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "draconido",
+    "nombre": "Dracónido",
+    "tamaño": "Mediano",
+    "velocidad": 9,
+    "visionOscuridad": 18,
+    "rasgos": [
+      {
+        "nombre": "Linaje dracónico",
+        "descripcion": "Desciendes de un progenitor dragón. Eliges un tipo de dragón en la tabla \"Ancestros dracónicos\", lo que determina tu tipo de daño para los atributos Ataque de aliento y Resistencia al daño, además de tu aspecto. Las opciones de tipo de daño son: relámpago (azul, bronce), fuego (oro, oropel, rojo), frío (blanco, plata), ácido (cobre, negro) y veneno (verde)."
+      },
+      {
+        "nombre": "Ataque de aliento",
+        "descripcion": "Al hacer la acción de atacar en tu turno, puedes sustituir uno de tus ataques por una exhalación de energía mágica en un cono de 4,5 m o en una línea de 9 m de largo por 1,5 m de ancho. Cada criatura en la zona hace una salvación de DES (CD 8 + tu mod. de CON + tu bonif. por competencia); sufre 1d10 de daño del tipo de tu Linaje dracónico si falla, o la mitad si la supera. El daño aumenta a 2d10 en nivel 5, 3d10 en nivel 11 y 4d10 en nivel 17. Lo usas un número de veces igual a tu bonificador por competencia y recuperas los usos tras un descanso largo."
+      },
+      {
+        "nombre": "Resistencia al daño",
+        "descripcion": "Tienes resistencia al tipo de daño determinado por tu atributo Linaje dracónico."
+      },
+      {
+        "nombre": "Visión en la oscuridad",
+        "descripcion": "Tienes visión en la oscuridad hasta 18 m."
+      },
+      {
+        "nombre": "Vuelo dracónico",
+        "descripcion": "A partir del nivel 5, como acción adicional puedes hacer que te broten alas espectrales durante 10 minutos o hasta que las repliegues (sin acción) o quedes incapacitado; durante ese tiempo tienes una velocidad volando igual a tu velocidad. Tras usarlo, no puedes volver a hacerlo hasta finalizar un descanso largo."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [90, 90] }
+  },
+  {
+    "slug": "elfo",
+    "nombre": "Elfo",
+    "tamaño": "Mediano",
+    "velocidad": 9,
+    "visionOscuridad": 18,
+    "rasgos": [
+      {
+        "nombre": "Linaje élfico",
+        "descripcion": "Eliges un linaje de la tabla \"Linajes élficos\" (Alto elfo, Drow o Elfo de los bosques) y obtienes su beneficio de nivel 1. En los niveles 3 y 5 aprendes un conjuro de nivel superior según la tabla, que siempre tienes preparado y puedes lanzar una vez sin gastar espacio (recuperando el uso tras un descanso largo) o usando un espacio apropiado. Eliges INT, SAB o CAR como aptitud mágica. Alto elfo: truco prestidigitación (intercambiable tras descanso largo), Detectar magia (nivel 3), Paso brumoso (nivel 5). Drow: visión en la oscuridad aumenta a 36 m y truco luces danzantes, Fuego feérico (nivel 3), Oscuridad (nivel 5). Elfo de los bosques: velocidad aumenta a 10,5 m y truco saber druídico, Zancada prodigiosa (nivel 3), Pasar sin rastro (nivel 5)."
+      },
+      {
+        "nombre": "Linaje feérico",
+        "descripcion": "Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de hechizado."
+      },
+      {
+        "nombre": "Sentidos agudos",
+        "descripcion": "Tienes competencia en la habilidad de Percepción, Perspicacia o Supervivencia."
+      },
+      {
+        "nombre": "Trance",
+        "descripcion": "No necesitas dormir y la magia no puede dormirte. Puedes finalizar un descanso largo en 4 horas pasándolas en una meditación similar a un trance, durante la cual conservas la consciencia."
+      },
+      {
+        "nombre": "Visión en la oscuridad",
+        "descripcion": "Tienes visión en la oscuridad hasta 18 m."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [90, 91] }
+  },
+  {
+    "slug": "enano",
+    "nombre": "Enano",
+    "tamaño": "Mediano",
+    "velocidad": 9,
+    "visionOscuridad": 36,
+    "rasgos": [
+      {
+        "nombre": "Afinidad con la piedra",
+        "descripcion": "Como acción adicional, ganas la capacidad de sentir vibraciones (sentido sísmico) con un alcance de 18 m durante 10 minutos; debes estar sobre o en contacto con una superficie de piedra, natural o labrada. Lo usas un número de veces igual a tu bonificador por competencia y recuperas los usos tras un descanso largo."
+      },
+      {
+        "nombre": "Aguante enano",
+        "descripcion": "Tus puntos de golpe máximos se incrementan en 1 y aumentan en 1 más cada vez que subes de nivel."
+      },
+      {
+        "nombre": "Resistencia enana",
+        "descripcion": "Tienes resistencia al daño de veneno y ventaja en las tiradas de salvación para evitar o poner fin al estado de envenenado."
+      },
+      {
+        "nombre": "Visión en la oscuridad",
+        "descripcion": "Tienes visión en la oscuridad hasta 36 m."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [91, 91] }
+  },
+  {
+    "slug": "gnomo",
+    "nombre": "Gnomo",
+    "tamaño": "Pequeño",
+    "velocidad": 9,
+    "visionOscuridad": 18,
+    "rasgos": [
+      {
+        "nombre": "Astucia gnoma",
+        "descripcion": "Tienes ventaja en las tiradas de salvación de INT, SAB y CAR."
+      },
+      {
+        "nombre": "Linaje gnomo",
+        "descripcion": "Escoges una opción de linaje; en todas, INT, SAB o CAR es tu aptitud mágica. Gnomo de las rocas: conoces los trucos prestidigitación y reparar, y puedes pasar 10 minutos lanzando prestidigitación para crear un dispositivo mecánico Diminuto (CA 5, 1 pg) que produce un efecto de prestidigitación al activarlo con un toque como acción adicional; puedes tener hasta tres activos a la vez y se desarman tras 8 horas o al desmontarlos. Gnomo de los bosques: conoces el truco ilusión menor y siempre tienes preparado hablar con los animales, que lanzas sin gastar espacio un número de veces igual a tu bonificador por competencia (recuperando los usos tras un descanso largo) o usando cualquier espacio de conjuro."
+      },
+      {
+        "nombre": "Visión en la oscuridad",
+        "descripcion": "Tienes visión en la oscuridad hasta 18 m."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [91, 91] }
+  },
+  {
+    "slug": "goliat",
+    "nombre": "Goliat",
+    "tamaño": "Mediano",
+    "velocidad": 10.5,
+    "visionOscuridad": null,
+    "rasgos": [
+      {
+        "nombre": "Constitución poderosa",
+        "descripcion": "Tienes ventaja en cualquier prueba de característica para poner fin al estado de agarrado. Además, al determinar tu capacidad de carga, cuentas como si tuvieras un tamaño una categoría superior."
+      },
+      {
+        "nombre": "Forma grande",
+        "descripcion": "A partir del nivel 5, como acción adicional puedes cambiar de tamaño a Grande si hay espacio suficiente, durante 10 minutos o hasta que le pongas fin (sin acción); mientras dura tienes ventaja en las pruebas de FUE y tu velocidad aumenta en 3 m. Tras usarlo, no puedes volver a hacerlo hasta finalizar un descanso largo."
+      },
+      {
+        "nombre": "Linaje gigante",
+        "descripcion": "Eliges un beneficio sobrenatural de tu linaje, usable un número de veces igual a tu bonificador por competencia y recuperable tras un descanso largo. Abrasión del fuego (gigante de fuego): al acertar un ataque que cause daño, le causas también 1d10 de daño de fuego. Caída de las colinas (gigante de las colinas): al acertar un ataque que cause daño a una criatura Grande o menor, puedes derribarla. Excursión de las nubes (gigante de las nubes): como acción adicional, te teletransportas hasta 9 m a un espacio sin ocupar que veas. Frío de la escarcha (gigante de escarcha): al acertar un ataque que cause daño, le causas también 1d6 de daño de frío y reduces su velocidad en 3 m hasta el inicio de tu siguiente turno. Resistencia de la piedra (gigante de piedra): al recibir daño, usas una reacción para tirar 1d12, sumar tu mod. de CON y reducir el daño en ese total. Trueno de la tormenta (gigante de las tormentas): cuando una criatura a 18 m o menos te cause daño, usas una reacción para infligirle 1d8 de daño de trueno."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [92, 92] }
+  },
+  {
+    "slug": "humano",
+    "nombre": "Humano",
+    "tamaño": "Mediano o Pequeño",
+    "velocidad": 9,
+    "visionOscuridad": null,
+    "rasgos": [
+      {
+        "nombre": "Diestro",
+        "descripcion": "Ganas competencia en una habilidad de tu elección."
+      },
+      {
+        "nombre": "Ingenioso",
+        "descripcion": "Obtienes inspiración heroica tras finalizar un descanso largo."
+      },
+      {
+        "nombre": "Versátil",
+        "descripcion": "Obtienes una dote de origen de tu elección (se recomienda Habilidoso)."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [92, 92] }
+  },
+  {
+    "slug": "mediano",
+    "nombre": "Mediano",
+    "tamaño": "Pequeño",
+    "velocidad": 9,
+    "visionOscuridad": null,
+    "rasgos": [
+      {
+        "nombre": "Agilidad de mediano",
+        "descripcion": "Puedes moverte a través del espacio ocupado por cualquier criatura de tamaño superior al tuyo, pero no puedes detenerte en el mismo espacio."
+      },
+      {
+        "nombre": "Fortuna",
+        "descripcion": "Cuando saques un 1 en una prueba con d20, puedes repetir la tirada y debes usar el nuevo resultado."
+      },
+      {
+        "nombre": "Sigiloso por naturaleza",
+        "descripcion": "Puedes llevar a cabo la acción de esconderte incluso tras una criatura cuyo tamaño sea al menos una categoría superior al tuyo."
+      },
+      {
+        "nombre": "Valiente",
+        "descripcion": "Tienes ventaja en las tiradas de salvación para evitar o poner fin al estado de asustado."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [92, 92] }
+  },
+  {
+    "slug": "orco",
+    "nombre": "Orco",
+    "tamaño": "Mediano",
+    "velocidad": 9,
+    "visionOscuridad": 36,
+    "rasgos": [
+      {
+        "nombre": "Aguante incansable",
+        "descripcion": "Cuando tus puntos de golpe se reducen a 0 pero no mueres inmediatamente, puedes recuperar 1 punto de golpe. Tras usarlo, no puedes volver a hacerlo hasta finalizar un descanso largo."
+      },
+      {
+        "nombre": "Descarga de adrenalina",
+        "descripcion": "Puedes llevar a cabo la acción de correr como acción adicional; al hacerlo, obtienes puntos de golpe temporales iguales a tu bonificador por competencia. Lo usas un número de veces igual a tu bonificador por competencia y recuperas los usos tras un descanso corto o largo."
+      },
+      {
+        "nombre": "Visión en la oscuridad",
+        "descripcion": "Tienes visión en la oscuridad hasta 36 m."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [92, 92] }
+  },
+  {
+    "slug": "tiefling",
+    "nombre": "Tiefling",
+    "tamaño": "Mediano o Pequeño",
+    "velocidad": 9,
+    "visionOscuridad": 18,
+    "rasgos": [
+      {
+        "nombre": "Legado infernal",
+        "descripcion": "Eliges un legado de la tabla \"Legados infernales\" (Abisal, Ctónico o Infernal) y obtienes su beneficio de nivel 1. En los niveles 3 y 5 aprendes un conjuro de nivel superior según la tabla, que siempre tienes preparado y puedes lanzar una vez sin gastar espacio (recuperando el uso tras un descanso largo) o usando un espacio apropiado. Eliges INT, SAB o CAR como aptitud mágica. Abisal: resistencia al daño de veneno y truco rociada venenosa, Rayo nauseabundo (nivel 3), Inmovilizar persona (nivel 5). Ctónico: resistencia al daño necrótico y truco toque helado, Falsa vida (nivel 3), Rayo debilitador (nivel 5). Infernal: resistencia al daño de fuego y truco descarga de fuego, Reprensión infernal (nivel 3), Oscuridad (nivel 5)."
+      },
+      {
+        "nombre": "Presencia sobrenatural",
+        "descripcion": "Conoces el truco taumaturgia. Cuando lo lanzas con este atributo, usa la misma aptitud mágica que tu atributo Legado infernal."
+      },
+      {
+        "nombre": "Visión en la oscuridad",
+        "descripcion": "Tienes visión en la oscuridad hasta 18 m."
+      }
+    ],
+    "notaBonosCaracteristica": "En 2024 los aumentos de característica proceden del trasfondo, no de la especie.",
+    "fuente": { "documento": "SRD 5.2.1", "paginas": [93, 93] }
+  }
+]

@@ -18,6 +18,13 @@ export default function Home() {
       desc: "Guías para entender cada clase: rasgos, tabla de progresión y subclases.",
       dato: `${CLASES_DISPONIBLES.length} disponible${CLASES_DISPONIBLES.length === 1 ? "" : "s"}`,
     },
+    {
+      href: "/personaje",
+      titulo: "Ficha",
+      glifo: "⚔",
+      desc: "Crea y edita tu personaje con cálculo automático de estadísticas.",
+      dato: "Interactiva",
+    },
   ];
 
   return (
@@ -40,7 +47,7 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="mt-12 grid gap-5 sm:grid-cols-2">
+      <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {secciones.map((s) => (
           <Link
             key={s.href}

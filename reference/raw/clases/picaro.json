@@ -1,0 +1,204 @@
+{
+  "slug": "picaro",
+  "nombre": "Pícaro",
+  "dadoGolpe": "d8",
+  "caracteristicaPrincipal": "DES",
+  "salvaciones": ["DES", "INT"],
+  "competenciasHabilidades": {
+    "elige": 4,
+    "opciones": [
+      "Acrobacias",
+      "Atletismo",
+      "Engaño",
+      "Intimidación",
+      "Investigación",
+      "Juego de manos",
+      "Percepción",
+      "Perspicacia",
+      "Persuasión",
+      "Sigilo"
+    ]
+  },
+  "armaduras": ["Ligeras"],
+  "armas": ["Sencillas", "Marciales ligeras o sutiles"],
+  "lanzador": "ninguno",
+  "caracteristicaLanzamiento": null,
+  "formulasCA": [],
+  "rasgosPorNivel": [
+    {
+      "slug": "ataque-furtivo",
+      "nombre": "Ataque furtivo",
+      "nivel": 1,
+      "descripcion": "Una vez por turno, infliges daño adicional a una criatura a la que aciertes con un arma sutil o a distancia si tienes ventaja en la tirada, o si un aliado no incapacitado está a 1,5 m o menos del objetivo y no sufres desventaja. El daño es del mismo tipo que el del arma y comienza en 1d6, aumentando con el nivel hasta 10d6."
+    },
+    {
+      "slug": "jerga-de-ladrones",
+      "nombre": "Jerga de ladrones",
+      "nivel": 1,
+      "descripcion": "Conoces la jerga de ladrones y otro idioma de tu elección de las tablas de idiomas del capítulo de creación de personajes."
+    },
+    {
+      "slug": "maestria-con-armas",
+      "nombre": "Maestría con armas",
+      "nivel": 1,
+      "descripcion": "Puedes usar las propiedades de maestría de dos tipos de armas con las que tengas competencia (p. ej. dagas y arcos cortos). Tras un descanso largo puedes cambiar los tipos de armas elegidas."
+    },
+    {
+      "slug": "pericia",
+      "nombre": "Pericia",
+      "nivel": 1,
+      "descripcion": "Ganas pericia en dos de tus competencias en habilidades de tu elección (se recomiendan Juego de manos y Sigilo). En el nivel 6 ganas pericia en otras dos competencias en habilidades."
+    },
+    {
+      "slug": "accion-astuta",
+      "nombre": "Acción astuta",
+      "nivel": 2,
+      "descripcion": "En tu turno puedes realizar como acción adicional una de estas acciones: correr, destrabarse o esconderse. Alternativamente, como acción adicional te concedes ventaja en tu siguiente tirada de ataque del turno, solo si no te has movido; tras usarlo tu velocidad es 0 hasta el final del turno."
+    },
+    {
+      "slug": "punteria-certera",
+      "nombre": "Puntería certera",
+      "nivel": 3,
+      "descripcion": "Rasgo de nivel 3 del pícaro asociado a su elección de subclase (aparece junto a la subclase de pícaro en la tabla de rasgos)."
+    },
+    {
+      "slug": "subclase-de-picaro",
+      "nombre": "Subclase de pícaro",
+      "nivel": 3,
+      "descripcion": "Eliges una subclase de pícaro (la de ladrón se detalla tras la clase). Obtienes sus rasgos de tu nivel de pícaro e inferiores conforme avanzas."
+    },
+    {
+      "slug": "mejora-de-caracteristica",
+      "nombre": "Mejora de característica",
+      "nivel": 4,
+      "descripcion": "Obtienes la dote Mejora de característica u otra dote de tu elección para la que cumplas las condiciones. Vuelves a obtener este rasgo en los niveles 8, 10, 12 y 16."
+    },
+    {
+      "slug": "esquiva-asombrosa",
+      "nombre": "Esquiva asombrosa",
+      "nivel": 5,
+      "descripcion": "Cuando un atacante que puedas ver te acierte con una tirada de ataque, puedes usar una reacción para reducir a la mitad el daño que te causa (redondeando hacia abajo)."
+    },
+    {
+      "slug": "golpe-astuto",
+      "nombre": "Golpe astuto",
+      "nivel": 5,
+      "descripcion": "Cuando inflijes daño de Ataque furtivo, puedes añadir un efecto de Golpe astuto renunciando a dados de daño según su coste (retirados antes de tirar). La CD de salvación es 8 + tu mod. por DES + tu bonificador por competencia, y debes llevar útiles de envenenador. Opciones: Retirada (1d6, te mueves hasta la mitad de tu velocidad sin provocar ataques de oportunidad), Tropiezo (1d6, salvación de DES o derribado), Veneno (1d6, salvación de CON o envenenado durante 1 minuto, repitiendo al final de cada turno)."
+    },
+    {
+      "slug": "pericia-6",
+      "nombre": "Pericia",
+      "nivel": 6,
+      "descripcion": "Ganas pericia en otras dos de tus competencias en habilidades de tu elección."
+    },
+    {
+      "slug": "evasion",
+      "nombre": "Evasión",
+      "nivel": 7,
+      "descripcion": "Cuando un efecto te permita una tirada de salvación de DES para sufrir solo la mitad de daño, no recibes daño alguno si la superas y solo la mitad si la fallas. No puedes usarlo si estás incapacitado."
+    },
+    {
+      "slug": "talentos-fiables",
+      "nombre": "Talentos fiables",
+      "nivel": 7,
+      "descripcion": "Al hacer una prueba de característica que use una de tus competencias en habilidades o con herramientas, puedes sustituir un resultado de 9 o menos en el d20 por un 10."
+    },
+    {
+      "slug": "rasgo-de-subclase-9",
+      "nombre": "Rasgo de subclase",
+      "nivel": 9,
+      "descripcion": "Obtienes el rasgo de nivel 9 de tu subclase de pícaro."
+    },
+    {
+      "slug": "golpe-astuto-mejorado",
+      "nombre": "Golpe astuto mejorado",
+      "nivel": 11,
+      "descripcion": "Puedes usar hasta dos efectos de Golpe astuto cuando inflijas daño de Ataque furtivo, pagando el coste en dados por cada efecto."
+    },
+    {
+      "slug": "rasgo-de-subclase-13",
+      "nombre": "Rasgo de subclase",
+      "nivel": 13,
+      "descripcion": "Obtienes el rasgo de nivel 13 de tu subclase de pícaro."
+    },
+    {
+      "slug": "golpes-taimados",
+      "nombre": "Golpes taimados",
+      "nivel": 14,
+      "descripcion": "Se añaden nuevas opciones de Golpe astuto: Confundir (2d6, salvación de CON o el objetivo solo podrá moverse, realizar una acción o una acción adicional en su próximo turno), Noquear (6d6, salvación de CON o inconsciente durante 1 minuto o hasta recibir daño, repitiendo al final de cada turno) y Ofuscar (3d6, salvación de DES o cegado hasta el final de su siguiente turno)."
+    },
+    {
+      "slug": "mente-escurridiza",
+      "nombre": "Mente escurridiza",
+      "nivel": 15,
+      "descripcion": "Ganas competencia en las tiradas de salvación de Sabiduría y Carisma."
+    },
+    {
+      "slug": "rasgo-de-subclase-17",
+      "nombre": "Rasgo de subclase",
+      "nivel": 17,
+      "descripcion": "Obtienes el rasgo de nivel 17 de tu subclase de pícaro."
+    },
+    {
+      "slug": "elusivo",
+      "nombre": "Elusivo",
+      "nivel": 18,
+      "descripcion": "Ninguna tirada de ataque contra ti tendrá ventaja a menos que tengas el estado de incapacitado."
+    },
+    {
+      "slug": "don-epico",
+      "nombre": "Don épico",
+      "nivel": 19,
+      "descripcion": "Obtienes una dote de don épico u otra dote de tu elección para la que cumplas las condiciones (se recomienda Don del espíritu de la noche)."
+    },
+    {
+      "slug": "golpe-de-suerte",
+      "nombre": "Golpe de suerte",
+      "nivel": 20,
+      "descripcion": "Si fallas una prueba con d20, puedes convertir el resultado de la tirada en un 20. Tras usarlo, no podrás volver a hacerlo hasta finalizar un descanso corto o largo."
+    }
+  ],
+  "subclases": [
+    {
+      "slug": "ladron",
+      "nombre": "Ladrón",
+      "descripcion": "Mezcla de ladrón, cazatesoros y explorador, el arquetipo del aventurero clásico que mejora agilidad, sigilo y exploración de ruinas. Rasgos: Balconero (nivel 3: velocidad trepando igual a tu velocidad y saltos con DES en lugar de FUE) y Manos rápidas (nivel 3: como acción adicional, Juego de manos para robar/forzar cerraduras/desarmar trampas, o usar un objeto mágico que requiera una acción); Sigilo supremo (nivel 9: opción de Golpe astuto Ataque sigiloso, coste 1d6, mantiene el estado de invisible tras esconderse si terminas el turno con cobertura tres cuartos o completa); Usar objetos mágicos (nivel 13: 1d6 para no gastar cargas con un 6, usar pergaminos de conjuro con INT, y sintonizarte con hasta cuatro objetos mágicos); Reflejos de ladrón (nivel 17: actúas dos turnos en el primer asalto, el segundo en tu iniciativa menos 10).",
+      "rasgos": [
+        {
+          "slug": "balconero",
+          "nombre": "Balconero",
+          "nivel": 3,
+          "descripcion": "Te has entrenado para llegar a lugares difíciles de alcanzar: obtienes una velocidad trepando igual a tu velocidad y puedes determinar tu distancia de salto empleando tu Destreza en lugar de tu Fuerza."
+        },
+        {
+          "slug": "manos-rapidas",
+          "nombre": "Manos rápidas",
+          "nivel": 3,
+          "descripcion": "Como acción adicional, puedes hacer una prueba de Destreza (Juego de manos) para robarle a alguien o usar herramientas de ladrón para forzar una cerradura o desarmar una trampa, o emplear la acción de utilizar o de magia para usar un objeto mágico que necesite una acción."
+        },
+        {
+          "slug": "sigilo-supremo",
+          "nombre": "Sigilo supremo",
+          "nivel": 9,
+          "descripcion": "Obtienes la opción de Golpe astuto Ataque sigiloso (coste: 1d6): si tienes el estado de invisible por una acción de esconderse, el ataque no pone fin a ese estado si terminas el turno tras una cobertura tres cuartos o completa."
+        },
+        {
+          "slug": "usar-objetos-magicos",
+          "nombre": "Usar objetos mágicos",
+          "nivel": 13,
+          "descripcion": "Cuando uses una propiedad de objeto mágico que gaste cargas, tira 1d6: con un 6 no gastas cargas. Puedes usar cualquier pergamino de conjuro empleando la Inteligencia como aptitud mágica (los de nivel 1 o trucos de forma fiable; los de mayor nivel requieren superar una prueba de Inteligencia (Conocimiento arcano) CD 10 + nivel del conjuro o el pergamino se desintegra). Puedes sintonizarte con hasta cuatro objetos mágicos a la vez."
+        },
+        {
+          "slug": "reflejos-de-ladron",
+          "nombre": "Reflejos de ladrón",
+          "nivel": 17,
+          "descripcion": "Puedes actuar dos turnos durante el primer asalto de cualquier combate: el primero según tu iniciativa normal y el segundo en tu iniciativa menos 10."
+        }
+      ]
+    }
+  ],
+  "fuente": {
+    "documento": "SRD 5.2.1",
+    "paginas": [86, 88]
+  }
+}
