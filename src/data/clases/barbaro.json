@@ -1,0 +1,115 @@
+{
+  "slug": "barbaro",
+  "nombre": "Bárbaro",
+  "color": "#c0563a",
+  "lema": "La furia es tu mejor arma.",
+  "imagen": {
+    "url": "https://www.dndbeyond.com/avatars/thumbnails/43940/614/420/618/638607453019977939.png",
+    "alt": "Ilustración de un Bárbaro",
+    "credito": "Arte: D&D Beyond · Wizards of the Coast"
+  },
+  "descripcion": "Guerreros primigenios que canalizan una furia interior para combatir. El bárbaro confía en su instinto, en una resistencia sobrehumana y en una rabia que lo vuelve casi imparable: golpea con una ferocidad que pocos enemigos resisten y aguanta castigo que derribaría a cualquier otro.",
+  "ficha": {
+    "dadoGolpe": "d12",
+    "caracteristicas": "Fuerza",
+    "origen": "Reglas básicas",
+    "multiclase": "Fuerza 13"
+  },
+  "equipo": {
+    "intro": "Además del equipo que obtengas por tu trasfondo, empiezas con una de estas opciones:",
+    "opciones": [
+      "(A) Hacha a dos manos, 4 hachas de mano, un paquete de explorador y 15 po.",
+      "(B) 75 po."
+    ]
+  },
+  "progresiones": [
+    {
+      "nombre": "N.º de furias",
+      "nota": "Veces que puedes dejarte llevar por la furia entre descansos.",
+      "valores": [
+        { "nivel": 1, "valor": "2" },
+        { "nivel": 3, "valor": "3" },
+        { "nivel": 6, "valor": "4" },
+        { "nivel": 12, "valor": "5" },
+        { "nivel": 17, "valor": "6" }
+      ]
+    },
+    {
+      "nombre": "Daño por furia",
+      "nota": "Bonificador al daño en ataques basados en Fuerza mientras estás enfurecido.",
+      "valores": [
+        { "nivel": 1, "valor": "+2" },
+        { "nivel": 9, "valor": "+3" },
+        { "nivel": 16, "valor": "+4" }
+      ]
+    },
+    {
+      "nombre": "Maestría con armas",
+      "nota": "Cantidad de tipos de arma cuyas propiedades de maestría puedes usar.",
+      "valores": [
+        { "nivel": 1, "valor": "2" },
+        { "nivel": 4, "valor": "3" },
+        { "nivel": 10, "valor": "4" }
+      ]
+    }
+  ],
+  "tabla": [
+    { "nivel": 1, "rasgos": [{ "slug": "defensa-sin-armadura" }, { "slug": "furia" }, { "slug": "maestria-con-armas" }] },
+    { "nivel": 2, "rasgos": [{ "slug": "ataque-temerario" }, { "slug": "sentir-el-peligro" }] },
+    { "nivel": 3, "rasgos": [{ "slug": "conocimiento-primigenio" }, { "slug": "subclase-de-barbaro" }] },
+    { "nivel": 4, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 5, "rasgos": [{ "slug": "ataque-adicional" }, { "slug": "movimiento-rapido" }] },
+    { "nivel": 6, "rasgos": [{ "slug": "rasgo-de-subclase" }] },
+    { "nivel": 7, "rasgos": [{ "slug": "instinto-salvaje" }, { "slug": "salto-instintivo" }] },
+    { "nivel": 8, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 9, "rasgos": [{ "slug": "golpe-brutal" }] },
+    { "nivel": 10, "rasgos": [{ "slug": "rasgo-de-subclase" }] },
+    { "nivel": 11, "rasgos": [{ "slug": "furia-implacable" }] },
+    { "nivel": 12, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 13, "rasgos": [{ "slug": "golpe-brutal-mejorado" }] },
+    { "nivel": 14, "rasgos": [{ "slug": "rasgo-de-subclase" }] },
+    { "nivel": 15, "rasgos": [{ "slug": "furia-persistente" }] },
+    { "nivel": 16, "rasgos": [{ "slug": "mejora-de-caracteristica" }] },
+    { "nivel": 17, "rasgos": [{ "slug": "golpe-brutal-mejorado-17", "mejora": true }] },
+    { "nivel": 18, "rasgos": [{ "slug": "poderio-indomito" }] },
+    { "nivel": 19, "rasgos": [{ "slug": "don-epico" }] },
+    { "nivel": 20, "rasgos": [{ "slug": "campeon-primordial" }] }
+  ],
+  "rasgos": [
+    { "slug": "defensa-sin-armadura", "nombre": "Defensa sin armadura", "nivel": 1, "descripcion": "Mientras no lleves armadura, tu CA base es igual a 10 más tus modificadores por DES y CON. Obtienes este beneficio aunque lleves un escudo." },
+    { "slug": "furia", "nombre": "Furia", "nivel": 1, "descripcion": "Como acción adicional, si no llevas armadura pesada, te dejas llevar por la furia un número de veces (columna \"N.º de furias\"); recuperas un uso tras descanso corto y todos tras descanso largo. Mientras estés enfurecido: resistencia al daño contundente, cortante y perforante; bonificador al daño en ataques basados en FUE (\"Daño por furia\"); ventaja en pruebas y salvaciones de FUE; no puedes concentrarte ni lanzar conjuros. Dura hasta el final de tu siguiente turno (termina antes si te pones armadura pesada o quedas incapacitado); puedes prolongarla atacando, forzando una salvación o usando una acción adicional, hasta 10 minutos.", "escalado": { "etiqueta": "N.º de furias", "valores": [{ "nivel": 1, "valor": "2" }, { "nivel": 3, "valor": "3" }, { "nivel": 6, "valor": "4" }, { "nivel": 12, "valor": "5" }, { "nivel": 17, "valor": "6" }] } },
+    { "slug": "maestria-con-armas", "nombre": "Maestría con armas", "nivel": 1, "descripcion": "Puedes usar las propiedades de maestría con dos tipos de armas cuerpo a cuerpo sencillas o marciales a tu elección; tras un descanso largo puedes cambiar una de esas elecciones. El número de armas aumenta según la columna \"Maestría con armas\".", "escalado": { "etiqueta": "Tipos de arma", "valores": [{ "nivel": 1, "valor": "2" }, { "nivel": 4, "valor": "3" }, { "nivel": 10, "valor": "4" }] } },
+    { "slug": "ataque-temerario", "nombre": "Ataque temerario", "nivel": 2, "descripcion": "Al hacer tu primera tirada de ataque del turno, puedes atacar temerariamente: ganas ventaja en las tiradas de ataque basadas en FUE hasta el inicio de tu siguiente turno, pero las tiradas de ataque contra ti también tienen ventaja durante ese tiempo." },
+    { "slug": "sentir-el-peligro", "nombre": "Sentir el peligro", "nivel": 2, "descripcion": "Tienes ventaja en las tiradas de salvación de DES, salvo que tengas el estado de incapacitado." },
+    { "slug": "conocimiento-primigenio", "nombre": "Conocimiento primigenio", "nivel": 3, "descripcion": "Ganas competencia en otra habilidad de la lista de bárbaro. Además, mientras estés enfurecido, puedes hacer pruebas de Acrobacias, Intimidación, Percepción, Sigilo o Supervivencia como pruebas de FUE en lugar de su característica habitual." },
+    { "slug": "subclase-de-barbaro", "nombre": "Subclase de bárbaro", "nivel": 3, "descripcion": "Eliges una subclase de bárbaro (en el SRD, la Senda del berserker). A partir de ahora obtienes todos los rasgos de tu subclase de tu nivel de bárbaro e inferiores." },
+    { "slug": "rasgo-de-subclase", "nombre": "Rasgo de subclase", "nivel": 6, "descripcion": "En los niveles 6, 10 y 14 obtienes rasgos de tu subclase (en el SRD, la Senda del berserker)." },
+    { "slug": "mejora-de-caracteristica", "nombre": "Mejora de característica", "nivel": 4, "descripcion": "Obtienes la dote Mejora de característica u otra dote para la que cumplas los requisitos. Vuelves a obtener este rasgo en los niveles 8, 12 y 16." },
+    { "slug": "ataque-adicional", "nombre": "Ataque adicional", "nivel": 5, "descripcion": "Cuando llevas a cabo la acción de atacar en tu turno, puedes hacer dos ataques en lugar de uno." },
+    { "slug": "movimiento-rapido", "nombre": "Movimiento rápido", "nivel": 5, "descripcion": "Tu velocidad aumenta en 3 m si no llevas armadura pesada." },
+    { "slug": "instinto-salvaje", "nombre": "Instinto salvaje", "nivel": 7, "descripcion": "Tienes ventaja en las tiradas de iniciativa." },
+    { "slug": "salto-instintivo", "nombre": "Salto instintivo", "nivel": 7, "descripcion": "Como parte de la acción adicional para dejarte llevar por la furia, puedes moverte hasta la mitad de tu velocidad." },
+    { "slug": "golpe-brutal", "nombre": "Golpe brutal", "nivel": 9, "descripcion": "Si usas Ataque temerario, puedes renunciar a la ventaja en una tirada de ataque basada en FUE (que no tenga desventaja). Si acierta, infliges 1d10 de daño adicional del mismo tipo y aplicas un efecto: Golpe enérgico (empujas al objetivo 4,5 m y puedes moverte hasta la mitad de tu velocidad hacia él sin provocar ataques de oportunidad) o Golpe ralentizador (reduces su velocidad en 4,5 m hasta el inicio de tu siguiente turno)." },
+    { "slug": "furia-implacable", "nombre": "Furia implacable", "nivel": 11, "descripcion": "Si tus puntos de golpe se reducen a 0 mientras estás enfurecido sin morir al instante, puedes hacer una salvación de CON con CD 10; si la superas, tus puntos de golpe pasan a ser el doble de tu nivel de bárbaro. Cada uso posterior aumenta la CD en 5; vuelve a CD 10 tras un descanso corto o largo." },
+    { "slug": "golpe-brutal-mejorado", "nombre": "Golpe brutal mejorado", "nivel": 13, "descripcion": "Añades nuevos efectos de Golpe brutal: Golpe abrumador (el objetivo tiene desventaja en su siguiente salvación y no puede hacer ataques de oportunidad hasta el inicio de tu siguiente turno) y Golpe desgarrador (la próxima tirada de ataque de otra criatura contra el objetivo obtiene +5)." },
+    { "slug": "furia-persistente", "nombre": "Furia persistente", "nivel": 15, "descripcion": "Al tirar iniciativa puedes recuperar todos los usos gastados de furia (no de nuevo hasta acabar un descanso largo). Además, tu furia dura 10 minutos sin necesidad de prolongarla; termina antes si quedas inconsciente (no solo incapacitado) o te pones armadura pesada." },
+    { "slug": "golpe-brutal-mejorado-17", "nombre": "Golpe brutal mejorado", "nivel": 17, "descripcion": "El daño adicional de Golpe brutal aumenta a 2d10. Además, puedes usar dos efectos diferentes de Golpe brutal cada vez que uses el rasgo." },
+    { "slug": "poderio-indomito", "nombre": "Poderío indómito", "nivel": 18, "descripcion": "Si tu resultado en una prueba o salvación de FUE es inferior a tu puntuación de FUE, puedes usar esa puntuación en lugar del resultado." },
+    { "slug": "don-epico", "nombre": "Don épico", "nivel": 19, "descripcion": "Obtienes una dote de don épico u otra dote para la que cumplas los requisitos. Se recomienda Don del ataque imparable." },
+    { "slug": "campeon-primordial", "nombre": "Campeón primordial", "nivel": 20, "descripcion": "Encarnas un poder primigenio: tus puntuaciones de FUE y CON aumentan en 4, hasta un máximo de 25." }
+  ],
+  "subclase": {
+    "intro": "En el nivel 3 eliges una senda que define cómo canalizas tu furia. Te otorga rasgos en los niveles 3, 6, 10 y 14.",
+    "opciones": [
+      {
+        "nombre": "Senda del berserker",
+        "origen": "Reglas básicas",
+        "descripcion": "Bárbaros que canalizan su furia en una violencia indómita, embriagándose del caos del combate. Rasgos: Frenesí (nivel 3, daño adicional en d6 igual a tu daño por furia al primer objetivo que aciertes con un ataque de FUE mientras usas Ataque temerario enfurecido), Furia irracional (nivel 6, inmunidad a asustado y hechizado mientras estés enfurecido), Represalia (nivel 10, reacción para atacar a una criatura a 1,5 m que te haya dañado) y Presencia intimidante (nivel 14, asustas a las criaturas cercanas con una salvación de Sabiduría)."
+      }
+    ]
+  },
+  "fuente": {
+    "texto": "Contenido adaptado del SRD 5.2.1 de Wizards of the Coast, bajo licencia CC BY 4.0.",
+    "url": "https://www.dndbeyond.com/srd"
+  }
+}

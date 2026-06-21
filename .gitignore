@@ -26,6 +26,9 @@ yarn-error.log*
 # CodeGraph: índice local (no se versiona)
 /.codegraph/
 
+# Claude Code: configuración y skills locales (no se versiona)
+/.claude/
+
 # SRD: reference/ es material local (PDF fuente, texto extraído).
 # No se versiona, salvo la atribución CC-BY-4.0 y los JSON de clases.
 # Los volcados de texto completo (completo.*.txt) sí se ignoran.
